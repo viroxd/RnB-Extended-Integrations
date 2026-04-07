@@ -12,22 +12,33 @@ class RNBEI_Calendar {
 		$this->settings = $settings;
 
 		add_action( 'admin_notices', array( $this, 'maybe_show_native_sync_notice' ) );
-
-		// Phase 1 scaffold only: disable common/likely native hooks via filters when custom sync is enabled.
-		add_filter( 'redq_rental_google_calendar_sync_enabled', array( $this, 'force_disable_native_sync_filter' ) );
-		add_filter( 'rnb_google_calendar_sync_enabled', array( $this, 'force_disable_native_sync_filter' ) );
+		add_action( 'admin_init', array( $this, 'maybe_disable_native_auto_sync' ) );
 	}
 
 	public function is_custom_calendar_enabled() {
 		return 'yes' === get_option( 'rnbei_calendar_enabled', 'no' );
 	}
 
-	public function force_disable_native_sync_filter( $enabled ) {
-		if ( $this->is_custom_calendar_enabled() ) {
-			return false;
+	/**
+	 * Suppress native RnB Google Calendar auto sync when custom mode is enabled.
+	 *
+	 * Uses real upstream setting key:
+	 * redq_rental_google_calendar_enable_auto_sync
+	 *
+	 * @return void
+	 */
+	public function maybe_disable_native_auto_sync() {
+		if ( ! is_admin() || ! current_user_can( 'manage_woocommerce' ) ) {
+			return;
 		}
 
-		return $enabled;
+		if ( ! $this->is_custom_calendar_enabled() ) {
+			return;
+		}
+
+		if ( 'no' !== get_option( 'redq_rental_google_calendar_enable_auto_sync', 'no' ) ) {
+			update_option( 'redq_rental_google_calendar_enable_auto_sync', 'no' );
+		}
 	}
 
 	public function maybe_show_native_sync_notice() {
