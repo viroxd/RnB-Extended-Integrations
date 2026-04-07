@@ -13,10 +13,27 @@ class RNBEI_Helpers {
 	 */
 	public static function normalize_text( $value ) {
 		$value = is_scalar( $value ) ? (string) $value : '';
-		$value = wp_strip_all_tags( $value );
+		$value = sanitize_text_field( $value );
 		$value = trim( preg_replace( '/\s+/', ' ', $value ) );
 
 		return $value;
+	}
+
+	/**
+	 * Normalize checkbox-like values into "yes"/"no".
+	 *
+	 * @param mixed $value Raw toggle value.
+	 * @return string
+	 */
+	public static function normalize_yes_no( $value ) {
+		if ( is_bool( $value ) ) {
+			return $value ? 'yes' : 'no';
+		}
+
+		$value = self::normalize_text( $value );
+		$value = strtolower( $value );
+
+		return in_array( $value, array( '1', 'true', 'yes', 'on' ), true ) ? 'yes' : 'no';
 	}
 
 	/**
@@ -29,6 +46,9 @@ class RNBEI_Helpers {
 	public static function normalize_lat_lng( $lat, $lng ) {
 		$lat = is_scalar( $lat ) ? trim( (string) $lat ) : '';
 		$lng = is_scalar( $lng ) ? trim( (string) $lng ) : '';
+
+		$lat = preg_match( '/^-?\d{1,3}(?:\.\d+)?$/', $lat ) ? $lat : '';
+		$lng = preg_match( '/^-?\d{1,3}(?:\.\d+)?$/', $lng ) ? $lng : '';
 
 		return array(
 			'lat' => $lat,
@@ -43,8 +63,8 @@ class RNBEI_Helpers {
 	 * @return bool
 	 */
 	public static function has_different_end_location( array $location_data ) {
-		$toggle = ! empty( $location_data['end_different'] );
-		if ( ! $toggle ) {
+		$toggle = self::normalize_yes_no( $location_data['end_different'] ?? 'no' );
+		if ( 'yes' !== $toggle ) {
 			return false;
 		}
 
@@ -59,7 +79,7 @@ class RNBEI_Helpers {
 		}
 
 		if ( '' !== $start_address && '' !== $end_address ) {
-			return strtolower(  ) !== strtolower(  );
+			return strtolower( $start_address ) !== strtolower( $end_address );
 		}
 
 		return '' !== $end_address;
