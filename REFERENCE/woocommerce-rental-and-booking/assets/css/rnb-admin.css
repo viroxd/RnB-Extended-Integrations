@@ -1,0 +1,365 @@
+h4.redq-headings {
+  padding-left: 13px;
+}
+
+.redq-show-bar {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px;
+  height: 42px;
+  border: 1px solid #eee;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.rental_inventory_options a:before,
+#woocommerce-product-data ul.wc-tabs li.rental_inventory_options a:before,
+.woocommerce ul.wc-tabs li.rental_inventory_options a:before {
+  content: "\f533";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.price_calculation_options a:before,
+#woocommerce-product-data ul.wc-tabs li.price_calculation_options a:before,
+.woocommerce ul.wc-tabs li.price_calculation_options a:before {
+  content: "\f488";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.price_discount_options a:before,
+#woocommerce-product-data ul.wc-tabs li.price_discount_options a:before,
+.woocommerce ul.wc-tabs li.price_discount_options a:before {
+  content: "\f328";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.availability_options a:before,
+#woocommerce-product-data ul.wc-tabs li.availability_options a:before,
+.woocommerce ul.wc-tabs li.availability_options a:before {
+  content: "\f508";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.resources_options a:before,
+#woocommerce-product-data ul.wc-tabs li.resources_options a:before,
+.woocommerce ul.wc-tabs li.resources_options a:before {
+  content: "\f118";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.person_options a:before,
+#woocommerce-product-data ul.wc-tabs li.person_options a:before,
+.woocommerce ul.wc-tabs li.person_options a:before {
+  content: "\f307";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.security_deposite_options a:before,
+#woocommerce-product-data ul.wc-tabs li.security_deposite_options a:before,
+.woocommerce ul.wc-tabs li.security_deposite_options a:before {
+  content: "\f112";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.locations_options a:before,
+#woocommerce-product-data ul.wc-tabs li.locations_options a:before,
+.woocommerce ul.wc-tabs li.locations_options a:before {
+  content: "\f230";
+  font-family: Dashicons;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.settings_options a:before,
+#woocommerce-product-data ul.wc-tabs li.settings_options a:before,
+.woocommerce ul.wc-tabs li.settings_options a:before {
+  content: "\f107";
+  font-family: Dashicons;
+}
+
+.own_availibility .from_date input,
+.own_availibility .to_date input,
+.own_availibility .select select {
+  width: 100% !important;
+}
+
+/*  from to date of inventory 13/5/16 */
+
+.own_availibility .remove button,
+.own_availibility .inventory-remove button {
+  display: inline-block;
+  padding: 3px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  outline: 0;
+  transition: all 0.3s ease;
+}
+
+.own_availibility .remove button:hover,
+.own_availibility .remove button:focus,
+.own_availibility .inventory-remove button:hover,
+.own_availibility .inventory-remove button:focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+.inventory-form-to-input {
+  position: relative;
+}
+
+.inventory-form-to-input input {
+  padding-left: 25px;
+}
+
+.inventory-form-to-input img {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+
+/*  ui tab */
+
+#product_settings_data .ui-widget-header {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #d3d3d3;
+  border-radius: 0;
+  padding-left: 20px;
+}
+
+#product_settings_data .ui-widget.ui-widget-content {
+  border: 0;
+}
+
+#product_settings_data .ui-state-default,
+#product_settings_data .ui-widget-content .ui-state-default,
+#product_settings_data .ui-widget-header .ui-state-default {
+  /* background: #EEEEEE; */
+  border-radius: 0;
+  margin-right: 8px;
+  outline: 0;
+}
+
+#product_settings_data .ui-widget-header .ui-state-default a {
+  padding: 13px 10px;
+}
+
+/*FULLCALENDAR*/
+
+.white-popup-block {
+  background: #fff;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative;
+}
+
+#eventProduct {
+  color: #23282d;
+  text-decoration: none;
+}
+
+.fc td.fc-widget-content,
+.fc th.fc-widget-header {
+  background: #fff;
+}
+
+.redq-rental-display-meta tr:last-child th,
+.redq-rental-display-meta tr:last-child td {
+  border-top: 1px solid #ddd;
+}
+
+.fc-event {
+  border-radius: 0;
+}
+
+#redq_rental_lang_month_name_title,
+#redq_rental_lang_weekday_name_title {
+  width: 100%;
+}
+
+.fixed .column-slug {
+  width: 13%;
+}
+
+.rnb-inventory-ref {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
+
+/* ---------------------------------
+admin rnb inventory table  
+--------------------------------- */
+
+body.post-type-inventory .wp-list-table tr th {
+  vertical-align: top;
+}
+
+body.post-type-inventory .widefat tfoot td.check-column,
+body.post-type-inventory .widefat thead td.check-column {
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+ul.status-colors {
+  display: flex;
+  gap: 12px;
+}
+li.status-color {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: white;
+}
+
+.redq-rental-inventory-panel {
+  padding-left: 20px;
+}
+
+.redq-rental-inventory-panel .inventory-list {
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+/* dashboard license key activation form  */
+.rnb-dashboard {
+  padding-right: 24px;
+  margin-top: 24px;
+}
+.rnb-dashboard-wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 80px 24px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+}
+.rnb-dashboard .title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.rnb-dashboard .title .active {
+  color: #00ab54;
+}
+.rnb-dashboard .title .inactive {
+  color: #fa0014;
+}
+
+.rnb-dashboard .description {
+  font-size: 16px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.rnb-dashboard .description a {
+  color: #3b66ec;
+  font-weight: 500;
+}
+.rnb-dashboard .description a:hover {
+  color: #00ab54;
+}
+.rnb-dashboard .description a:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* form  */
+.rnb-dashboard .license-activation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.rnb-dashboard .license-key {
+  width: 100%;
+  padding: 8px 18px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.rnb-dashboard .license-key:focus {
+  outline: none;
+  border: 1px solid #000000;
+  box-shadow: none;
+}
+
+.rnb-dashboard form button {
+  padding: 8px 32px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;
+  line-height: 2;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.rnb-dashboard form button .loader {
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-color: #ffffff #ffffff #ffffff transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  display: none;
+}
+.rnb-dashboard form button .loader.show {
+  display: block;
+}
+
+.rnb-dashboard form button:active {
+  transform: translateY(2px);
+  transition: transform 0.2s ease;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .rnb-dashboard .license-activation-form {
+    flex-direction: row;
+  }
+
+  .rnb-dashboard .license-key {
+    max-width: 400px;
+    text-align: left;
+  }
+  .rnb-dashboard form button {
+    width: auto;
+  }
+}

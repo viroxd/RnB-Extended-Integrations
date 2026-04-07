@@ -1,0 +1,79 @@
+.order_item dt.variation-_pickup_hidden_datetime,
+.order_item dd.variation-_pickup_hidden_datetime,
+.order_item dt.variation-_return_hidden_datetime,
+.order_item dd.variation-_return_hidden_datetime {
+  display: none !important;
+}
+
+button.btn-book-now {
+  position: relative;
+}
+
+button.btn-book-now.rnb-loading {
+  text-indent: -99999px;
+  pointer-events: none;
+}
+
+button.btn-book-now .rnb-book-btn-loader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+button.btn-book-now .rnb-book-btn-loader svg {
+  width: 45px;
+  height: auto;
+}
+
+.rnb-inventory-loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rnb-inventory-loader svg {
+  width: 60px;
+  height: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: BlinkMacSystemFont, futura, "Roboto", sans-serif;
+}
+hr {
+  border: 1px solid #ddd;
+  border-width: 0 0 1px;
+}
+
+/* if appointment booking is on  */
+.appointment-product-price {
+  display: none;
+}
+
+/* mobile select style */
+.redq-select-boxes {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+select.redq-select-boxes:has(option:disabled:checked) {
+  color: #999999;
+}
