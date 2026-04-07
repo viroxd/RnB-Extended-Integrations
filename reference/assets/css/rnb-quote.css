@@ -1,0 +1,235 @@
+#redq_request_for_a_quote_control.postbox.closed .inside {
+  display: block;
+}
+#redq_request_for_a_quote_control .postbox-header {
+  display: none;
+}
+#redq_request_for_a_quote_control .inside {
+  margin: 0;
+  padding: 0;
+}
+#redq_request_for_a_quote_control .inside .display_meta .thumb {
+  width: 100px;
+  padding-left: 0;
+  padding-right: 22px;
+}
+#redq_request_for_a_quote_control .inside .display_meta .name {
+  padding: 1.5em 1em 1em;
+  text-align: left;
+  line-height: 1.5em;
+  vertical-align: top;
+}
+#redq_request_for_a_quote_control .inside .display_meta br {
+  display: none;
+}
+#redq_request_for_a_quote_control .inside .display_meta dd {
+  margin-bottom: 10px;
+}
+span.qdot:last-child {
+  display: none !important;
+}
+#redq_request_for_a_quote_control .inside .display_meta a.quote-title {
+  color: #2271b1;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#redq_request_for_a_quote_control h2 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.2;
+  text-shadow: 1px 1px 1px #fff;
+  padding: 0;
+}
+
+#request-a-quote-data {
+  padding: 23px 24px 12px;
+}
+
+#request-a-quote-data p {
+  color: #777;
+}
+
+#request-a-quote-data p.quote_number {
+  margin: 0;
+  line-height: 1.6em;
+  font-size: 16px;
+}
+
+.redq-quote-user label a {
+  float: right;
+}
+.quote_actions {
+  margin: 0;
+  overflow: hidden;
+  zoom: 1;
+}
+.save_quote {
+  float: right;
+}
+#quote-status {
+  width: 100%;
+}
+#quote-status select {
+  width: 99%;
+  box-sizing: border-box;
+}
+.redq_input_price {
+  width: 99%;
+}
+.quote_actions li.wide {
+  width: auto;
+  float: none;
+  clear: both;
+  padding: 6px;
+  text-align: left;
+  overflow: hidden;
+}
+
+#redq_request_for_a_quote_save .inside {
+  margin: 0;
+  padding: 0;
+}
+#redq_request_for_a_quote_save .inside ul.quote_actions li {
+  padding: 6px 10px;
+  box-sizing: border-box;
+}
+.quote_actions li.wide.last {
+  border-top: 1px solid #ddd;
+}
+
+@media screen and (min-width: 768px) {
+  #redq_request_for_a_quote_save {
+    margin-top: 20px;
+  }
+}
+
+/* QUOTE MESSAGE */
+ul.quote-message li .quote-message-content {
+  padding: 10px;
+  background: #efefef;
+  position: relative;
+}
+ul.quote-message li .quote-message-content.customer {
+  background: #2d2d2d;
+  color: #ffffff;
+}
+ul.quote-message li .quote-message-content:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-width: 10px 10px 0 0;
+  border-style: solid;
+  border-color: #efefef transparent;
+}
+ul.quote-message li .quote-message-content.customer:after {
+  border-color: #2d2d2d transparent;
+}
+.request-for-a-quote-message {
+  display: flex;
+  gap: 30px;
+}
+.request-for-a-quote-message > div {
+  width: 50%;
+}
+#redq_request_for_a_quote_message .postbox-header {
+  display: none;
+}
+#redq_request_for_a_quote_message .inside {
+  margin: 0;
+  padding: 0;
+}
+#redq_request_for_a_quote_message .quote-heading {
+  background-color: #f8f8f8;
+  padding: 10px 10px;
+}
+#redq_request_for_a_quote_message .quote__heading {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-shadow: 1px 1px 1px #fff;
+}
+.quote-heading p {
+  margin: 0;
+}
+.request-for-a-quote-message {
+  padding: 20px;
+}
+.request-for-a-quote-message .add-message-button {
+  margin: 15px 0;
+}
+.request-for-a-quote-message .quote-message {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.request-for-a-quote-message .quote-message .quote-message-content {
+  margin-bottom: 15px;
+}
+.request-for-a-quote-message .quote-message .quote-message-content p {
+  margin: 0;
+}
+.request-for-a-quote-message .quote-message .meta {
+  text-transform: capitalize;
+}
+#redq_request_for_a_quote_message .right-content h2 {
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#redq_request_for_a_quote_message .right-content .address p {
+  margin-bottom: 5px;
+}
+
+/* quote details  */
+/* ============= */
+.add-quote-message {
+  min-height: 140px;
+  padding: 12px;
+  line-height: 1.6;
+}
+
+.woocommerce_order_items_wrapper {
+  overflow-x: auto;
+}
+.woocommerce_order_items_wrapper table {
+  width: 100%;
+}
+.woocommerce_order_items_wrapper table,
+.woocommerce_order_items_wrapper table thead,
+.woocommerce_order_items_wrapper table tbody,
+.woocommerce_order_items_wrapper table thead tr,
+.woocommerce_order_items_wrapper table thead tr th,
+.woocommerce_order_items_wrapper table tbody tr,
+.woocommerce_order_items_wrapper table tbody tr td {
+  border: none;
+}
+
+.woocommerce_order_items_wrapper > table > thead {
+  background-color: #f8f8f8;
+  padding: 22px;
+}
+.woocommerce_order_items_wrapper > table > tbody > tr > td,
+.woocommerce_order_items_wrapper > table > thead > tr > th {
+  text-align: start;
+  padding: 22px;
+  vertical-align: top;
+  border: none;
+}
+
+#redq_request_for_a_quote_control table.display_meta .thumb {
+  vertical-align: top;
+}
+
+#redq_request_for_a_quote_control table tbody tr:nth-child(odd) td {
+  background-color: transparent;
+}

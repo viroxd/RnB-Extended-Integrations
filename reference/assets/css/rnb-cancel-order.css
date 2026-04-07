@@ -1,0 +1,95 @@
+.rnb-cancel-order-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+.rnb-cancel-order-container.show{
+    visibility: visible;
+    opacity: 1;
+}
+.rnb-cancel-order-popup-content{
+    width: 600px;
+    max-width: 100%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.rnb-cancel-order-popup-content{
+    position: relative;
+}
+
+.close-rnb-cancel-popup {
+    position: absolute;
+    background: transparent;
+    margin: 0;
+    top: -7px;
+    right: -13px;
+}
+.close-rnb-cancel-popup:hover{
+    background: transparent;
+}
+.rnb-cancel-order-container .popup-heading h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.rnb-cancel-order-container .popup-heading p,
+.alert-content p{
+    font-size: .9rem;
+    font-weight: 400;
+    margin: 0;
+}
+.rnb-cancel-order-container .popup-heading p:empty{
+    display: none;
+}
+.rnb-cancel-order-container .order-note label{
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.rnb-cancel-now{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid #d5d5d5;
+    padding: 7px 20px
+}
+.rnb-cancel-now:hover{
+    background: transparent;
+}
+.rnb-cancel-order-popup-content svg{
+    width: 30px;
+}
+.rnb-cancel-order-popup-content.ajax-response,
+.rnb-cancel-order-popup-content.preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+.rnb-cancel-order-popup-content.danger .alert-content {
+    color: red;
+}
+.rnb-cancel-order-popup-content.success .alert-content {
+    color: green;
+}
+.rnb-cancel-order-popup-content textarea{
+    overflow: auto;
+    padding-left: .875em;
+    vertical-align: top;
+    width: 100%;
+    min-height: 100px;
+    background: transparent;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+}
