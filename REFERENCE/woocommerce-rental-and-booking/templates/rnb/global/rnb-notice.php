@@ -1,0 +1,1 @@
+<div id="formError" class="rnb-notice"></div>

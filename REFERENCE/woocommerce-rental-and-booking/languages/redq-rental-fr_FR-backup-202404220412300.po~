@@ -1,0 +1,4948 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RnB - v2.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rnb-reloaded\n"
+"POT-Creation-Date: 2022-03-25 12:05+0600\n"
+"PO-Revision-Date: 2022-03-25 12:07+0600\n"
+"Last-Translator: \n"
+"Language-Team: RedQTeam <redq.team@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../codes/wordpress/rental/wp-content/plugins/woocommerce-"
+"rental-and-booking\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_x;_xn\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Traits/Error_Trait.php:52
+#, fuzzy
+#| msgid "Sorry! Quote does not found."
+msgid "Sorry! No product found."
+msgstr "Désolé ! Citation ne pas trouvé."
+
+#: includes/Traits/Error_Trait.php:56
+#, fuzzy
+#| msgid "No inventory found."
+msgid "Sorry! No inventory found."
+msgstr "Aucun inventaire trouvé."
+
+#: includes/Traits/Error_Trait.php:60
+msgid "Sorry! pickup date is required"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:96
+#, fuzzy, php-format
+#| msgid "Max booking days is exceed"
+msgid "Sorry! booking duration can't be %s"
+msgstr "Jours de réservation Max est dépasser"
+
+#: includes/Traits/Error_Trait.php:170
+msgid "Error For "
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:198
+#, fuzzy
+#| msgid "Max booking days is exceed"
+msgid "Sorry! max category quantity exceed"
+msgstr "Jours de réservation Max est dépasser"
+
+#: includes/Traits/Error_Trait.php:234
+#, fuzzy
+#| msgid "Adults Title"
+msgid "Sorry! deposit is required"
+msgstr "Titre d’adultes"
+
+#: includes/Traits/Error_Trait.php:239
+msgid "Sorry! non-clickable deposit is required"
+msgstr ""
+
+#: includes/admin/class-rnb-admin-page.php:31
+msgid "RnB Menu Page"
+msgstr ""
+
+#: includes/admin/class-rnb-admin-page.php:31
+msgid "RnB Calendar"
+msgstr ""
+
+#: includes/admin/class-rnb-admin-page.php:32
+msgid "RnB Add-ons"
+msgstr ""
+
+#: includes/admin/class-rnb-admin-page.php:44
+#: includes/admin/class-rnb-admin-page.php:54
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n’avez pas les permissions suffisantes pour accéder à cette page."
+
+#: includes/admin/class-rnb-admin-page.php:103
+msgid "Inventory Reference"
+msgstr ""
+
+#: includes/admin/class-rnb-admin-page.php:337
+#, fuzzy
+#| msgid "Block Rental Dates"
+msgid "Clear Dates"
+msgstr "Bloquer les dates de location"
+
+#: includes/admin/class-rnb-generator.php:56
+#: includes/admin/views/html-quote-details.php:2
+msgid "Quote"
+msgstr "Citation"
+
+#: includes/admin/class-rnb-generator.php:57
+#: templates/myaccount/request-quote.php:10
+msgid "Status"
+msgstr "État"
+
+#: includes/admin/class-rnb-generator.php:58
+#: templates/myaccount/view-quote.php:50
+msgid "Product"
+msgstr "Produit"
+
+#: includes/admin/class-rnb-generator.php:59
+#: includes/admin/class-rnb-global-settings.php:727
+#: includes/admin/class-rnb-global-settings.php:728
+#: includes/admin/class-rnb-global-settings.php:740
+#: includes/admin/class-rnb-global-settings.php:741
+#: includes/admin/views/html-labels-local-settings.php:439
+#: includes/admin/views/html-labels-local-settings.php:451
+#: includes/rnb-global-functions.php:1323
+#: includes/rnb-global-functions.php:1331
+#: includes/rnb-global-functions.php:1426
+#: includes/rnb-global-functions.php:1434
+#: templates/rnb/emails/request-quote-item-details.php:276
+msgid "Email"
+msgstr "Mal :"
+
+#: includes/admin/class-rnb-generator.php:60
+#: includes/rnb-global-functions.php:1225
+#: includes/rnb-global-functions.php:1234
+#: includes/rnb-global-functions.php:1370
+#: includes/rnb-global-functions.php:1375
+#: templates/myaccount/request-quote.php:9
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/class-rnb-generator.php:79
+msgid "by"
+msgstr "par"
+
+#: includes/admin/class-rnb-generator.php:120
+#, fuzzy
+#| msgid "All Inventories"
+msgid "Inventories"
+msgstr "Inventaires"
+
+#: includes/admin/class-rnb-generator.php:121
+#: includes/admin/class-rnb-generator.php:122
+#: includes/admin/class-rnb-generator.php:123
+#: includes/admin/class-rnb-meta-boxes.php:32
+#: includes/admin/views/html-quote-details.php:33
+#: includes/rnb-global-functions.php:1275 templates/myaccount/view-quote.php:77
+#: templates/rnb/booking-content/booking-modal.php:58
+#: templates/rnb/emails/request-quote-item-details.php:48
+msgid "Inventory"
+msgstr "Inventaire"
+
+#: includes/admin/class-rnb-generator.php:124
+#: includes/admin/class-rnb-generator.php:125
+msgid "Add New Inventory"
+msgstr "Ajouter un nouveau formulaire"
+
+#: includes/admin/class-rnb-generator.php:126
+msgid "New Inventory"
+msgstr "Nouvelle Inventaire"
+
+#: includes/admin/class-rnb-generator.php:127
+msgid "Edit Inventory"
+msgstr "Modifier l'inventaire"
+
+#: includes/admin/class-rnb-generator.php:128
+msgid "View Inventory"
+msgstr "Voir tous les inventaires"
+
+#: includes/admin/class-rnb-generator.php:129
+msgid "All inventory"
+msgstr "Voir tout l’inventaire"
+
+#: includes/admin/class-rnb-generator.php:130
+msgid "Search inventory"
+msgstr "Recherche Catalogue"
+
+#: includes/admin/class-rnb-generator.php:131
+msgid "Parent inventory:"
+msgstr "inventaire parent:"
+
+#: includes/admin/class-rnb-generator.php:132
+msgid "No inventory found."
+msgstr "Aucun inventaire trouvé."
+
+#: includes/admin/class-rnb-generator.php:133
+msgid "No inventory found in Trash."
+msgstr "Rien trouvé dans la corbeille"
+
+#: includes/admin/class-rnb-generator.php:138
+#: includes/admin/class-rnb-generator.php:189
+msgid "Description."
+msgstr "Description."
+
+#: includes/admin/class-rnb-generator.php:171
+msgctxt "post type general name"
+msgid "Quote Request"
+msgstr "Demande de Devis"
+
+#: includes/admin/class-rnb-generator.php:172
+msgctxt "post type singular name"
+msgid "Quote Request"
+msgstr "Demande de Devis"
+
+#: includes/admin/class-rnb-generator.php:173
+msgctxt "admin menu"
+msgid "Quote"
+msgstr "Citation"
+
+#: includes/admin/class-rnb-generator.php:174
+msgctxt "add new on admin bar"
+msgid "Quote Request"
+msgstr "Demande de Devis"
+
+#: includes/admin/class-rnb-generator.php:175
+msgctxt "request_quote"
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: includes/admin/class-rnb-generator.php:176
+msgid "Add New Quote"
+msgstr "Ajouter Nouvelle Offre"
+
+#: includes/admin/class-rnb-generator.php:177
+msgid "New Quote Request"
+msgstr "Nouvelle Demande de devis"
+
+#: includes/admin/class-rnb-generator.php:178
+msgid "Edit Quote Request"
+msgstr "Demande de Devis"
+
+#: includes/admin/class-rnb-generator.php:179
+msgid "View Quote Request"
+msgstr "Voir la demande de devis"
+
+#: includes/admin/class-rnb-generator.php:180
+msgid "All Quotes"
+msgstr "Tous"
+
+#: includes/admin/class-rnb-generator.php:181
+msgid "Search Quote"
+msgstr "Recherche Quote"
+
+#: includes/admin/class-rnb-generator.php:182
+msgid "Parent Quote:"
+msgstr "Formulaire Parent de demande de devis"
+
+#: includes/admin/class-rnb-generator.php:183
+msgid "No Quote found."
+msgstr "Aucun Témoignage trouvé"
+
+#: includes/admin/class-rnb-generator.php:184
+msgid "No Quote found in Trash."
+msgstr "Pas d’entrée dans la corbeille"
+
+#: includes/admin/class-rnb-generator.php:258
+msgid "Search "
+msgstr "Rechercher"
+
+#: includes/admin/class-rnb-generator.php:259
+msgid "All "
+msgstr "Tous"
+
+#: includes/admin/class-rnb-generator.php:260
+#: includes/admin/class-rnb-generator.php:261
+msgid "Parent "
+msgstr "Parent"
+
+#: includes/admin/class-rnb-generator.php:262
+msgid "Edit "
+msgstr "Modifier"
+
+#: includes/admin/class-rnb-generator.php:263
+msgid "Update "
+msgstr "Mettre à jour"
+
+#: includes/admin/class-rnb-generator.php:264
+msgid "Add New "
+msgstr "Ajouter un nouveau"
+
+#: includes/admin/class-rnb-generator.php:265
+msgid "New "
+msgstr "Nouveau"
+
+#: includes/admin/class-rnb-generator.php:510
+#, fuzzy
+#| msgid "Request For Quote Text"
+msgid "Request For A Quote Management"
+msgstr "Demande de devis"
+
+#: includes/admin/class-rnb-generator.php:519
+msgid "Inventory Management"
+msgstr ""
+
+#: includes/admin/class-rnb-generator.php:528
+msgid "Availability Management"
+msgstr ""
+
+#: includes/admin/class-rnb-generator.php:537
+msgid "Quote Actions"
+msgstr ""
+
+#: includes/admin/class-rnb-generator.php:546
+msgid "Request For A Quote Message"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:32
+msgid "RnB Settings"
+msgstr "Réglages"
+
+#: includes/admin/class-rnb-global-settings.php:48
+msgid "General"
+msgstr "Général"
+
+#: includes/admin/class-rnb-global-settings.php:49
+#: includes/admin/views/html-product-settings-data.php:8
+msgid "Display"
+msgstr "Affichage"
+
+#: includes/admin/class-rnb-global-settings.php:50
+#: includes/admin/views/html-product-settings-data.php:9
+msgid "Labels"
+msgstr "Étiquettes"
+
+#: includes/admin/class-rnb-global-settings.php:51
+#: includes/admin/views/html-product-settings-data.php:10
+msgid "Conditions"
+msgstr "Conditions"
+
+#: includes/admin/class-rnb-global-settings.php:52
+#: includes/admin/views/html-product-settings-data.php:11
+msgid "Validations"
+msgstr "Validations"
+
+#: includes/admin/class-rnb-global-settings.php:53
+msgid "Layout 2 (Extra Settings)"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:95
+msgid "Show or Hide DateTime Fields"
+msgstr "Afficher ou masquer les champs DateTime"
+
+#: includes/admin/class-rnb-global-settings.php:102
+#: includes/admin/class-rnb-global-settings.php:103
+msgid "Enable DateTime Fields"
+msgstr "Activez les champs DateTime"
+
+#: includes/admin/class-rnb-global-settings.php:112
+#: includes/admin/views/html-display-local-settings.php:20
+msgid "Show Pickup Date"
+msgstr "Afficher la date de ramassage"
+
+#: includes/admin/class-rnb-global-settings.php:122
+#: includes/admin/views/html-display-local-settings.php:43
+msgid "Show Pickup Time"
+msgstr "Heure de location"
+
+#: includes/admin/class-rnb-global-settings.php:132
+msgid "Show Drop-off Date"
+msgstr "Date de fin"
+
+#: includes/admin/class-rnb-global-settings.php:142
+msgid "Show Drop-off Time"
+msgstr "Heure"
+
+#: includes/admin/class-rnb-global-settings.php:152
+#: includes/admin/views/html-display-local-settings.php:113
+msgid "Enable Quantity"
+msgstr "Activer le clavier de la quantité"
+
+#: includes/admin/class-rnb-global-settings.php:153
+msgid "Enable Quantity Field"
+msgstr "Activer le champ quantité ?"
+
+#: includes/admin/class-rnb-global-settings.php:165
+msgid "Display Button Options"
+msgstr "Le bouton Options d’affichage"
+
+#: includes/admin/class-rnb-global-settings.php:172
+msgid "Button Options"
+msgstr "Options Bouton"
+
+#: includes/admin/class-rnb-global-settings.php:173
+msgid "Show Book Now Button"
+msgstr "Texte du bouton Réserver"
+
+#: includes/admin/class-rnb-global-settings.php:180
+msgid "Show Request For Quote Button"
+msgstr "Texte du bouton Réserver"
+
+#: includes/admin/class-rnb-global-settings.php:192
+msgid "Others Options"
+msgstr "Options :"
+
+#: includes/admin/class-rnb-global-settings.php:199
+#: includes/admin/class-rnb-global-settings.php:200
+msgid "Show Price FlipBox"
+msgstr "Afficher l’interface utilisateur"
+
+#: includes/admin/class-rnb-global-settings.php:207
+#: includes/admin/class-rnb-global-settings.php:208
+msgid "Show Price Discount"
+msgstr "Afficher les remises"
+
+#: includes/admin/class-rnb-global-settings.php:215
+#: includes/admin/class-rnb-global-settings.php:216
+msgid "Show Instance Payment"
+msgstr "Voir l’établissement de paiement de l’instance"
+
+#: includes/admin/class-rnb-global-settings.php:232
+msgid "Labels In Product Single Page"
+msgstr "Étiquettes de produit simple Page"
+
+#: includes/admin/class-rnb-global-settings.php:239
+msgid "Choose Inventory Title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:241
+msgid "This text will show as inventory title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:243
+#: includes/admin/class-rnb-global-settings.php:244
+#: includes/admin/views/html-labels-local-settings.php:8
+#: includes/admin/views/html-labels-local-settings.php:9
+#: includes/rnb-global-functions.php:1397
+msgid "Choose Inventory"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:263
+msgid "Pricing Info Title"
+msgstr "Voir la tarification Info rubrique texte"
+
+#: includes/admin/class-rnb-global-settings.php:265
+msgid "This text will show as pricing title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:267
+#: includes/admin/class-rnb-global-settings.php:268
+#: includes/rnb-global-functions.php:1290
+#: includes/rnb-global-functions.php:1406
+msgid "Pricing Info"
+msgstr "Info des tarifs"
+
+#: includes/admin/class-rnb-global-settings.php:275
+msgid "Unit Price Title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:278
+#: includes/admin/views/html-days-range-meta.php:75
+#: includes/admin/views/html-labels-local-settings.php:36
+#: includes/admin/views/html-quote-details.php:134
+#: includes/admin/views/html-quote-details.php:158
+#: includes/admin/views/html-quote-details.php:184
+#: includes/class-rnb-product-cart.php:296
+#: includes/class-rnb-product-cart.php:308
+#: includes/class-rnb-product-cart.php:320
+#: includes/class-rnb-product-cart.php:331
+#: includes/class-rnb-product-cart.php:343
+#: includes/class-rnb-product-cart.php:540
+#: includes/class-rnb-product-cart.php:549
+#: includes/class-rnb-product-cart.php:558
+#: includes/class-rnb-product-cart.php:566
+#: includes/class-rnb-product-cart.php:573 includes/rnb-data-provider.php:119
+#: templates/myaccount/view-quote.php:178
+#: templates/myaccount/view-quote.php:202
+#: templates/myaccount/view-quote.php:225
+#: templates/rnb/emails/request-quote-item-details.php:149
+#: templates/rnb/emails/request-quote-item-details.php:173
+#: templates/rnb/emails/request-quote-item-details.php:196
+msgid "Per Day"
+msgstr "Par jour"
+
+#: includes/admin/class-rnb-global-settings.php:279
+msgid "Unit Price"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:286
+msgid "Pickup Location Title"
+msgstr "Nom du dépot"
+
+#: includes/admin/class-rnb-global-settings.php:288
+msgid "This text will show as Pickup location title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:290
+#: includes/admin/class-rnb-global-settings.php:291
+#: includes/admin/class-rnb-global-settings.php:303
+#: includes/rnb-data-provider.php:43 includes/rnb-global-functions.php:1361
+#: includes/rnb-global-functions.php:1362
+msgid "Pickup Location"
+msgstr "Point de retrait"
+
+#: includes/admin/class-rnb-global-settings.php:298
+#: includes/admin/views/html-labels-local-settings.php:62
+msgid "Pickup Location Placeholder"
+msgstr "Ramassage emplacement espace réservé"
+
+#: includes/admin/class-rnb-global-settings.php:300
+msgid "This text will show as Pickup location placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:302
+msgid "Choose Pickup Location"
+msgstr "Point d’enlèvement"
+
+#: includes/admin/class-rnb-global-settings.php:310
+msgid "Dropoff Location Title"
+msgstr "Dropoff location title"
+
+#: includes/admin/class-rnb-global-settings.php:312
+msgid "This text will show as Dropoff location title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:314
+#: includes/admin/class-rnb-global-settings.php:315
+#: includes/admin/class-rnb-global-settings.php:326
+#: includes/admin/class-rnb-global-settings.php:327
+#: includes/rnb-data-provider.php:48 includes/rnb-global-functions.php:1365
+#: includes/rnb-global-functions.php:1366
+msgid "Dropoff Location"
+msgstr "Coût de la Location dropoff"
+
+#: includes/admin/class-rnb-global-settings.php:322
+#: includes/admin/views/html-labels-local-settings.php:86
+msgid "Dropoff Location Placeholder"
+msgstr "Ramassage emplacement espace réservé"
+
+#: includes/admin/class-rnb-global-settings.php:324
+msgid "This text will show as Dropoff location placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:334
+msgid "Pickup DateTime Title"
+msgstr "Date de début de location"
+
+#: includes/admin/class-rnb-global-settings.php:336
+msgid "This text will show as Pickup Date title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:338
+#: includes/admin/class-rnb-global-settings.php:339
+#: includes/rnb-global-functions.php:1369
+msgid "Pickup Date & Time"
+msgstr "Date"
+
+#: includes/admin/class-rnb-global-settings.php:346
+#: includes/admin/views/html-labels-local-settings.php:111
+msgid "Pickup Date Placeholder"
+msgstr "paramètre fictif"
+
+#: includes/admin/class-rnb-global-settings.php:348
+msgid "This text will show as Pickup Date Placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:350
+#: includes/admin/class-rnb-global-settings.php:351
+msgid "Pickup Date"
+msgstr "Date de location"
+
+#: includes/admin/class-rnb-global-settings.php:358
+#: includes/admin/views/html-labels-local-settings.php:124
+msgid "Pickup Time Placeholder"
+msgstr "Espace réservé Pickup fois"
+
+#: includes/admin/class-rnb-global-settings.php:360
+msgid "This text will show as Pickup Time Placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:362
+#: includes/admin/class-rnb-global-settings.php:363
+msgid "Pickup Time"
+msgstr "Heure de location"
+
+#: includes/admin/class-rnb-global-settings.php:371
+msgid "Dropoff DateTime Title"
+msgstr "Titre de DateTime dropoff"
+
+#: includes/admin/class-rnb-global-settings.php:373
+msgid "This text will show as Dropoff Date title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:375
+#: includes/admin/class-rnb-global-settings.php:376
+msgid "Dropoff Date & Time"
+msgstr "Date de retour"
+
+#: includes/admin/class-rnb-global-settings.php:383
+#: includes/admin/views/html-labels-local-settings.php:150
+msgid "Drop-off Date Placeholder"
+msgstr "Date de dépôt espace réservé"
+
+#: includes/admin/class-rnb-global-settings.php:385
+msgid "This text will show as Drop-off Date Placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:387
+#: includes/admin/class-rnb-global-settings.php:388
+msgid "Drop-off Date"
+msgstr "Date de retour"
+
+#: includes/admin/class-rnb-global-settings.php:395
+#: includes/admin/views/html-labels-local-settings.php:163
+msgid "Drop-off Time Placeholder"
+msgstr "Drop-off temps espace réservé"
+
+#: includes/admin/class-rnb-global-settings.php:397
+msgid "This text will show as Drop-off Time Placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:399
+#: includes/admin/class-rnb-global-settings.php:400
+msgid "Drop-off Time"
+msgstr "Heure de retour"
+
+#: includes/admin/class-rnb-global-settings.php:408
+msgid "Quantity Title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:411
+#: includes/admin/class-rnb-global-settings.php:412
+#: includes/admin/views/html-quote-details.php:194
+#: includes/rnb-arrange-data.php:135 includes/rnb-data-provider.php:66
+#: includes/rnb-global-functions.php:1254
+#: includes/rnb-global-functions.php:1385
+#: templates/myaccount/view-quote.php:235
+#: templates/rnb/emails/request-quote-item-details.php:206
+msgid "Quantity"
+msgstr "Quantité"
+
+#: includes/admin/class-rnb-global-settings.php:420
+msgid "Resources Title"
+msgstr "Titre de ressources"
+
+#: includes/admin/class-rnb-global-settings.php:422
+msgid "This text will show as resources title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:424
+#: includes/admin/class-rnb-global-settings.php:425
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:189
+#: includes/rnb-data-provider.php:18 includes/rnb-global-functions.php:1260
+msgid "Resources"
+msgstr "Contenus"
+
+#: includes/admin/class-rnb-global-settings.php:432
+msgid "Categories Title"
+msgstr "Titre des catégories"
+
+#: includes/admin/class-rnb-global-settings.php:434
+msgid "This text will show as Categories title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:436
+#: includes/admin/class-rnb-global-settings.php:437
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:101
+#: includes/rnb-global-functions.php:1265
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/admin/class-rnb-global-settings.php:444
+msgid "Deposit Title"
+msgstr "Titre de dépôt"
+
+#: includes/admin/class-rnb-global-settings.php:446
+msgid "This text will show as Deposit title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:448
+#: includes/admin/class-rnb-global-settings.php:449
+#: includes/class-rnb-orders.php:84 includes/class-rnb-orders.php:85
+#: includes/class-rnb-orders.php:164 includes/class-rnb-orders.php:208
+#: includes/rnb-data-provider.php:28 includes/rnb-global-functions.php:935
+#: includes/rnb-global-functions.php:1394
+msgid "Deposit"
+msgstr "Acompte"
+
+#: includes/admin/class-rnb-global-settings.php:456
+msgid "Adults Title"
+msgstr "Titre d’adultes"
+
+#: includes/admin/class-rnb-global-settings.php:458
+msgid "This text will show as Adults title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:460
+#: includes/admin/class-rnb-global-settings.php:461
+#: includes/rnb-global-functions.php:1242
+#: includes/rnb-global-functions.php:1379
+#: includes/rnb-global-functions.php:1380
+msgid "Adults"
+msgstr "Adultes"
+
+#: includes/admin/class-rnb-global-settings.php:468
+#: includes/admin/views/html-labels-local-settings.php:223
+msgid "Adults Placeholder"
+msgstr "Espace réservé adultes"
+
+#: includes/admin/class-rnb-global-settings.php:470
+msgid "This text will show as Adults Placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:472
+#: includes/admin/class-rnb-global-settings.php:473
+#: includes/rnb-global-functions.php:1243
+msgid "Choose Adults"
+msgstr "Choisissez des adultes"
+
+#: includes/admin/class-rnb-global-settings.php:480
+msgid "Childs Title"
+msgstr "Titre de Childs"
+
+#: includes/admin/class-rnb-global-settings.php:482
+msgid "This text will show as Childs title in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:484
+#: includes/admin/class-rnb-global-settings.php:485
+#: includes/rnb-global-functions.php:1244
+#: includes/rnb-global-functions.php:1381
+#: includes/rnb-global-functions.php:1382
+msgid "Childs"
+msgstr "Enfants"
+
+#: includes/admin/class-rnb-global-settings.php:492
+#: includes/admin/views/html-labels-local-settings.php:247
+msgid "Childs Placeholder"
+msgstr "Espace réservé Childs"
+
+#: includes/admin/class-rnb-global-settings.php:494
+msgid "This text will show as Childs Placeholder in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:496
+#: includes/admin/class-rnb-global-settings.php:497
+#: includes/rnb-global-functions.php:1245
+msgid "Choose Childs"
+msgstr "Choisir"
+
+#: includes/admin/class-rnb-global-settings.php:510
+#, fuzzy
+#| msgid "Customer Details"
+msgid "Customize Notice"
+msgstr "Information sur le client"
+
+#: includes/admin/class-rnb-global-settings.php:516
+#: includes/admin/views/html-labels-local-settings.php:272
+#: includes/admin/views/html-labels-local-settings.php:273
+msgid "Invalid Date Range Notice"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:519
+msgid "Invalid date range"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:526
+#: includes/admin/views/html-labels-local-settings.php:283
+#: includes/admin/views/html-labels-local-settings.php:284
+msgid "Max Day Notice"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:529
+msgid "Enter max day exceed notice"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:536
+#: includes/admin/views/html-labels-local-settings.php:294
+#: includes/admin/views/html-labels-local-settings.php:295
+msgid "Min Day Notice"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:539
+msgid "Enter min day notice"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:546
+#: includes/admin/views/html-labels-local-settings.php:305
+#: includes/admin/views/html-labels-local-settings.php:306
+msgid "Invalid Quantity"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:549
+msgid "Enter Quantity notice"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:582
+#: includes/admin/views/html-labels-local-settings.php:318
+msgid "Book Now Button Text"
+msgstr "Texte du bouton Réserver"
+
+#: includes/admin/class-rnb-global-settings.php:584
+msgid "This text will show as Book Now text in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:586
+#: includes/admin/class-rnb-global-settings.php:587
+#: includes/rnb-global-functions.php:1298
+#: includes/rnb-global-functions.php:1410
+msgid "Book Now"
+msgstr "Réserver"
+
+#: includes/admin/class-rnb-global-settings.php:600
+#, fuzzy
+#| msgid "Request For Quote"
+msgid "Customize Request For Quote"
+msgstr "Demande de devis"
+
+#: includes/admin/class-rnb-global-settings.php:606
+#: includes/admin/views/html-labels-local-settings.php:330
+#: includes/admin/views/html-labels-local-settings.php:331
+msgid "Request For Quote Button Text"
+msgstr "Texte du bouton Réserver"
+
+#: includes/admin/class-rnb-global-settings.php:608
+msgid "This text will show as Request For Quote text in front-end"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:610
+#: includes/admin/class-rnb-global-settings.php:611
+#: includes/admin/class-rnb-global-settings.php:1676
+#: includes/rnb-global-functions.php:1299
+#: includes/rnb-global-functions.php:1411
+msgid "Request For Quote"
+msgstr "Demande de devis"
+
+#: includes/admin/class-rnb-global-settings.php:619
+#: includes/admin/views/html-labels-local-settings.php:342
+msgid "RFQ username title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:621
+#: includes/admin/class-rnb-global-settings.php:634
+#: includes/admin/class-rnb-global-settings.php:647
+#: includes/admin/class-rnb-global-settings.php:660
+#: includes/admin/class-rnb-global-settings.php:673
+#: includes/admin/class-rnb-global-settings.php:686
+#: includes/admin/class-rnb-global-settings.php:699
+#: includes/admin/class-rnb-global-settings.php:712
+#: includes/admin/class-rnb-global-settings.php:725
+#: includes/admin/class-rnb-global-settings.php:738
+#: includes/admin/class-rnb-global-settings.php:751
+#: includes/admin/class-rnb-global-settings.php:764
+#: includes/admin/class-rnb-global-settings.php:777
+#: includes/admin/class-rnb-global-settings.php:790
+#: includes/admin/class-rnb-global-settings.php:803
+msgid "This text will show in the request for quote form"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:623
+#: includes/admin/class-rnb-global-settings.php:624
+#: includes/admin/class-rnb-global-settings.php:636
+#: includes/admin/class-rnb-global-settings.php:637
+#: includes/admin/views/html-labels-local-settings.php:343
+#: includes/admin/views/html-labels-local-settings.php:355
+#: includes/rnb-global-functions.php:1319
+#: includes/rnb-global-functions.php:1327
+#: includes/rnb-global-functions.php:1422
+#: includes/rnb-global-functions.php:1430
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: includes/admin/class-rnb-global-settings.php:632
+#: includes/admin/views/html-labels-local-settings.php:354
+msgid "RFQ username placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:645
+#: includes/admin/views/html-labels-local-settings.php:366
+msgid "RFQ password title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:649
+#: includes/admin/class-rnb-global-settings.php:650
+#: includes/admin/class-rnb-global-settings.php:662
+#: includes/admin/class-rnb-global-settings.php:663
+msgid "password"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:658
+#: includes/admin/views/html-labels-local-settings.php:378
+msgid "RFQ password placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:671
+msgid "RFQ first name title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:675
+#: includes/admin/class-rnb-global-settings.php:676
+#: includes/admin/class-rnb-global-settings.php:688
+#: includes/admin/class-rnb-global-settings.php:689
+msgid "First name"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:684
+msgid "RFQ first name placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:697
+msgid "RFQ last name title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:701
+#: includes/admin/class-rnb-global-settings.php:702
+#: includes/admin/class-rnb-global-settings.php:714
+#: includes/admin/class-rnb-global-settings.php:715
+msgid "Last name"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:710
+msgid "RFQ last name placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:723
+#: includes/admin/views/html-labels-local-settings.php:438
+msgid "RFQ email title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:736
+#: includes/admin/views/html-labels-local-settings.php:450
+msgid "RFQ email placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:749
+#: includes/admin/views/html-labels-local-settings.php:462
+msgid "RFQ phone title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:753
+#: includes/admin/class-rnb-global-settings.php:754
+#: includes/admin/class-rnb-global-settings.php:766
+#: includes/admin/class-rnb-global-settings.php:767
+#: includes/admin/views/html-labels-local-settings.php:463
+#: includes/admin/views/html-labels-local-settings.php:475
+#: includes/rnb-global-functions.php:1324
+#: includes/rnb-global-functions.php:1332
+#: includes/rnb-global-functions.php:1427
+#: includes/rnb-global-functions.php:1435
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/admin/class-rnb-global-settings.php:762
+#: includes/admin/views/html-labels-local-settings.php:474
+msgid "RFQ phone placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:775
+#: includes/admin/views/html-labels-local-settings.php:486
+msgid "RFQ message title"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:779
+#: includes/admin/class-rnb-global-settings.php:780
+#: includes/admin/class-rnb-global-settings.php:792
+#: includes/admin/class-rnb-global-settings.php:793
+#: includes/admin/views/html-labels-local-settings.php:487
+#: includes/admin/views/html-labels-local-settings.php:499
+#: includes/rnb-global-functions.php:1325
+#: includes/rnb-global-functions.php:1333
+#: includes/rnb-global-functions.php:1428
+#: includes/rnb-global-functions.php:1436
+#: templates/rnb/emails/request-quote-item-details.php:290
+msgid "Message"
+msgstr "Message"
+
+#: includes/admin/class-rnb-global-settings.php:788
+#: includes/admin/views/html-labels-local-settings.php:498
+msgid "RFQ message placeholder"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:801
+#: includes/admin/views/html-labels-local-settings.php:510
+msgid "RFQ submit button text"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:805
+#: includes/admin/class-rnb-global-settings.php:806
+#: includes/admin/views/html-labels-local-settings.php:511
+#: includes/rnb-global-functions.php:1335
+#: includes/rnb-global-functions.php:1438
+#: templates/rnb/booking-content/pickup-datetimes.php:34
+#: templates/rnb/booking-content/return-datetimes.php:32
+msgid "Submit"
+msgstr "Soumettre"
+
+#: includes/admin/class-rnb-global-settings.php:822
+msgid "Choose Different Conditions Logic For Products"
+msgstr "Choisissez la logique des Conditions différentes pour les produits"
+
+#: includes/admin/class-rnb-global-settings.php:828
+#: includes/admin/views/html-condition-local-settings.php:8
+msgid "Date Format"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:829
+#: includes/admin/views/html-condition-local-settings.php:9
+msgid "Date will display in this format all place in rental product"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:836
+#: includes/admin/views/html-condition-local-settings.php:12
+msgid "m/d/Y"
+msgstr "d/m/Y"
+
+#: includes/admin/class-rnb-global-settings.php:837
+#: includes/admin/views/html-condition-local-settings.php:13
+msgid "d/m/Y"
+msgstr "j/m/A"
+
+#: includes/admin/class-rnb-global-settings.php:838
+#: includes/admin/views/html-condition-local-settings.php:14
+msgid "Y/m/d"
+msgstr "A/m/j"
+
+#: includes/admin/class-rnb-global-settings.php:845
+#: includes/admin/views/html-condition-local-settings.php:24
+msgid "Time Format"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:846
+#: includes/admin/views/html-condition-local-settings.php:25
+msgid "This will be applicable in the time picker field in product page"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:853
+#: includes/admin/views/html-condition-local-settings.php:27
+msgid "24 Hours"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:854
+#: includes/admin/views/html-condition-local-settings.php:28
+msgid "12 Hours"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:861
+#: includes/admin/views/html-condition-local-settings.php:39
+msgid "Max Hour Late"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:862
+#: includes/admin/views/html-condition-local-settings.php:40
+msgid ""
+"Another day will count if customer returns by exceeding this no. of hour. "
+"Suppose you set the hour as 2. Now if a customer place an order from  "
+"10/10/2018 at 10:00 to 12/10/2018 at 12:00 he will be charged for 2 days "
+"( although here is 50 hours means 2days and 2 hours). Now if he returns "
+"after 12/10/2018 at 12:00 then he will be charged for 3days "
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:877
+#: includes/admin/views/html-condition-local-settings.php:56
+msgid "Pay Extra Hours"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:878
+#: includes/admin/views/html-condition-local-settings.php:57
+msgid ""
+"If you make this option as yes then customer has to pay for extra hours in "
+"hourly pricing plan."
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:885
+#: includes/admin/views/html-condition-local-settings.php:59
+#: includes/admin/views/html-own-time-availability.php:35
+#: includes/rnb-data-provider.php:84 includes/rnb-data-provider.php:146
+#: includes/rnb-data-provider.php:215
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/class-rnb-global-settings.php:886
+#: includes/admin/views/html-condition-local-settings.php:60
+#: includes/rnb-data-provider.php:88 includes/rnb-data-provider.php:150
+#: includes/rnb-data-provider.php:219
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/class-rnb-global-settings.php:893
+#: includes/admin/views/html-condition-local-settings.php:73
+msgid "Single Day Booking"
+msgstr "Seule journée réservation"
+
+#: includes/admin/class-rnb-global-settings.php:894
+#: includes/admin/views/html-condition-local-settings.php:75
+msgid ""
+"Checked : If pickup and return date are same then it counts as 1-day. Also "
+"select this for single date. FYI : Set max time late as at least 0 for this. "
+"UnChecked : If pickup and return date are same then it counts as 0-day. Also "
+"select this for single date. "
+msgstr ""
+"Vérifié: Si le ramassage et la date de retour sont les mêmes, alors il "
+"compte comme 1 jour. Sélectionnez également cette date unique pour. FYI: "
+"Régler l’heure max fin au moins 0 pour cela. Décochée: Si le ramassage et la "
+"date de retour sont les mêmes, alors il compte comme 0-day. Sélectionnez "
+"également cette date unique pour."
+
+#: includes/admin/class-rnb-global-settings.php:901
+msgid "Include Trailing Date"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:902
+#: includes/admin/views/html-condition-local-settings.php:90
+msgid ""
+"Checked : if pickup & return time are disabled then pickup date and return "
+"date will count as individual date. Also make sure that you set pay extra "
+"hour option as no. UnChecked : if pickup & return time are disabled then "
+"pickup date and return date will count as previous manner means without 24-"
+"hours separate date will not count"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:909
+msgid "Max Booking Days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:910
+#: includes/admin/class-rnb-global-settings.php:925
+#: includes/admin/views/html-condition-local-settings.php:103
+#: includes/admin/views/html-condition-local-settings.php:122
+msgid ""
+"No. of days that customer must have to select during placing an order "
+"otherwise he will not be allowed to place an order"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:911
+msgid "E.g. - 6"
+msgstr "par exemple 6"
+
+#: includes/admin/class-rnb-global-settings.php:924
+msgid "Min Booking Days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:926
+#: includes/admin/class-rnb-global-settings.php:941
+#: includes/admin/class-rnb-global-settings.php:957
+#: includes/admin/class-rnb-global-settings.php:973
+#: includes/admin/class-rnb-global-settings.php:1590
+#: includes/admin/views/html-condition-local-settings.php:139
+#: includes/admin/views/html-condition-local-settings.php:157
+#: includes/admin/views/html-condition-local-settings.php:176
+msgid "E.g. - 2"
+msgstr "par exemple 2"
+
+#: includes/admin/class-rnb-global-settings.php:939
+#: includes/admin/views/html-condition-local-settings.php:138
+msgid "Initially blocked dates in calendar"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:940
+#: includes/admin/views/html-condition-local-settings.php:140
+msgid ""
+"If you set the value as 2, When someone open the calendar in product page if "
+"today is 10/10/2018 then customer will see the initially bookable date as "
+"12/10/2018"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:955
+#: includes/admin/views/html-condition-local-settings.php:156
+msgid "Pre Booking Block Days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:956
+#: includes/admin/views/html-condition-local-settings.php:158
+msgid ""
+"Selected no. of days will be blocked automatically after a booking order and "
+"customer will not be charged for extra these days. Suppose you set the value "
+"2. Now if any customer books date from 10/10/18 to 12/10/18 then after "
+"completing the order 08/10/18 to 10/10/18 date will be disabled in calendar "
+"for this order. Although customer will not be charged for these extra 2 days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:971
+#: includes/admin/views/html-condition-local-settings.php:175
+msgid "Post Booking Block Days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:972
+#: includes/admin/views/html-condition-local-settings.php:177
+msgid ""
+"Selected no. of days will be blocked automatically after a booking and "
+"customer will not be charged for extra these days. Suppose you set the value "
+"2. Now if any customer books date from 10/10/18 to 12/10/18 then after "
+"completing the order 10/10/18 to 14/10/18 date will be disabled in calendar "
+"for this order. Although customer will not be charged for these extra 2 days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:986
+msgid "Time Intervals (Mins)"
+msgstr "Intervalles de temps (minutes)"
+
+#: includes/admin/class-rnb-global-settings.php:987
+#: includes/admin/views/html-condition-local-settings.php:195
+msgid ""
+"Time Interval in mins E.g. - 20. Time interval will not work if you use "
+"allowed times options"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:988
+msgid "E.g. - 20"
+msgstr "ex 20"
+
+#: includes/admin/class-rnb-global-settings.php:1004
+msgid "Allowed Times (Comma, separated)"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1006
+#: includes/admin/views/html-condition-local-settings.php:230
+#: includes/admin/views/html-condition-local-settings.php:231
+msgid ""
+"Enter allowed time in comma separated format like 10:00, 12:00 (For 24 hour "
+"time format) or 10:00 am, 11:00 am (For 12 hour time format. Use space "
+"before am or pm) "
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1008
+msgid ""
+"Enter allowed time in comma separated format like 10:00, 12:00 (For 24 hour "
+"date format) or 10:00 am, 11:00 am (For 12 hour date format. Use space "
+"before am or pm) "
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1019
+msgid "Show Product Price"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1020
+msgid ""
+"If you set daily pricing then per day price will show as product price, if "
+"you set hourly pricing then hour price will show as product price"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1027
+#: includes/admin/views/html-condition-local-settings.php:216
+#: includes/admin/views/html-inventory-management.php:57
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:6
+msgid "Daily Pricing"
+msgstr "Prix ​​par jour"
+
+#: includes/admin/class-rnb-global-settings.php:1028
+#: includes/admin/views/html-condition-local-settings.php:217
+msgid "Hourly Pricing"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1034
+#: includes/admin/views/html-condition-local-settings.php:272
+msgid "Select Weekends"
+msgstr "Sélectionnez Weekends"
+
+#: includes/admin/class-rnb-global-settings.php:1035
+msgid "Choose Weekends"
+msgstr "Choisissez les week-ends"
+
+#: includes/admin/class-rnb-global-settings.php:1042
+#: includes/admin/class-rnb-global-settings.php:1660
+#: includes/admin/views/html-condition-local-settings.php:254
+#: includes/admin/views/html-validation-local-settings.php:133
+#: includes/class-redq-product-redq_rental.php:576
+#: includes/rnb-global-functions.php:1645
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: includes/admin/class-rnb-global-settings.php:1043
+#: includes/admin/class-rnb-global-settings.php:1661
+#: includes/admin/views/html-condition-local-settings.php:255
+#: includes/admin/views/html-validation-local-settings.php:153
+#: includes/class-redq-product-redq_rental.php:579
+#: includes/rnb-global-functions.php:1646
+msgid "Monday"
+msgstr "Lundi"
+
+#: includes/admin/class-rnb-global-settings.php:1044
+#: includes/admin/class-rnb-global-settings.php:1662
+#: includes/admin/views/html-condition-local-settings.php:256
+#: includes/admin/views/html-validation-local-settings.php:173
+#: includes/class-redq-product-redq_rental.php:582
+#: includes/rnb-global-functions.php:1647
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: includes/admin/class-rnb-global-settings.php:1045
+#: includes/admin/class-rnb-global-settings.php:1663
+#: includes/admin/views/html-condition-local-settings.php:257
+#: includes/admin/views/html-validation-local-settings.php:193
+#: includes/class-redq-product-redq_rental.php:585
+#: includes/rnb-global-functions.php:1648
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: includes/admin/class-rnb-global-settings.php:1046
+#: includes/admin/class-rnb-global-settings.php:1664
+#: includes/admin/views/html-condition-local-settings.php:258
+#: includes/admin/views/html-validation-local-settings.php:213
+#: includes/class-redq-product-redq_rental.php:588
+#: includes/rnb-global-functions.php:1649
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: includes/admin/class-rnb-global-settings.php:1047
+#: includes/admin/class-rnb-global-settings.php:1665
+#: includes/admin/views/html-condition-local-settings.php:259
+#: includes/admin/views/html-validation-local-settings.php:93
+#: includes/class-redq-product-redq_rental.php:570
+#: includes/rnb-global-functions.php:1643
+msgid "Friday"
+msgstr "Vendredi"
+
+#: includes/admin/class-rnb-global-settings.php:1048
+#: includes/admin/class-rnb-global-settings.php:1666
+#: includes/admin/views/html-condition-local-settings.php:260
+#: includes/admin/views/html-validation-local-settings.php:113
+#: includes/class-redq-product-redq_rental.php:573
+#: includes/rnb-global-functions.php:1644
+msgid "Saturday"
+msgstr "Samedi"
+
+#: includes/admin/class-rnb-global-settings.php:1053
+msgid "Choose Layout"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1054
+#: includes/admin/views/html-condition-local-settings.php:243
+msgid ""
+"Choose your booking page layout. Either it will be normal view or modal view"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1061
+#: includes/admin/views/html-condition-local-settings.php:245
+msgid "Normal Layout"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1062
+#: includes/admin/views/html-condition-local-settings.php:246
+msgid "Modal Layout"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1082
+msgid "Enable or Disable Required Fields"
+msgstr "Activer ou désactiver des champs obligatoires"
+
+#: includes/admin/class-rnb-global-settings.php:1089
+msgid "Required Fields"
+msgstr "Champs requis"
+
+#: includes/admin/class-rnb-global-settings.php:1090
+msgid "Choose Value Must Required Fields"
+msgstr "Choisissez la valeur doit des champs obligatoires"
+
+#: includes/admin/class-rnb-global-settings.php:1099
+#: includes/admin/views/html-validation-local-settings.php:11
+msgid "Required Pickup Location [Not applicable for modal layout]"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1109
+#, fuzzy
+#| msgid "Required Drop-off Location"
+msgid "Required Drop-off Location [Not applicable for modal layout]"
+msgstr "Lieu de dépôt requis"
+
+#: includes/admin/class-rnb-global-settings.php:1119
+#: includes/admin/views/html-validation-local-settings.php:59
+msgid "Required Pickup Time"
+msgstr "Obligatoire"
+
+#: includes/admin/class-rnb-global-settings.php:1129
+msgid "Required Drop-off Time"
+msgstr "Heure de dépôt requis"
+
+#: includes/admin/class-rnb-global-settings.php:1139
+#: includes/admin/views/html-validation-local-settings.php:43
+#, fuzzy
+#| msgid "Required Fields"
+msgid "Required Adult"
+msgstr "Champs requis"
+
+#: includes/admin/class-rnb-global-settings.php:1158
+msgid "Extra Fields For Layout Two"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1164
+msgid "RnB background color"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1165
+#, php-format
+msgid "The main RnB background color. Default %s."
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1175
+#: includes/admin/class-rnb-global-settings.php:1178
+#, fuzzy
+#| msgid "Inventory management"
+msgid "Inventory Top Heading"
+msgstr "gestion des stocks"
+
+#: includes/admin/class-rnb-global-settings.php:1185
+msgid "Inventory Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1188
+msgid "Inventory top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1199
+#: includes/admin/class-rnb-global-settings.php:1202
+#, fuzzy
+#| msgid "Inventory management"
+msgid "Inventory Inner Heading"
+msgstr "gestion des stocks"
+
+#: includes/admin/class-rnb-global-settings.php:1209
+msgid "Inventory Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1212
+msgid "Inventory inner description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1224
+#: includes/admin/class-rnb-global-settings.php:1227
+msgid "Date Top Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1234
+msgid "Date Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1237
+msgid "Date top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1249
+#: includes/admin/class-rnb-global-settings.php:1252
+msgid "Date Inner Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1259
+#: includes/admin/class-rnb-global-settings.php:1262
+msgid "Date Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1274
+#: includes/admin/class-rnb-global-settings.php:1277
+msgid "Location Top Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1284
+msgid "Location Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1287
+msgid "Location top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1298
+#: includes/admin/class-rnb-global-settings.php:1301
+msgid "Location Inner Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1308
+#: includes/admin/class-rnb-global-settings.php:1311
+msgid "Location Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1323
+#: includes/admin/class-rnb-global-settings.php:1326
+msgid "Resource Top Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1333
+msgid "Resource Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1336
+msgid "Resource top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1348
+#: includes/admin/class-rnb-global-settings.php:1351
+msgid "Resource Inner Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1358
+#: includes/admin/class-rnb-global-settings.php:1361
+msgid "Resource Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1373
+#: includes/admin/class-rnb-global-settings.php:1376
+msgid "Person Top Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1383
+msgid "Person Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1386
+msgid "Person top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1398
+#: includes/admin/class-rnb-global-settings.php:1401
+msgid "Person Inner Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1408
+#: includes/admin/class-rnb-global-settings.php:1411
+msgid "Person Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1423
+#: includes/admin/class-rnb-global-settings.php:1426
+msgid "Deposit Top Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1433
+msgid "Deposit Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1436
+msgid "Deposit top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1448
+#: includes/admin/class-rnb-global-settings.php:1451
+msgid "Deposit Inner Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1458
+#: includes/admin/class-rnb-global-settings.php:1461
+msgid "Deposit Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1472
+#: includes/admin/class-rnb-global-settings.php:1475
+msgid "Summary Top Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1482
+msgid "Summary Top Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1485
+msgid "Summary top description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1496
+#: includes/admin/class-rnb-global-settings.php:1499
+msgid "Summary Inner Heading"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1506
+#: includes/admin/class-rnb-global-settings.php:1509
+msgid "Summary Inner Description"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1529
+msgid "Make Product Calendar In Your Language"
+msgstr "Faire des produit calendrier dans votre langue"
+
+#: includes/admin/class-rnb-global-settings.php:1535
+msgid "Language Domain"
+msgstr "Domaine de la langue"
+
+#: includes/admin/class-rnb-global-settings.php:1537
+msgid "Enter your language domain. E.g. - de"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1539
+#, fuzzy
+#| msgid "Lanuage Domain E.g - fr"
+msgid "Language Domain E.g - fr"
+msgstr "Domaine de la langue par exemple - fr"
+
+#: includes/admin/class-rnb-global-settings.php:1581
+msgid "Configure Instance Payments"
+msgstr "Configurer les paiements de l’Instance"
+
+#: includes/admin/class-rnb-global-settings.php:1587
+msgid "Pay During Booking"
+msgstr "Payer au cours de la réservation"
+
+#: includes/admin/class-rnb-global-settings.php:1589
+msgid ""
+"You must have to pay this percentage (%) amount during booking. default pay "
+"amount value is 100%"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1610
+msgid "Miscellaneous Sections"
+msgstr "Diverses Sections"
+
+#: includes/admin/class-rnb-global-settings.php:1624
+msgid "Shop Page Button Label"
+msgstr "Étiquette de bouton Page boutique"
+
+#: includes/admin/class-rnb-global-settings.php:1626
+msgid "Enter Your Shop Page Button Label. E.g. - Read More"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1628
+#: includes/admin/class-rnb-global-settings.php:1629
+#: includes/class-redq-product-redq_rental.php:493
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: includes/admin/class-rnb-global-settings.php:1637
+msgid "Holidays"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1639
+msgid ""
+"Enter holidays in this format E.g.: 2018-07-18 to 2018-07-26,2018-08-18 to "
+"2018-08-20"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1641
+msgid ""
+"Enter holidays in this format E.g.: 2018-07-18 to 2018-07-26, 2018-08-18 to "
+"2018-08-20"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1652
+msgid "Select day of week start"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1653
+msgid "Choose day of week start"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1682
+#: includes/admin/class-rnb-global-settings.php:1683
+msgid "Enable RFQ Without Username & Password"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1690
+msgid "Enable RFQ on Account Page"
+msgstr "Activez la demande de devis sur la Page du compte"
+
+#: includes/admin/class-rnb-global-settings.php:1691
+msgid "Enable Request For Quote Endpoint In My Account Page"
+msgstr "Activez la demande de devis Endpoint dans ma Page de compte"
+
+#: includes/admin/class-rnb-global-settings.php:1704
+msgid "Google Map Configuration"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1710
+msgid "Enable Google Map For Location"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1717
+msgid "Google Map Api Key"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1719
+msgid "Enter google map API Key"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1721
+msgid "Google map api key"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1734
+msgid "Universal Labels"
+msgstr "Étiquettes universelles"
+
+#: includes/admin/class-rnb-global-settings.php:1740
+msgid "Attributes Tab Label"
+msgstr "Onglet Attributs"
+
+#: includes/admin/class-rnb-global-settings.php:1742
+msgid "Enter the text label E.g. - Attributes Tab"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1744
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:276
+#: includes/rnb-data-provider.php:33 includes/rnb-global-functions.php:919
+msgid "Attributes"
+msgstr "Attribues"
+
+#: includes/admin/class-rnb-global-settings.php:1745
+msgid "Attributes Tab"
+msgstr "Onglet Attributs"
+
+#: includes/admin/class-rnb-global-settings.php:1753
+msgid "Features Tab Label"
+msgstr "Étiquette d'onglet des fonctions"
+
+#: includes/admin/class-rnb-global-settings.php:1755
+msgid "Enter the text label E.g. - Features Tab"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1757
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:305
+#: includes/rnb-data-provider.php:38 includes/rnb-global-functions.php:920
+msgid "Features"
+msgstr "Vedettes"
+
+#: includes/admin/class-rnb-global-settings.php:1758
+msgid "Features Tab"
+msgstr "Onglet Fonctions"
+
+#: includes/admin/class-rnb-global-settings.php:1766
+msgid "Total Days Label (cart,checkout,order pages)"
+msgstr "Total Days Label (panier, caisse, pages de commande)"
+
+#: includes/admin/class-rnb-global-settings.php:1768
+msgid "Enter the text label E.g. - Total Days"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1770
+#: includes/admin/class-rnb-global-settings.php:1771
+#: includes/class-rnb-product-cart.php:243
+#: includes/class-rnb-product-cart.php:503
+#: includes/rnb-global-functions.php:916
+msgid "Total Days"
+msgstr "Total jours"
+
+#: includes/admin/class-rnb-global-settings.php:1779
+msgid "Total Hours Label (cart,checkout,order pages)"
+msgstr "Total des heures d'étiquette (panier, caisse, pages de commande)"
+
+#: includes/admin/class-rnb-global-settings.php:1781
+msgid "Enter the text label E.g. - Total Hours"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1783
+#: includes/admin/class-rnb-global-settings.php:1784
+#: includes/class-rnb-product-cart.php:222
+#: includes/class-rnb-product-cart.php:229
+#: includes/class-rnb-product-cart.php:488
+#: includes/class-rnb-product-cart.php:508
+#: includes/rnb-global-functions.php:917
+msgid "Total Hours"
+msgstr "Total heures"
+
+#: includes/admin/class-rnb-global-settings.php:1792
+msgid "Payment Due Label (cart,checkout,order pages)"
+msgstr "Étiquette de paiement dû (panier, caisse, pages de commande)"
+
+#: includes/admin/class-rnb-global-settings.php:1794
+msgid "Enter the text label E.g. - Payment Due"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1796
+#: includes/admin/class-rnb-global-settings.php:1797
+#: includes/admin/class-rnb-global-settings.php:1972
+#: includes/admin/class-rnb-global-settings.php:1975
+#: includes/admin/class-rnb-global-settings.php:1976
+#: includes/rnb-global-functions.php:918 includes/rnb-global-functions.php:939
+msgid "Payment Due"
+msgstr "Reste à payer"
+
+#: includes/admin/class-rnb-global-settings.php:1810
+msgid "Personalize Price Breakdown"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1816
+#: includes/admin/class-rnb-global-settings.php:1819
+#: includes/admin/class-rnb-global-settings.php:1820
+#: includes/rnb-data-provider.php:370 includes/rnb-global-functions.php:926
+msgid "Pickup Location Cost"
+msgstr "Point de retrait"
+
+#: includes/admin/class-rnb-global-settings.php:1828
+#: includes/admin/class-rnb-global-settings.php:1831
+#: includes/admin/class-rnb-global-settings.php:1832
+#: includes/rnb-global-functions.php:927
+msgid "Return Location Cost"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1840
+#: includes/admin/class-rnb-global-settings.php:1843
+#: includes/admin/class-rnb-global-settings.php:1844
+#: includes/rnb-global-functions.php:928
+#, fuzzy
+#| msgid "Days Range Cost ( "
+msgid "Distance Cost"
+msgstr "Coût plage Jours"
+
+#: includes/admin/class-rnb-global-settings.php:1852
+#: includes/admin/class-rnb-global-settings.php:1855
+#: includes/admin/class-rnb-global-settings.php:1856
+#: includes/rnb-global-functions.php:929
+msgid "Duration Cost"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1864
+#: includes/admin/class-rnb-global-settings.php:1867
+#: includes/admin/class-rnb-global-settings.php:1868
+#, fuzzy
+#| msgid "Discount amount"
+msgid "Discount Amount"
+msgstr "Montant de remise"
+
+#: includes/admin/class-rnb-global-settings.php:1876
+#: includes/admin/class-rnb-global-settings.php:1879
+#: includes/admin/class-rnb-global-settings.php:1880
+#: includes/rnb-data-provider.php:181 includes/rnb-data-provider.php:185
+#: includes/rnb-global-functions.php:931
+msgid "Resource Cost"
+msgstr "Coût de la ressource"
+
+#: includes/admin/class-rnb-global-settings.php:1888
+#: includes/admin/class-rnb-global-settings.php:1891
+#: includes/admin/class-rnb-global-settings.php:1892
+#: includes/rnb-global-functions.php:932
+msgid "Category Cost"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1900
+#: includes/admin/class-rnb-global-settings.php:1903
+#: includes/admin/class-rnb-global-settings.php:1904
+#: includes/rnb-global-functions.php:933
+msgid "Adult Cost"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1912
+#: includes/admin/class-rnb-global-settings.php:1915
+#: includes/admin/class-rnb-global-settings.php:1916
+#: includes/rnb-global-functions.php:934
+msgid "Child Cost"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1924
+#: includes/admin/class-rnb-global-settings.php:1927
+#: includes/admin/class-rnb-global-settings.php:1928
+#, fuzzy
+#| msgid " Deposit "
+msgid "Deposit Amount"
+msgstr "Dépôt de garantie inclus"
+
+#: includes/admin/class-rnb-global-settings.php:1936
+#: includes/rnb-global-functions.php:936
+msgid "Instant Pay"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1939
+#: includes/admin/class-rnb-global-settings.php:1940
+#, fuzzy
+#| msgid "Instance Pay Text"
+msgid "Instant Pay Amount"
+msgstr "Instance payante texte"
+
+#: includes/admin/class-rnb-global-settings.php:1948
+#: includes/admin/class-rnb-global-settings.php:1951
+#: includes/admin/class-rnb-global-settings.php:1952
+msgid "Initial Value"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1960
+#: includes/rnb-global-functions.php:938
+msgid "Total Instant Pay"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1963
+#: includes/admin/class-rnb-global-settings.php:1964
+#, fuzzy
+#| msgid "Total Instance Pay"
+msgid "Total Instant Pay Amount"
+msgstr "Rémunération totale Instance"
+
+#: includes/admin/class-rnb-global-settings.php:1984
+#: includes/admin/class-rnb-global-settings.php:1987
+#: includes/admin/class-rnb-global-settings.php:1988
+msgid "Quote Total"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:1996
+#, fuzzy
+#| msgid "Total Discount"
+msgid "Subtotal Amount"
+msgstr "Remise totale"
+
+#: includes/admin/class-rnb-global-settings.php:1999
+#: includes/admin/class-rnb-global-settings.php:2000
+#: includes/rnb-global-functions.php:942
+#, fuzzy
+#| msgid "Total"
+msgid "Subtotal"
+msgstr "Total"
+
+#: includes/admin/class-rnb-global-settings.php:2008
+#: includes/admin/class-rnb-global-settings.php:2011
+#: includes/admin/class-rnb-global-settings.php:2012
+#: includes/rnb-global-functions.php:943
+msgid "Grand Total"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2025
+#, fuzzy
+#| msgid "Request For Quote"
+msgid "Request For Quote Admin Profile"
+msgstr "Demande de devis"
+
+#: includes/admin/class-rnb-global-settings.php:2031
+msgid "RFQ Admin Email"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2033
+msgid "Admin email that is used for request for quote emails"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2035
+#, fuzzy
+#| msgid "Email"
+msgid "Admin Email"
+msgstr "Mal :"
+
+#: includes/admin/class-rnb-global-settings.php:2043
+msgid "RFQ Admin Name"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2045
+msgid "Admin name that is used for request for quote emails"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2047
+#, fuzzy
+#| msgid "A.Name"
+msgid "Admin Name"
+msgstr "A.Name"
+
+#: includes/admin/class-rnb-global-settings.php:2060
+msgid "GDPR Consent"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2066
+msgid "Enable GDPR Consent"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2073
+#, fuzzy
+#| msgid "Message"
+msgid "GDPR Message"
+msgstr "Message"
+
+#: includes/admin/class-rnb-global-settings.php:2075
+msgid "This text will be display on the RFQ form after the checkbox input."
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2077
+msgid "Add GDPR Message Label"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2078
+msgid ""
+"Please accept to consent to your data being stored in line with the "
+"guidelines set out in our"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2088
+msgid "Select GDPR Privacy Page"
+msgstr ""
+
+#: includes/admin/class-rnb-global-settings.php:2089
+msgid ""
+"Select the GDPR privacy page, which will be displayed after the RFQ GDPR "
+"checkbox."
+msgstr ""
+
+#: includes/admin/class-rnb-meta-boxes.php:24
+msgid "Rental Product"
+msgstr "Produit"
+
+#: includes/admin/class-rnb-meta-boxes.php:39
+msgid "Price Discount"
+msgstr "Montant de la remise"
+
+#: includes/admin/class-rnb-meta-boxes.php:46
+msgid "Settings"
+msgstr "Configuration"
+
+#: includes/admin/class-rnb-term-meta-image.php:134
+#: includes/admin/class-rnb-term-meta-image.php:232
+msgid "Upload/Add image"
+msgstr "Transférer/Ajouter image"
+
+#: includes/admin/class-rnb-term-meta-image.php:135
+#: includes/admin/class-rnb-term-meta-image.php:233
+msgid "Remove image"
+msgstr "Supprimer image"
+
+#: includes/admin/class-rnb-term-meta-image.php:158
+#: includes/admin/class-rnb-term-meta-image.php:256
+msgid "Choose an image"
+msgstr "Choisir une image"
+
+#: includes/admin/class-rnb-term-meta-image.php:160
+#: includes/admin/class-rnb-term-meta-image.php:258
+msgid "Use image"
+msgstr "Utiliser cette image"
+
+#: includes/admin/class-rnb-term-meta-image.php:311
+msgid ""
+"Product categories for your store can be managed here. To change the order "
+"of categories on the front-end you can drag and drop to sort them. To see "
+"more categories listed click the \"screen options\" link at the top of the "
+"page."
+msgstr ""
+"Les catégories de produit pour votre boutique peuvent être gérées ici. Pour "
+"changer l&rsquo;ordre des catégories sur le site vous pouvez les cliquer/"
+"déplacer pour les ordonner. Pour voir plus de catégories listées cliquer le "
+"lien &laquo;&nbsp;options de l&rsquo;écran&nbsp;&raquo; en haut de la page."
+
+#: includes/admin/class-rnb-term-meta-image.php:319
+msgid ""
+"Attribute terms can be assigned to products and variations.<br/><br/"
+"><b>Note</b>: Deleting a term will remove it from all products and "
+"variations to which it has been assigned. Recreating a term will not "
+"automatically assign it back to products."
+msgstr ""
+"Les termes d’attributs peuvent être assignés aux produits et variations.<br/"
+"><br/><b>Note</b>&nbsp;: Effacer un terme le supprimera de tous les produits "
+"et de toutes les variations auxquels il était associé. Recréer le terme ne "
+"l’assignera pas de nouveau aux produits."
+
+#: includes/admin/class-rnb-term-meta-image.php:367
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/admin/class-rnb-term-meta-select.php:73
+#: includes/admin/class-rnb-term-meta-select.php:103
+msgid "none"
+msgstr "aucun"
+
+#: includes/admin/views/admin-menu-page-full-calender.php:8
+msgid "Start:"
+msgstr "début :"
+
+#: includes/admin/views/admin-menu-page-full-calender.php:9
+msgid "End:"
+msgstr "fin :"
+
+#: includes/admin/views/admin-menu-page-full-calender.php:13
+msgid "View Order"
+msgstr "Voir la commande"
+
+#: includes/admin/views/admin-rnb-addons.php:9
+msgid "Extend Your Booking Features With RnB Add-ons"
+msgstr ""
+
+#: includes/admin/views/admin-rnb-addons.php:13
+#, fuzzy
+#| msgid "Sorry! Quote does not found."
+msgid "Sorry! No Data Found"
+msgstr "Désolé ! Citation ne pas trouvé."
+
+#: includes/admin/views/admin-rnb-addons.php:26
+msgid "Live Preview"
+msgstr ""
+
+#: includes/admin/views/admin-rnb-addons.php:27
+#, fuzzy
+#| msgid "Book Now"
+msgid "Buy Now"
+msgstr "Réserver"
+
+#: includes/admin/views/html-availability-management.php:3
+msgid "Product Date Availabilities"
+msgstr "Nom par défaut"
+
+#: includes/admin/views/html-availability-management.php:11
+msgid "Block type"
+msgstr ""
+
+#: includes/admin/views/html-availability-management.php:12
+msgid "Pickup Datetime"
+msgstr ""
+
+#: includes/admin/views/html-availability-management.php:13
+msgid "Dropoff Datetime"
+msgstr ""
+
+#: includes/admin/views/html-availability-management.php:14
+msgid "Row ID"
+msgstr ""
+
+#: includes/admin/views/html-availability-management.php:26
+msgid "Block Dates"
+msgstr ""
+
+#: includes/admin/views/html-availability-management.php:28
+#, fuzzy
+#| msgid "Please select the date range to be disabled for the product."
+msgid ""
+"Please select the datetime range to be disabled for the product inventory on "
+"specific date range."
+msgstr "Merci de sélectionner les dates d’indisponibilité"
+
+#: includes/admin/views/html-availability-management.php:29
+msgid ""
+"FYI: After selecting date from datepicker, please click the time picker "
+"also. If you don't click time then disable date time will not work properly."
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:42
+msgid "E.g. - 2 (floating value is not allowed)"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:88
+msgid "Enable Trailing Date"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:101
+msgid "Maximum Booking Days"
+msgstr "Réservation maximum jours"
+
+#: includes/admin/views/html-condition-local-settings.php:102
+msgid "E.g. - 5"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:120
+msgid "Minimum Booking Days"
+msgstr "Temps minimum de réservation"
+
+#: includes/admin/views/html-condition-local-settings.php:121
+msgid "E.g. - 1"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:193
+msgid "Time Interval"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:194
+msgid "Time Interval in mins E.g. - 20"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:212
+msgid "Show Product Pricing"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:213
+msgid ""
+"If you set the value as yes then date or range of dates will be blocked "
+"after placing an order depending on no. of inventories. If you set the value "
+"as no then date will not be blocked after placing the order"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:229
+msgid "Allowed Times"
+msgstr "Temps autorisés"
+
+#: includes/admin/views/html-condition-local-settings.php:242
+msgid "Choose Booking Layout"
+msgstr ""
+
+#: includes/admin/views/html-condition-local-settings.php:274
+msgid "Choose off days"
+msgstr "Jour de congés"
+
+#: includes/admin/views/html-condition-local-settings.php:275
+msgid "Weekends"
+msgstr "fin de sem."
+
+#: includes/admin/views/html-days-range-meta.php:9
+#: includes/admin/views/html-days-range-meta.php:27
+#: includes/admin/views/html-price-discount-meta.php:9
+#: includes/admin/views/html-price-discount-meta.php:27
+msgid "Days"
+msgstr "Jours"
+
+#: includes/admin/views/html-days-range-meta.php:10
+#: includes/admin/views/html-hourly-range-meta.php:11
+msgid "-  Cost"
+msgstr "- Prix"
+
+#: includes/admin/views/html-days-range-meta.php:13
+#: includes/admin/views/html-hourly-range-meta.php:13
+#: includes/admin/views/html-price-discount-meta.php:13
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:31
+msgid "Remove"
+msgstr "Supprimer"
+
+#: includes/admin/views/html-days-range-meta.php:26
+#: includes/admin/views/html-price-discount-meta.php:26
+msgid "Min Days"
+msgstr "Jours Minimum"
+
+#: includes/admin/views/html-days-range-meta.php:41
+#: includes/admin/views/html-price-discount-meta.php:41
+msgid "Max Days"
+msgstr "Jours Maximum"
+
+#: includes/admin/views/html-days-range-meta.php:42
+#: includes/admin/views/html-price-discount-meta.php:42
+msgid "days"
+msgstr "jours"
+
+#: includes/admin/views/html-days-range-meta.php:56
+msgid "Days Range Cost ( "
+msgstr "Coût plage Jours"
+
+#: includes/admin/views/html-days-range-meta.php:57
+#: includes/admin/views/html-hourly-range-meta.php:55
+#: includes/rnb-data-provider.php:96 includes/rnb-data-provider.php:99
+#: includes/rnb-data-provider.php:369 includes/rnb-data-provider.php:427
+msgid "Cost"
+msgstr "Coût"
+
+#: includes/admin/views/html-days-range-meta.php:71
+#: includes/admin/views/html-hourly-range-meta.php:69
+#: includes/rnb-data-provider.php:164 includes/rnb-data-provider.php:268
+#: includes/rnb-data-provider.php:315
+msgid "Applicable"
+msgstr "Applicable"
+
+#: includes/admin/views/html-days-range-meta.php:72
+#: includes/admin/views/html-hourly-range-meta.php:70
+#: includes/admin/views/html-price-discount-meta.php:57
+msgid "This will be applicable during booking cost calculation"
+msgstr "Ce sera applicable lors du calcul du coût de la réservation"
+
+#: includes/admin/views/html-days-range-meta.php:74
+#: includes/admin/views/html-hourly-range-meta.php:72
+msgid "Select Type"
+msgstr "Sélectionner le type"
+
+#: includes/admin/views/html-days-range-meta.php:76
+#: includes/admin/views/html-hourly-range-meta.php:74
+#: templates/rnb/global/price-flip-box.php:51
+#: templates/rnb/global/price-flip-box.php:102
+#: templates/rnb/global/price-flip-box.php:137
+msgid "Fixed"
+msgstr "Pix fixe"
+
+#: includes/admin/views/html-display-local-settings.php:66
+msgid "Show Dropoff Date"
+msgstr "Date de retour"
+
+#: includes/admin/views/html-display-local-settings.php:89
+msgid "Show Dropoff Time"
+msgstr "Heure de retour"
+
+#: includes/admin/views/html-display-local-settings.php:137
+msgid "Show pricing flip box"
+msgstr "Voir la tarification flip case"
+
+#: includes/admin/views/html-display-local-settings.php:160
+msgid "Show price discount"
+msgstr "Afficher l’interface utilisateur"
+
+#: includes/admin/views/html-display-local-settings.php:184
+msgid "Show instance payment"
+msgstr "Voir l’établissement de paiement de l’instance"
+
+#: includes/admin/views/html-display-local-settings.php:207
+msgid "Show Quote Request"
+msgstr "Demande de Devis"
+
+#: includes/admin/views/html-display-local-settings.php:230
+msgid "Show Book Now"
+msgstr "Afficher “Réserver”"
+
+#: includes/admin/views/html-hourly-range-meta.php:10
+#: includes/admin/views/html-hourly-range-meta.php:33
+#: includes/admin/views/html-hourly-range-meta.php:44
+msgid "Hours"
+msgstr ""
+
+#: includes/admin/views/html-hourly-range-meta.php:32
+msgid "Min Hours"
+msgstr ""
+
+#: includes/admin/views/html-hourly-range-meta.php:43
+msgid "Max Hours"
+msgstr ""
+
+#: includes/admin/views/html-hourly-range-meta.php:54
+msgid "Hourly Range Cost ( "
+msgstr ""
+
+#: includes/admin/views/html-hourly-range-meta.php:73
+msgid "Per Hour"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:6
+msgid "Set Quantity"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:7
+#, fuzzy
+#| msgid "Add Inventory Items"
+msgid "Add inventory quantity"
+msgstr "Voir tout l’inventaire"
+
+#: includes/admin/views/html-inventory-management.php:15
+msgid "Minimum 1 is required for each invenotry to work with."
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:24
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:17
+msgid "Distance Unit"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:25
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:18
+msgid "Set Location Distance Unit"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:26
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:19
+msgid ""
+"If you select booking layout two then for location unit it will be applied"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:29
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:21
+msgid "Kilometer"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:30
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:22
+msgid "Mile"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:38
+#, php-format
+msgid "Distance Unit Price ( %s )"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:39
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:32
+msgid "Per Distance Unit Price"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:46
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:35
+msgid ""
+"If you select booking layout two then for location price it will be applied"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:52
+msgid "Configure Day Pricing Plans"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:55
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:4
+msgid "Set Price Type"
+msgstr "Configurer le Type de Prix"
+
+#: includes/admin/views/html-inventory-management.php:55
+#: includes/admin/views/html-inventory-management.php:161
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:4
+#, php-format
+msgid "Choose a price type - this controls the <a href=\"%s\">schema</a>."
+msgstr ""
+"Choisissez un type de prix - ceci contrôle le <a href=“%s”>schéma</a> ."
+
+#: includes/admin/views/html-inventory-management.php:56
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:5
+msgid "General Pricing"
+msgstr "Générale des prix"
+
+#: includes/admin/views/html-inventory-management.php:58
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:7
+msgid "Monthly Pricing"
+msgstr "Tarification mensuelle"
+
+#: includes/admin/views/html-inventory-management.php:59
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:8
+msgid "Days Range Pricing"
+msgstr "Prix Plage Jours"
+
+#: includes/admin/views/html-inventory-management.php:60
+msgid "Flat Hour Pricing"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:64
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:48
+msgid "Set general pricing plan"
+msgstr "Définir le plan de la tarification générale"
+
+#: includes/admin/views/html-inventory-management.php:68
+#, fuzzy, php-format
+#| msgid "General Price ( "
+msgid "General Price ( %s )"
+msgstr "Tarif Général"
+
+#: includes/admin/views/html-inventory-management.php:69
+#: includes/admin/views/html-inventory-management.php:91
+#: includes/admin/views/html-inventory-management.php:114
+#: includes/admin/views/html-inventory-management.php:174
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:43
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:50
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:71
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:72
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:73
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:74
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:75
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:76
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:77
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:101
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:103
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:105
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:107
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:109
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:111
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:113
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:115
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:117
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:119
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:121
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:123
+msgid "Enter price here"
+msgstr "Entrez le montant ici"
+
+#: includes/admin/views/html-inventory-management.php:79
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:55
+msgid "Set daily pricing Plan"
+msgstr "Mis à jour Plan tarifaire"
+
+#: includes/admin/views/html-inventory-management.php:90
+#: includes/admin/views/html-inventory-management.php:113
+#, fuzzy
+#| msgid "May ( "
+msgid " ( "
+msgstr "Mai"
+
+#: includes/admin/views/html-inventory-management.php:103
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:82
+msgid "Set monthly pricing plan"
+msgstr "Définir le plan de la tarification mensuelle"
+
+#: includes/admin/views/html-inventory-management.php:127
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:129
+msgid "Set day ranges pricing plans"
+msgstr "Régler le jour varie plans tarifaires"
+
+#: includes/admin/views/html-inventory-management.php:137
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:140
+msgid "Add Days Range"
+msgstr "Ajouter Option"
+
+#: includes/admin/views/html-inventory-management.php:155
+msgid "Configure Hourly Pricing Plans"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:160
+msgid "Set Hourly Price Type"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:163
+msgid "General Hourly Pricing"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:164
+msgid "Hourly Range Pricing"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:173
+#, fuzzy, php-format
+#| msgid "Hourly Price ( "
+msgid "Hourly Price ( %s )"
+msgstr "(Horaire) prix"
+
+#: includes/admin/views/html-inventory-management.php:182
+msgid "Hourly price will be applicable if booking or rental days min 1day"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:189
+msgid "Set hourly ranges pricing plans"
+msgstr ""
+
+#: includes/admin/views/html-inventory-management.php:199
+msgid "Add Hourly Range"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:23
+#: includes/admin/views/html-labels-local-settings.php:24
+msgid "Show Pricing Info Heading Text"
+msgstr "Voir la tarification Info rubrique texte"
+
+#: includes/admin/views/html-labels-local-settings.php:35
+msgid "Unit Price Text"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:48
+msgid "Pickup Location Heading Title"
+msgstr "Nom du dépot"
+
+#: includes/admin/views/html-labels-local-settings.php:49
+msgid "pickup location title"
+msgstr "Nom du dépot"
+
+#: includes/admin/views/html-labels-local-settings.php:63
+msgid "pickup location placeholder"
+msgstr "Ramassage emplacement espace réservé"
+
+#: includes/admin/views/html-labels-local-settings.php:74
+msgid "Dropoff Location Heading Title"
+msgstr "Titre de rubrique emplacement dropoff"
+
+#: includes/admin/views/html-labels-local-settings.php:75
+msgid "Dropoff location title"
+msgstr "Titre de l’emplacement de dropoff"
+
+#: includes/admin/views/html-labels-local-settings.php:87
+msgid "Dropoff location placeholder"
+msgstr "Ramassage emplacement espace réservé"
+
+#: includes/admin/views/html-labels-local-settings.php:98
+msgid "Pickup Date Heading Title"
+msgstr "Pickup Date Titre titre"
+
+#: includes/admin/views/html-labels-local-settings.php:99
+msgid "Pickup date title"
+msgstr "Date de location"
+
+#: includes/admin/views/html-labels-local-settings.php:112
+#: includes/admin/views/html-labels-local-settings.php:125
+msgid "Pickup date placeholder"
+msgstr "Espace réservé date de ramassage"
+
+#: includes/admin/views/html-labels-local-settings.php:137
+msgid "Dropoff Date Heading Title"
+msgstr "Date de départ"
+
+#: includes/admin/views/html-labels-local-settings.php:138
+msgid "Dropoff date title"
+msgstr "Date de départ"
+
+#: includes/admin/views/html-labels-local-settings.php:151
+msgid "Drop-off date placeholder"
+msgstr "Espace réservé date de dépôt"
+
+#: includes/admin/views/html-labels-local-settings.php:164
+msgid "Drop-off time placeholder"
+msgstr "Espace réservé de temps de déclin"
+
+#: includes/admin/views/html-labels-local-settings.php:175
+msgid "Quantity Heading Title"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:176
+msgid "Quantity title"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:187
+msgid "Category Heading Title"
+msgstr "Titre de rubrique catégorie"
+
+#: includes/admin/views/html-labels-local-settings.php:188
+msgid "Category title"
+msgstr "Titre de la section catégories"
+
+#: includes/admin/views/html-labels-local-settings.php:199
+msgid "Resources Heading Title"
+msgstr "Ressources rubrique titre"
+
+#: includes/admin/views/html-labels-local-settings.php:200
+msgid "Resources title"
+msgstr "Titre de ressources"
+
+#: includes/admin/views/html-labels-local-settings.php:211
+msgid "Adults Heading Title"
+msgstr "Adultes, titre de rubrique"
+
+#: includes/admin/views/html-labels-local-settings.php:212
+msgid "Adults title"
+msgstr "Titre d’adultes"
+
+#: includes/admin/views/html-labels-local-settings.php:224
+msgid "Adults placeholder"
+msgstr "Espace réservé adultes"
+
+#: includes/admin/views/html-labels-local-settings.php:235
+msgid "Childs Heading Title"
+msgstr "Childs, titre de rubrique"
+
+#: includes/admin/views/html-labels-local-settings.php:236
+msgid "Childs title"
+msgstr "Titre de Childs"
+
+#: includes/admin/views/html-labels-local-settings.php:248
+msgid "Childs placeholder"
+msgstr "Espace réservé Childs"
+
+#: includes/admin/views/html-labels-local-settings.php:260
+msgid "Security Deposite Heading Title"
+msgstr "Titre de rubrique sécurité Deposite"
+
+#: includes/admin/views/html-labels-local-settings.php:261
+msgid "Security deposite title"
+msgstr "Titre de deposite de sécurité"
+
+#: includes/admin/views/html-labels-local-settings.php:319
+msgid "Book now button text"
+msgstr "Texte du bouton Réserver"
+
+#: includes/admin/views/html-labels-local-settings.php:367
+#: includes/admin/views/html-labels-local-settings.php:379
+#: includes/rnb-global-functions.php:1320
+#: includes/rnb-global-functions.php:1328
+#: includes/rnb-global-functions.php:1423
+#: includes/rnb-global-functions.php:1431
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/admin/views/html-labels-local-settings.php:390
+msgid "RFQ first Name title"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:391
+#: includes/admin/views/html-labels-local-settings.php:403
+#: includes/rnb-global-functions.php:1321
+#: includes/rnb-global-functions.php:1329
+#: includes/rnb-global-functions.php:1424
+#: includes/rnb-global-functions.php:1432
+#: templates/rnb/emails/request-quote-item-details.php:262
+msgid "First Name"
+msgstr "Prénom"
+
+#: includes/admin/views/html-labels-local-settings.php:402
+msgid "RFQ first Name placeholder"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:414
+msgid "RFQ last Name title"
+msgstr ""
+
+#: includes/admin/views/html-labels-local-settings.php:415
+#: includes/admin/views/html-labels-local-settings.php:427
+#: includes/rnb-global-functions.php:1322
+#: includes/rnb-global-functions.php:1330
+#: includes/rnb-global-functions.php:1425
+#: includes/rnb-global-functions.php:1433
+#: templates/rnb/emails/request-quote-item-details.php:269
+msgid "Last Name"
+msgstr "Nom"
+
+#: includes/admin/views/html-labels-local-settings.php:426
+msgid "RFQ last Name placeholder"
+msgstr ""
+
+#: includes/admin/views/html-own-availability.php:22
+msgid "Custom Block"
+msgstr ""
+
+#: includes/admin/views/html-own-availability.php:23
+msgid "Frontend Order"
+msgstr ""
+
+#: includes/admin/views/html-own-availability.php:24
+msgid "Backend Order"
+msgstr ""
+
+#: includes/admin/views/html-own-time-availability.php:33
+msgid "Not"
+msgstr "Non"
+
+#: includes/admin/views/html-own-time-availability.php:40
+msgid "delete"
+msgstr "supprimer"
+
+#: includes/admin/views/html-price-discount-meta.php:10
+msgid "-  Discount"
+msgstr "Remise&nbsp;"
+
+#: includes/admin/views/html-price-discount-meta.php:56
+msgid "Discount Type"
+msgstr "Type de remise"
+
+#: includes/admin/views/html-price-discount-meta.php:59
+msgid "Select type"
+msgstr "Sélectionner Type"
+
+#: includes/admin/views/html-price-discount-meta.php:60
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: includes/admin/views/html-price-discount-meta.php:61
+msgid "Fixed Price"
+msgstr "Pix fixe"
+
+#: includes/admin/views/html-price-discount-meta.php:70
+msgid "Discount Amount ( "
+msgstr "Montant de la réduction"
+
+#: includes/admin/views/html-price-discount-meta.php:71
+#: includes/rnb-global-functions.php:930
+msgid "Discount amount"
+msgstr "Montant de remise"
+
+#: includes/admin/views/html-product-settings-data.php:21
+msgid "Choose Settings For Display Tab"
+msgstr "Choisissez les paramètres de l’onglet Affichage"
+
+#: includes/admin/views/html-product-settings-data.php:22
+#: includes/admin/views/html-product-settings-data.php:24
+#: includes/admin/views/html-product-settings-data.php:43
+#: includes/admin/views/html-product-settings-data.php:45
+#: includes/admin/views/html-product-settings-data.php:65
+#: includes/admin/views/html-product-settings-data.php:67
+#: includes/admin/views/html-product-settings-data.php:87
+#: includes/admin/views/html-product-settings-data.php:89
+msgid "Global Settings"
+msgstr "Réglages"
+
+#: includes/admin/views/html-product-settings-data.php:22
+#, php-format
+msgid ""
+"Please configure the display settings from <strong> <a href=\"%1$s\" target="
+"\"_blank\"> "
+msgstr ""
+
+#: includes/admin/views/html-product-settings-data.php:25
+#: includes/admin/views/html-product-settings-data.php:46
+#: includes/admin/views/html-product-settings-data.php:68
+#: includes/admin/views/html-product-settings-data.php:90
+msgid "Local Settings"
+msgstr "Paramètres locaux"
+
+#: includes/admin/views/html-product-settings-data.php:42
+msgid "Choose Settings For Labels Tab"
+msgstr "Choisissez les paramètres de l’onglet étiquettes"
+
+#: includes/admin/views/html-product-settings-data.php:43
+#, php-format
+msgid ""
+"Please configure labels the settings from <strong> <a href=\"%1$s\" target="
+"\"_blank\"> "
+msgstr ""
+
+#: includes/admin/views/html-product-settings-data.php:64
+msgid "Choose Settings For Conditions Tab"
+msgstr "Choisissez les paramètres de l’onglet Conditions"
+
+#: includes/admin/views/html-product-settings-data.php:65
+#, php-format
+msgid ""
+"Please configure the conditions settings from <strong> <a href=\"%1$s\" "
+"target=\"_blank\"> "
+msgstr ""
+
+#: includes/admin/views/html-product-settings-data.php:86
+msgid "Choose Settings For Validations Tab"
+msgstr "Choisissez des Validations onglet Paramètres pour"
+
+#: includes/admin/views/html-product-settings-data.php:87
+#, php-format
+msgid ""
+"Please configure the validation settings from <strong> <a href=\"%1$s\" "
+"target=\"_blank\"> "
+msgstr ""
+
+#: includes/admin/views/html-quote-details.php:2
+msgid "Details"
+msgstr "Détails"
+
+#: includes/admin/views/html-quote-details.php:17
+msgid "Request for:"
+msgstr "Demande de :"
+
+#: includes/admin/views/html-quote-details.php:136
+#: includes/admin/views/html-quote-details.php:160
+#: includes/admin/views/html-quote-details.php:186
+#: includes/class-rnb-product-cart.php:296
+#: includes/class-rnb-product-cart.php:308
+#: includes/class-rnb-product-cart.php:320
+#: includes/class-rnb-product-cart.php:331
+#: includes/class-rnb-product-cart.php:343
+#: includes/class-rnb-product-cart.php:540
+#: includes/class-rnb-product-cart.php:549
+#: includes/class-rnb-product-cart.php:558
+#: includes/class-rnb-product-cart.php:566
+#: includes/class-rnb-product-cart.php:573 includes/rnb-data-provider.php:115
+#: templates/myaccount/view-quote.php:180
+#: templates/myaccount/view-quote.php:204
+#: templates/myaccount/view-quote.php:227
+#: templates/rnb/emails/request-quote-item-details.php:151
+#: templates/rnb/emails/request-quote-item-details.php:175
+#: templates/rnb/emails/request-quote-item-details.php:198
+msgid "One Time"
+msgstr "Unique"
+
+#: includes/admin/views/html-quote-details.php:199
+msgid "Quote Price"
+msgstr ""
+
+#: includes/admin/views/html-quote-details.php:216
+msgid "Customer information"
+msgstr "Information Client"
+
+#: includes/admin/views/html-quote-message.php:2
+msgid "ADD MESSAGE"
+msgstr "AJOUTER UN MESSAGE"
+
+#: includes/admin/views/html-quote-message.php:31
+#: templates/myaccount/view-quote.php:335
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr "ajouté le %1$s à %2$s"
+
+#: includes/admin/views/html-quote-message.php:32
+#: templates/myaccount/view-quote.php:336
+#, php-format
+msgid "by %s"
+msgstr "par %s"
+
+#: includes/admin/views/html-quote-message.php:33
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/admin/views/html-quote-status.php:3
+msgid "Quote Status"
+msgstr "Statut de citation"
+
+#: includes/admin/views/html-quote-status.php:8
+#: includes/class-rnb-Installer.php:104 includes/rnb-quote-functions.php:12
+msgctxt "Quote status"
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/admin/views/html-quote-status.php:9
+#: includes/class-rnb-Installer.php:113 includes/rnb-quote-functions.php:13
+msgctxt "Quote status"
+msgid "Processing"
+msgstr "Traitement en cours"
+
+#: includes/admin/views/html-quote-status.php:10
+#: includes/class-rnb-Installer.php:122 includes/rnb-quote-functions.php:14
+msgctxt "Quote status"
+msgid "On Hold"
+msgstr "En pause"
+
+#: includes/admin/views/html-quote-status.php:11
+#: includes/class-rnb-Installer.php:131
+msgctxt "Quote status"
+msgid "Accepted"
+msgstr "Accepté"
+
+#: includes/admin/views/html-quote-status.php:12
+#: includes/class-rnb-Installer.php:140 includes/rnb-quote-functions.php:15
+msgctxt "Quote status"
+msgid "Completed"
+msgstr "Terminé"
+
+#: includes/admin/views/html-quote-status.php:13
+#: includes/class-rnb-Installer.php:149 includes/rnb-quote-functions.php:16
+msgctxt "Quote status"
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: includes/admin/views/html-quote-status.php:24
+msgid "Price"
+msgstr "Prix"
+
+#: includes/admin/views/html-quote-status.php:37
+msgid "Delete Permanently"
+msgstr "Supprimer Définitivement"
+
+#: includes/admin/views/html-quote-status.php:39
+msgid "Move to Trash"
+msgstr "Déplacer dans la corbeille"
+
+#: includes/admin/views/html-quote-status.php:47
+msgid "Update Quote"
+msgstr "Mise à jour du devis"
+
+#: includes/admin/views/html-quote-status.php:47
+#, fuzzy, php-format
+#| msgid "Update the %s"
+msgid "Update the %s"
+msgstr "Mettre à jour %2$s"
+
+#: includes/admin/views/html-rental-inventory-non-repeatable-data.php:9
+#: includes/admin/views/html-rental-inventory-non-repeatable-data.php:10
+msgid "Inventory Qty"
+msgstr "Voir tout l’inventaire"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:46
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:49
+msgid "Unique product model"
+msgstr "Modèle de produit unique"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:48
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:43
+msgid "Hourly price will be applicabe if booking or rental days min 1day"
+msgstr ""
+"le Prix horaire sera applicable si il y a au minimum 1 une journée de "
+"réservation ou location"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:59
+msgid "Unique product quantity"
+msgstr ""
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:61
+msgid "Set the quantity of that unique model available for rent or book"
+msgstr ""
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:62
+msgid "Set product quantity"
+msgstr ""
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:87
+msgid "Select Categories"
+msgstr "Choisir les catégories"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:100
+msgid "Set Categories"
+msgstr "Régler les catégories"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:115
+msgid "Select Pickup Locations"
+msgstr "Sélectionnez les emplacements Pickup"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:129
+msgid "Set pickup locations"
+msgstr "Point de retrait"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:130
+#: includes/rnb-global-functions.php:1208
+#: includes/rnb-global-functions.php:1209
+msgid "Pickup Locations"
+msgstr "Point de retrait"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:144
+msgid "Select Drop-off Locations"
+msgstr "Lieux de dépôt"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:158
+msgid "Set drop-off locations"
+msgstr "Lieux de dépôt"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:159
+msgid "Dropoff Locations"
+msgstr "Dropoff emplacements"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:174
+msgid "Select Resources"
+msgstr "Sélectionner des ressources"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:188
+msgid "Set payable  resources"
+msgstr "Ensemble de ressources payables"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:203
+msgid "Select Person"
+msgstr "Sélectionner la personne"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:217
+msgid "Set Person"
+msgstr "Set de personne"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:218
+#: includes/rnb-data-provider.php:23
+#: templates/rnb/booking-content/booking-modal.php:197
+msgid "Person"
+msgstr "Personne"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:232
+msgid "Select Security Deposite"
+msgstr "Titre de deposite de sécurité"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:246
+msgid "Set security deposites"
+msgstr "Franchise"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:247
+#: includes/rnb-global-functions.php:1270
+msgid "Deposite"
+msgstr "Titre de deposite"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:261
+msgid "Select Attributes"
+msgstr "Sélectionner des attributs"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:275
+msgid "Set attributes"
+msgstr "Ensemble d'attributs"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:290
+msgid "Select Features"
+msgstr "Sélectionnez les fonctionnalités"
+
+#: includes/admin/views/html-rental-inventory-repeatable-data.php:304
+msgid "Set features"
+msgstr "Définitions"
+
+#: includes/admin/views/html-validation-local-settings.php:12
+msgid ""
+"If there is no pickup location field on this product then this option will "
+"not work"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:27
+msgid "Required Return Location [Not applicable for modal layout]"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:28
+msgid ""
+"If there is no return location field on this product then this option will "
+"not work"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:44
+msgid ""
+"If there is no adult field on this product then this option will not work"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:60
+msgid ""
+"Please enable pickup time option from display settings. Otherwise this "
+"option will not work"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:75
+msgid "Required Return Time"
+msgstr "Temps de retour requis"
+
+#: includes/admin/views/html-validation-local-settings.php:76
+msgid ""
+"Please enable return time option from display settings. Otherwise this "
+"option will not work"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:84
+msgid "Daily Basis Opening & Closing Time"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:85
+msgid ""
+"Enter time in the following format. 10:00 or 23:30 or 24:00 etc (For 24-hour "
+"time format) and 10:00 am or 1:30 pm or 2:00 pm etc (For 12-hour time "
+"format. Space before am or pm is important)"
+msgstr ""
+
+#: includes/admin/views/html-validation-local-settings.php:99
+#: includes/admin/views/html-validation-local-settings.php:119
+#: includes/admin/views/html-validation-local-settings.php:139
+#: includes/admin/views/html-validation-local-settings.php:159
+#: includes/admin/views/html-validation-local-settings.php:179
+#: includes/admin/views/html-validation-local-settings.php:199
+#: includes/admin/views/html-validation-local-settings.php:219
+msgid "Min Time"
+msgstr "Min"
+
+#: includes/admin/views/html-validation-local-settings.php:105
+#: includes/admin/views/html-validation-local-settings.php:125
+#: includes/admin/views/html-validation-local-settings.php:145
+#: includes/admin/views/html-validation-local-settings.php:165
+#: includes/admin/views/html-validation-local-settings.php:185
+#: includes/admin/views/html-validation-local-settings.php:205
+#: includes/admin/views/html-validation-local-settings.php:225
+msgid "Max Time"
+msgstr "Durée maximum"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:31
+msgid "Distance Unit Price ( "
+msgstr ""
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:43
+msgid "Hourly Price ( "
+msgstr "(Horaire) prix"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:50
+msgid "General Price ( "
+msgstr "Tarif Général"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:71
+msgid "Friday ( "
+msgstr "Vendredi"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:72
+msgid "Saturday ( "
+msgstr "Samedi"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:73
+msgid "Sunday ( "
+msgstr "Dimanche"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:74
+msgid "Monday ( "
+msgstr "Lundi"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:75
+msgid "Tuesday ( "
+msgstr "Mardi"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:76
+msgid "Wednesday ( "
+msgstr "Mercredi"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:77
+msgid "Thursday ( "
+msgstr "Jeudi"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:101
+msgid "January ( "
+msgstr "Janvier"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:103
+msgid "February ( "
+msgstr "Febrero"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:105
+msgid "March ( "
+msgstr "Marzo"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:107
+msgid "April ( "
+msgstr "Abril"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:109
+msgid "May ( "
+msgstr "Mai"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:111
+msgid "June ( "
+msgstr "Junio"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:113
+msgid "July ( "
+msgstr "Julio"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:115
+msgid "August ( "
+msgstr "Agosto"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:117
+msgid "September ( "
+msgstr "Septiembre"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:119
+msgid "October ( "
+msgstr "Octobre"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:121
+msgid "November ( "
+msgstr "Noviembre"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:123
+msgid "December ( "
+msgstr "Dicembre"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:194
+msgid "Inventory management"
+msgstr "gestion des stocks"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:224
+#, fuzzy
+#| msgid "All Inventories"
+msgid "Choose Inventories"
+msgstr "Inventaires"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:244
+msgid "Set price discount depending on day length"
+msgstr "La valeur de remise de prix selon la longueur du jour"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:255
+msgid "Add Price Discount"
+msgstr "Ajouter une réduction"
+
+#: includes/admin/views/redq-rental-additional-tabs-panel.php:278
+msgid "Settings of this product"
+msgstr "réglages généraux"
+
+#: includes/class-redq-product-redq_rental.php:606
+msgid "january"
+msgstr "janvier"
+
+#: includes/class-redq-product-redq_rental.php:609
+msgid "february"
+msgstr "février"
+
+#: includes/class-redq-product-redq_rental.php:612
+msgid "march"
+msgstr "mars"
+
+#: includes/class-redq-product-redq_rental.php:615
+msgid "april"
+msgstr "Abril"
+
+#: includes/class-redq-product-redq_rental.php:618
+msgid "may"
+msgstr "mai"
+
+#: includes/class-redq-product-redq_rental.php:621
+msgid "june"
+msgstr "juin"
+
+#: includes/class-redq-product-redq_rental.php:624
+msgid "july"
+msgstr "juillet"
+
+#: includes/class-redq-product-redq_rental.php:627
+msgid "august"
+msgstr "août"
+
+#: includes/class-redq-product-redq_rental.php:630
+msgid "september"
+msgstr "septembre"
+
+#: includes/class-redq-product-redq_rental.php:633
+msgid "october"
+msgstr "octobre"
+
+#: includes/class-redq-product-redq_rental.php:636
+msgid "november"
+msgstr "novembre"
+
+#: includes/class-redq-product-redq_rental.php:639
+msgid "december"
+msgstr "décembre"
+
+#: includes/class-rnb-Installer.php:110
+#, fuzzy, php-format
+#| msgid "Pending <span class=\"count\">(%s)</span>"
+#| msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgid "Pending <span class = \"count\">(%s)</span>"
+msgid_plural "Pending <span class = \"count\">(%s)</span>"
+msgstr[0] "En attente <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-Installer.php:119
+#, fuzzy, php-format
+#| msgid "Processing <span class=\"count\">(%s)</span>"
+#| msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgid "Processing <span class = \"count\">(%s)</span>"
+msgid_plural "Processing <span class = \"count\">(%s)</span>"
+msgstr[0] "Traitement <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-Installer.php:128
+#, fuzzy, php-format
+#| msgid "On Hold <span class=\"count\">(%s)</span>"
+#| msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgid "On Hold <span class = \"count\">(%s)</span>"
+msgid_plural "On Hold <span class = \"count\">(%s)</span>"
+msgstr[0] "En attente <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-Installer.php:137
+#, fuzzy, php-format
+#| msgid "Accepted <span class=\"count\">(%s)</span>"
+#| msgid_plural "Accepted <span class=\"count\">(%s)</span>"
+msgid "Accepted <span class = \"count\">(%s)</span>"
+msgid_plural "Accepted <span class = \"count\">(%s)</span>"
+msgstr[0] "Acceptée <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-Installer.php:146
+#, fuzzy, php-format
+#| msgid "Completed <span class=\"count\">(%s)</span>"
+#| msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgid "Completed <span class = \"count\">(%s)</span>"
+msgid_plural "Completed <span class = \"count\">(%s)</span>"
+msgstr[0] "Terminé <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-Installer.php:155
+#, fuzzy, php-format
+#| msgid "Cancelled <span class=\"count\">(%s)</span>"
+#| msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgid "Cancelled <span class = \"count\">(%s)</span>"
+msgid_plural "Cancelled <span class = \"count\">(%s)</span>"
+msgstr[0] "Annulé <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-ajax.php:231
+msgid "Sorry! Something goes wrong. Please check again"
+msgstr ""
+
+#: includes/class-rnb-ajax.php:246
+msgid "Blocked dates has been clear successfully!"
+msgstr ""
+
+#: includes/class-rnb-assets.php:110
+msgid "Pickup Point"
+msgstr ""
+
+#: includes/class-rnb-assets.php:111
+msgid "DropOff Point"
+msgstr ""
+
+#: includes/class-rnb-email.php:15
+#, fuzzy
+#| msgid "Request For Quote"
+msgid "User password for Request for Quote"
+msgstr "Demande de devis"
+
+#: includes/class-rnb-orders.php:38
+#, fuzzy, php-format
+#| msgid "On Hold <span class=\"count\">(%s)</span>"
+#| msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgid "Hidden order <span class=\"count\">(%s)</span>"
+msgid_plural "Hidden order <span class=\"count\">(%s)</span>"
+msgstr[0] "En attente <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: includes/class-rnb-product-cart.php:58
+#, fuzzy
+#| msgid "Sorry! Quote does not found."
+msgid "Sorry! product or inventory is not found"
+msgstr "Désolé ! Citation ne pas trouvé."
+
+#: includes/class-rnb-product-cart.php:66
+#: includes/class-rnb-product-cart.php:406
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/class-rnb-product-cart.php:192
+#: includes/class-rnb-product-cart.php:204
+#: includes/class-rnb-product-cart.php:465
+#: includes/class-rnb-product-cart.php:478
+msgid "at"
+msgstr "à"
+
+#: includes/class-rnb-product-cart.php:215
+#: includes/class-rnb-product-cart.php:455
+msgid "Quote Request"
+msgstr "Demande de Devis"
+
+#: includes/class-rnb-product-cart.php:239
+#: includes/class-rnb-product-cart.php:500
+msgid " Days "
+msgstr ""
+
+#: includes/class-rnb-product-cart.php:240
+#: includes/class-rnb-product-cart.php:501
+#, fuzzy
+#| msgid "Total Hours"
+msgid " Hours "
+msgstr "Total heures"
+
+#: includes/class-rnb-product-cart.php:250
+#: includes/class-rnb-product-cart.php:512
+#, fuzzy
+#| msgid "Return Location Title"
+msgid "Duration Total"
+msgstr "Retour du produit"
+
+#: includes/class-rnb-product-cart.php:262
+#: includes/class-rnb-product-cart.php:277
+#: includes/class-rnb-product-cart.php:519
+#: includes/class-rnb-product-cart.php:528
+#, fuzzy
+#| msgid "Cost"
+msgid "Cost: "
+msgstr "Coût"
+
+#: includes/class-rnb-product-cart.php:288
+#: includes/class-rnb-product-cart.php:534
+msgid "Location Cost"
+msgstr ""
+
+#: includes/class-rnb-product-cart.php:354
+#: includes/class-rnb-product-cart.php:579
+msgid "Due Payment"
+msgstr "Remboursement en retard"
+
+#: includes/class-rnb-rfq.php:142
+#, fuzzy
+#| msgid "Your quote request has been placed"
+msgid "Congratulations! Your quote request has been accepted"
+msgstr "Votre demande de devis a été placé"
+
+#: includes/class-rnb-rfq.php:174
+#, fuzzy
+#| msgid "Your quote request has been placed"
+msgid "Your quote request status has been updated"
+msgstr "Votre demande de devis a été placé"
+
+#: includes/class-rnb-rfq.php:228
+#, fuzzy
+#| msgid "New Quote Request"
+msgid "New reply for your quote request"
+msgstr "Nouvelle Demande de devis"
+
+#: includes/class-rnb-rfq.php:282
+msgid "Request Quote"
+msgstr "Demande d’informations"
+
+#: includes/class-rnb-rfq.php:283
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: includes/class-rnb-rfq.php:300
+msgid "Sorry! Email already exist. Please login"
+msgstr ""
+
+#: includes/class-rnb-rfq.php:449
+msgid "Your quote request has been placed"
+msgstr "Votre demande de devis a été placé"
+
+#: includes/class-rnb-rfq.php:461
+msgid "You have a new quote request"
+msgstr "Vous avez une nouvelle demande de devis"
+
+#: includes/class-rnb-rfq.php:470
+msgid "Thanks! Your email has been sent."
+msgstr "Merci ! Votre courriel a été envoyé."
+
+#: includes/integrations/class-google-calendar-integration.php:27
+msgid "Connect RnB With Google Calendar To Trace Orders"
+msgstr "Connectez le RnB avec Google Calendar pour tracer les commandes"
+
+#: includes/integrations/class-google-calendar-integration.php:28
+#, fuzzy
+#| msgid ""
+#| "You need to do following things to get your required caledar credentails "
+msgid ""
+"You need to do following things to get your required calendar credentials "
+msgstr ""
+"Vous devez faire après les choses pour obtenir votre credentails caledar "
+"requis"
+
+#: includes/integrations/class-google-calendar-integration.php:79
+msgid "Google Client ID"
+msgstr "Google ID client"
+
+#: includes/integrations/class-google-calendar-integration.php:81
+msgid "Enter your Google Client ID."
+msgstr "Entrez votre ID client Google."
+
+#: includes/integrations/class-google-calendar-integration.php:85
+msgid "Google Client Secret"
+msgstr "Google client secret"
+
+#: includes/integrations/class-google-calendar-integration.php:87
+msgid "Enter your Google Client Secret."
+msgstr "Entrez votre client secret Google."
+
+#: includes/integrations/class-google-calendar-integration.php:91
+msgid "Google Calendar ID"
+msgstr "ID du Google Calendar"
+
+#: includes/integrations/class-google-calendar-integration.php:93
+msgid "Enter your Calendar ID."
+msgstr "Entrez votre identifiant de calendrier."
+
+#: includes/integrations/class-google-calendar-integration.php:97
+msgid "Authentication"
+msgstr "Connexion"
+
+#: includes/integrations/class-google-calendar-integration.php:158
+msgid "Connect with Google"
+msgstr "Connectez-vous avec Google"
+
+#: includes/integrations/class-google-calendar-integration.php:160
+msgid "Successfully authenticated. Now Enjoy :) "
+msgstr "Authentifié avec succès. Profitez maintenant  :)"
+
+#: includes/integrations/class-google-calendar-integration.php:161
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#: includes/integrations/class-google-calendar-integration.php:163
+msgid ""
+"Unable to authenticate, you must enter with your <strong>Client ID</strong>, "
+"<strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+msgstr ""
+"Authentification impossible, vous devez entrer votre <strong>Client ID</"
+"strong>, <strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+
+#: includes/integrations/class-google-calendar-integration.php:183
+#, php-format
+msgid ""
+"First you need to create a project in %1$s. After creating project, you must "
+"enable the <strong>Google Calendar API</strong> in <strong>Your Project > "
+"Library</strong>, Then go to <strong>Your Project > Credentials > Create "
+"Credentials</strong> & create an OAuth Client ID for a <strong>Web "
+"application</strong> and set the <strong>Authorized redirect URIs</strong> "
+"as <code>%2$s</code>."
+msgstr ""
+"Vous devez d’abord créer un projet dans %1$s. Après avoir créé un projet, "
+"vous devez activer l’ <strong>API de Google Calendar</strong> dans "
+"<strong>votre projet > Bibliothèque</strong>, puis aller à <strong>votre "
+"projet > Credentials > créer les informations d’identification</strong> & "
+"créer un ID de Client OAuth pour une <strong>application Web</strong> et "
+"définir la <strong>agréé rediriger URI</strong> comme <code>%2$s</code> ."
+
+#: includes/integrations/class-google-calendar-integration.php:183
+msgid "Google Developers Console"
+msgstr "Console des développeurs Google"
+
+#: includes/integrations/class-google-calendar-integration.php:185
+msgid "Online Docs"
+msgstr "Documentation en ligne"
+
+#: includes/integrations/class-google-calendar-integration.php:185
+#, php-format
+msgid "Please visit our online docs <a href=\"%1$s\" target=\"_blank\">"
+msgstr ""
+"Veuillez consulter notre documentation en ligne<a href=“%1$s” "
+"target=“_blank”></a>"
+
+#: includes/integrations/class-google-calendar-integration.php:376
+msgid "Permission denied!"
+msgstr "Permission refusée !"
+
+#: includes/integrations/class-google-calendar-integration.php:414
+msgid "Invalid request!"
+msgstr "Demande invalide !"
+
+#: includes/integrations/class-google-calendar-integration.php:431
+#: includes/integrations/class-google-calendar-integration.php:433
+#: includes/integrations/class-google-calendar-integration.php:439
+#: includes/integrations/class-google-calendar-integration.php:441
+msgid "Google Calendar"
+msgstr "Calendrier Google"
+
+#: includes/integrations/class-google-calendar-integration.php:431
+msgid "Successful Authenticate"
+msgstr "Succès authentifier"
+
+#: includes/integrations/class-google-calendar-integration.php:433
+msgid "Failed to Authenticate to your account, please try again"
+msgstr "Impossible d’authentifier votre compte, veuillez recommencer"
+
+#: includes/integrations/class-google-calendar-integration.php:439
+msgid "Account disconnected successfully!"
+msgstr "Déconnection réussie !"
+
+#: includes/integrations/class-google-calendar-integration.php:441
+msgid "Failed to disconnect to your account, please try again"
+msgstr "Impossible de déconnecter de votre compte, veuillez recommencer"
+
+#: includes/integrations/class-google-calendar-integration.php:507
+#: includes/integrations/class-google-calendar-integration.php:703
+msgid "Order Status"
+msgstr "État de la commande"
+
+#: includes/rnb-arrange-data.php:84 includes/rnb-arrange-data.php:110
+#: includes/rnb-arrange-data.php:195 includes/rnb-arrange-data.php:254
+#: includes/rnb-arrange-data.php:293
+msgid " - Per Day"
+msgstr "- Par jour"
+
+#: includes/rnb-arrange-data.php:85 includes/rnb-arrange-data.php:111
+#: includes/rnb-arrange-data.php:196 includes/rnb-arrange-data.php:255
+#: includes/rnb-arrange-data.php:294
+msgid " - Per Hour"
+msgstr "- Par Heure"
+
+#: includes/rnb-arrange-data.php:87 includes/rnb-arrange-data.php:113
+#: includes/rnb-arrange-data.php:296
+msgid " - One Time"
+msgstr "- Une Fois"
+
+#: includes/rnb-arrange-data.php:136
+#, fuzzy
+#| msgid "Qty"
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Qté"
+
+#: includes/rnb-arrange-data.php:137
+#, fuzzy, php-format
+#| msgid "Quantity"
+msgid "%s quantity"
+msgstr "Quantité"
+
+#: includes/rnb-arrange-data.php:178 includes/rnb-arrange-data.php:179
+#: includes/rnb-arrange-data.php:198 includes/rnb-arrange-data.php:237
+#: includes/rnb-arrange-data.php:238 includes/rnb-arrange-data.php:257
+msgid " "
+msgstr ""
+
+#: includes/rnb-arrange-data.php:183 includes/rnb-arrange-data.php:242
+msgid " - Per day"
+msgstr "- Par jour"
+
+#: includes/rnb-arrange-data.php:188 includes/rnb-arrange-data.php:247
+msgid " - Per hour"
+msgstr "- Par heure"
+
+#: includes/rnb-arrange-data.php:201 includes/rnb-arrange-data.php:261
+msgid " - One time"
+msgstr "Forfait"
+
+#: includes/rnb-arrange-data.php:352
+msgid "Order ID:"
+msgstr ""
+
+#: includes/rnb-arrange-data.php:353
+#, fuzzy
+#| msgid "Quantity"
+msgid "Quantity:"
+msgstr "Quantité"
+
+#: includes/rnb-arrange-data.php:393
+#, fuzzy
+#| msgid "Total Discount"
+msgid "Total Amount"
+msgstr "Remise totale"
+
+#: includes/rnb-core-functions.php:380 includes/rnb-global-functions.php:1306
+msgid "Invalid Date Range"
+msgstr ""
+
+#: includes/rnb-core-functions.php:381
+msgid "Max Rental Days"
+msgstr ""
+
+#: includes/rnb-core-functions.php:382 includes/rnb-global-functions.php:1308
+msgid "Min Rental Days"
+msgstr ""
+
+#: includes/rnb-core-functions.php:383 includes/rnb-global-functions.php:1309
+msgid "Quantity is not available"
+msgstr ""
+
+#: includes/rnb-core-functions.php:384
+msgid "User name field is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:385
+msgid "Password field is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:386
+msgid "First name field is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:387
+msgid "Last name field is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:388
+msgid "Quote email is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:389
+msgid "Phone is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:390
+msgid "Message is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:391
+msgid "No of days must be greater than 1 day"
+msgstr ""
+
+#: includes/rnb-core-functions.php:392
+msgid "Total hours must be greater than 0 hours"
+msgstr ""
+
+#: includes/rnb-core-functions.php:393
+msgid "Pickup location is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:394
+msgid "Drop-off location is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:395
+msgid "Pickup time is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:396
+msgid "Drop-off time is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:397
+msgid "Adults is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:398
+#: templates/rnb/booking-content/booking-modal.php:209
+msgid "Child is required"
+msgstr ""
+
+#: includes/rnb-core-functions.php:399
+msgid "Email Must be valid & required!"
+msgstr ""
+
+#: includes/rnb-core-functions.php:400
+msgid "Phone number must be valid & required!"
+msgstr ""
+
+#: includes/rnb-core-functions.php:401
+msgid "Without accept GDPR, RFQ can’t be operational"
+msgstr ""
+
+#: includes/rnb-core-functions.php:403
+#, fuzzy
+#| msgctxt "Quote status"
+#| msgid "Cancelled"
+msgid "Cancel"
+msgstr "Annulé"
+
+#: includes/rnb-core-functions.php:404
+#, fuzzy
+#| msgid "Parent Quote:"
+msgid "current step:"
+msgstr "Formulaire Parent de demande de devis"
+
+#: includes/rnb-core-functions.php:405
+#, fuzzy
+#| msgid "Validation"
+msgid "Pagination"
+msgstr "Validation"
+
+#: includes/rnb-core-functions.php:406
+msgid "Finish Process"
+msgstr ""
+
+#: includes/rnb-core-functions.php:407
+msgid "Next"
+msgstr ""
+
+#: includes/rnb-core-functions.php:408
+msgid "Previous"
+msgstr ""
+
+#: includes/rnb-core-functions.php:409
+msgid "Loading ..."
+msgstr ""
+
+#: includes/rnb-data-provider.php:13
+msgid "RnB Categories"
+msgstr "Catégories de RnB"
+
+#: includes/rnb-data-provider.php:69
+msgid "Qty"
+msgstr "Qté"
+
+#: includes/rnb-data-provider.php:77
+msgid "Choose Payable or Not"
+msgstr "Choisir payable ou non"
+
+#: includes/rnb-data-provider.php:80
+msgid "Pay"
+msgstr "Payer"
+
+#: includes/rnb-data-provider.php:108 includes/rnb-data-provider.php:161
+#: includes/rnb-data-provider.php:265 includes/rnb-data-provider.php:312
+msgid "Price Applicable"
+msgstr "Prix Applicable"
+
+#: includes/rnb-data-provider.php:111
+msgid "Applied"
+msgstr "Candidaté"
+
+#: includes/rnb-data-provider.php:127 includes/rnb-data-provider.php:194
+#: includes/rnb-data-provider.php:198 includes/rnb-data-provider.php:285
+#: includes/rnb-data-provider.php:289 includes/rnb-data-provider.php:332
+#: includes/rnb-data-provider.php:336
+msgid "Hourly Cost"
+msgstr "Coût horaire"
+
+#: includes/rnb-data-provider.php:130 includes/rnb-data-provider.php:197
+#: includes/rnb-data-provider.php:288 includes/rnb-data-provider.php:335
+msgid "H.Cost"
+msgstr "H.Cost"
+
+#: includes/rnb-data-provider.php:139 includes/rnb-data-provider.php:142
+#: includes/rnb-data-provider.php:348
+msgid "Clickable"
+msgstr "Interactive"
+
+#: includes/rnb-data-provider.php:184
+msgid "R.Cost"
+msgstr "R.Cost"
+
+#: includes/rnb-data-provider.php:208
+msgid "Choose payable or not"
+msgstr "Choisir de payer ou non"
+
+#: includes/rnb-data-provider.php:211
+msgid "Payable"
+msgstr "À payer"
+
+#: includes/rnb-data-provider.php:228
+msgid "Choose Person Type"
+msgstr "Choisissez le Type de personne"
+
+#: includes/rnb-data-provider.php:231
+msgid "P.Type"
+msgstr "P.Type"
+
+#: includes/rnb-data-provider.php:235
+msgid "None"
+msgstr "Aucun"
+
+#: includes/rnb-data-provider.php:239
+msgid "Adult"
+msgstr "Adulte"
+
+#: includes/rnb-data-provider.php:243
+msgid "Child"
+msgstr "Enfant"
+
+#: includes/rnb-data-provider.php:252 includes/rnb-data-provider.php:256
+msgid "Person Cost"
+msgstr "Prix par personne"
+
+#: includes/rnb-data-provider.php:255
+msgid "P.Cost"
+msgstr "P.Cost"
+
+#: includes/rnb-data-provider.php:299 includes/rnb-data-provider.php:303
+msgid "Security Deposite Cost"
+msgstr "Coût de sécurité Deposite"
+
+#: includes/rnb-data-provider.php:302
+msgid "S.D.Cost"
+msgstr "S.D.Cost"
+
+#: includes/rnb-data-provider.php:345
+msgid "Security Deposite Clickable"
+msgstr "Deposite de sécurité cliquable"
+
+#: includes/rnb-data-provider.php:366
+msgid "Pickup Cost"
+msgstr "Coût de collecte"
+
+#: includes/rnb-data-provider.php:379 includes/rnb-data-provider.php:437
+#, fuzzy
+#| msgid "Selected"
+msgid "Default Selected ?"
+msgstr "Sélectionner"
+
+#: includes/rnb-data-provider.php:382 includes/rnb-data-provider.php:440
+#, fuzzy
+#| msgid "Selected"
+msgid "selected"
+msgstr "Sélectionner"
+
+#: includes/rnb-data-provider.php:399 includes/rnb-data-provider.php:402
+#: includes/rnb-data-provider.php:403 includes/rnb-data-provider.php:457
+#: includes/rnb-data-provider.php:460 includes/rnb-data-provider.php:461
+msgid "Latitude"
+msgstr "Latitude"
+
+#: includes/rnb-data-provider.php:411 includes/rnb-data-provider.php:414
+#: includes/rnb-data-provider.php:415 includes/rnb-data-provider.php:469
+#: includes/rnb-data-provider.php:472 includes/rnb-data-provider.php:473
+msgid "Longitude"
+msgstr "Longitude"
+
+#: includes/rnb-data-provider.php:424
+msgid "Dropoff Cost"
+msgstr "Dropoff coût"
+
+#: includes/rnb-data-provider.php:428
+msgid "Dropoff Location Cost"
+msgstr "Coût de la Location dropoff"
+
+#: includes/rnb-data-provider.php:482
+msgid "Attribute Name"
+msgstr "Notation"
+
+#: includes/rnb-data-provider.php:485
+msgid "A.Name"
+msgstr "A.Name"
+
+#: includes/rnb-data-provider.php:494
+msgid "Attribute Value"
+msgstr "Valeur d'attribut"
+
+#: includes/rnb-data-provider.php:497
+msgid "A.Value"
+msgstr "A.Value"
+
+#: includes/rnb-data-provider.php:506
+msgid "Choose Image/Icon"
+msgstr "Choisir une image"
+
+#: includes/rnb-data-provider.php:509
+msgid "I.Type"
+msgstr "J’écris"
+
+#: includes/rnb-data-provider.php:526
+msgid "Attribute Icon"
+msgstr "Attribut Icône"
+
+#: includes/rnb-data-provider.php:530
+msgid "Icon"
+msgstr "Icône"
+
+#: includes/rnb-data-provider.php:531
+msgid "Font-awesome icon Ex. fa fa-car"
+msgstr "Icône polices-awesome Ex. fa fa-voiture"
+
+#: includes/rnb-data-provider.php:539
+msgid "Attribute Image"
+msgstr "« Image d'attribut »"
+
+#: includes/rnb-data-provider.php:542 includes/rnb-data-provider.php:594
+msgid "Image"
+msgstr "Image"
+
+#: includes/rnb-data-provider.php:549 includes/rnb-data-provider.php:570
+msgid "Highlighted Or Not"
+msgstr "Mis en évidence ou pas"
+
+#: includes/rnb-data-provider.php:552 includes/rnb-data-provider.php:573
+msgid "Highlighted"
+msgstr "Mis en évidence"
+
+#: includes/rnb-data-provider.php:591
+msgid "Car Company Image"
+msgstr "Logo Société"
+
+#: includes/rnb-global-functions.php:154 includes/rnb-global-functions.php:160
+#: includes/rnb-global-functions.php:165 includes/rnb-global-functions.php:173
+#: includes/rnb-global-functions.php:181 includes/rnb-global-functions.php:223
+#: includes/rnb-global-functions.php:229 includes/rnb-global-functions.php:234
+#: includes/rnb-global-functions.php:242 includes/rnb-global-functions.php:250
+msgid "From "
+msgstr ""
+
+#: includes/rnb-global-functions.php:937
+msgid "Initial Amount"
+msgstr ""
+
+#: includes/rnb-global-functions.php:940
+#, fuzzy
+#| msgid "Quote Details"
+msgid "Quote total"
+msgstr "Détails du devis"
+
+#: includes/rnb-global-functions.php:946
+msgid ""
+"Please accept to consent to your data being stored in line with the "
+"guidelines set out in our "
+msgstr ""
+
+#: includes/rnb-global-functions.php:1217
+#: includes/rnb-global-functions.php:1218
+msgid "Return Locations"
+msgstr "Ajouter les Lieux de Retour"
+
+#: includes/rnb-global-functions.php:1224
+msgid "Pickup Date&Time"
+msgstr "Point de Retrait Date & Heure"
+
+#: includes/rnb-global-functions.php:1226
+#: includes/rnb-global-functions.php:1235
+#: includes/rnb-global-functions.php:1371
+#: includes/rnb-global-functions.php:1376
+msgid "Time"
+msgstr "Durée"
+
+#: includes/rnb-global-functions.php:1233
+msgid "Return Date&Time"
+msgstr "Date/Heure de retour"
+
+#: includes/rnb-global-functions.php:1280
+msgid "Discounts"
+msgstr "Réductions à l'achat"
+
+#: includes/rnb-global-functions.php:1281
+#: includes/rnb-global-functions.php:1401
+msgid "Instance Pay"
+msgstr "Vous payez instance lors de la réservation :"
+
+#: includes/rnb-global-functions.php:1282
+#: includes/rnb-global-functions.php:1402
+msgid "Total Cost"
+msgstr "Coût total"
+
+#: includes/rnb-global-functions.php:1289
+#: includes/rnb-global-functions.php:1405
+msgid "Show Pricing"
+msgstr "Afficher nos tarifs"
+
+#: includes/rnb-global-functions.php:1291
+#: includes/rnb-global-functions.php:1407
+msgid "/Per Day"
+msgstr ""
+
+#: includes/rnb-global-functions.php:1307
+msgid "Max Rental Days "
+msgstr ""
+
+#: includes/rnb-global-functions.php:1374
+msgid "Return Date & Time"
+msgstr "Date/Heure de retour"
+
+#: includes/rnb-global-functions.php:1388
+msgid "Resource"
+msgstr ""
+
+#: includes/rnb-global-functions.php:1391
+msgid "Category"
+msgstr ""
+
+#: includes/rnb-global-functions.php:1400
+msgid "Discount"
+msgstr ""
+
+#: includes/rnb-global-functions.php:1415
+#, fuzzy
+#| msgid "This date range is unavailable"
+msgid "Sorry! date range is not valid"
+msgstr "Cette date n’est pas disponible"
+
+#: includes/rnb-global-functions.php:1416
+#, fuzzy
+#| msgid "Max booking days is exceed"
+msgid "Sorry! Max booking days exceed"
+msgstr "Jours de réservation Max est dépasser"
+
+#: includes/rnb-global-functions.php:1417
+msgid "Please choose min booking days"
+msgstr ""
+
+#: includes/rnb-global-functions.php:1418
+#, fuzzy
+#| msgid "%s Quantity is not available"
+msgid "Sorry! quantity is not available"
+msgstr "%s n’est pas disponible"
+
+#: includes/rnb-global-functions.php:1669
+msgid "January"
+msgstr "Janvier"
+
+#: includes/rnb-global-functions.php:1670
+msgid "February"
+msgstr "Février"
+
+#: includes/rnb-global-functions.php:1671
+msgid "March"
+msgstr "Mars"
+
+#: includes/rnb-global-functions.php:1672
+msgid "April"
+msgstr "Avril"
+
+#: includes/rnb-global-functions.php:1673
+msgid "May"
+msgstr "Mai"
+
+#: includes/rnb-global-functions.php:1674
+msgid "June"
+msgstr "Juin"
+
+#: includes/rnb-global-functions.php:1675
+msgid "July"
+msgstr "Juillet"
+
+#: includes/rnb-global-functions.php:1676
+msgid "August"
+msgstr "Août"
+
+#: includes/rnb-global-functions.php:1677
+msgid "September"
+msgstr "Septembre"
+
+#: includes/rnb-global-functions.php:1678
+msgid "October"
+msgstr "Octobre"
+
+#: includes/rnb-global-functions.php:1679
+msgid "November"
+msgstr "Novembre"
+
+#: includes/rnb-global-functions.php:1680
+msgid "December"
+msgstr "Décembre"
+
+#: includes/rnb-modify-hook.php:70
+msgid "Unrentable! Inventory Not Found."
+msgstr ""
+
+#: includes/rnb-quote-functions.php:146
+msgid "New reply from customer quote request"
+msgstr ""
+
+#: redq-rental-and-bookings.php:31
+#, php-format
+msgid ""
+"RnB requires WooCommerce to be installed and active. You can download %s "
+"from here."
+msgstr ""
+
+#: redq-rental-and-bookings.php:211
+msgid "Docs"
+msgstr "Documents"
+
+#: redq-rental-and-bookings.php:212
+msgid "Support"
+msgstr "Soutien"
+
+#: redq-rental-and-bookings.php:213
+msgid "Portfolio"
+msgstr "portfolio"
+
+#: templates/myaccount/request-quote.php:8
+msgid "Order"
+msgstr "Ordre"
+
+#: templates/myaccount/request-quote.php:11
+#: templates/myaccount/view-quote.php:51
+msgid "Total"
+msgstr "Total"
+
+#: templates/myaccount/request-quote.php:45
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: templates/myaccount/request-quote.php:58
+msgid "for 1 items"
+msgstr "1 élément"
+
+#: templates/myaccount/view-quote.php:26
+msgid "Invalid quote."
+msgstr "Citation non valide."
+
+#: templates/myaccount/view-quote.php:26
+msgid "My Account"
+msgstr "Mon compte"
+
+#: templates/myaccount/view-quote.php:37
+#, php-format
+msgid "Quote #%1$s request was placed on %2$s and is currently %3$s."
+msgstr "Devis demande de #%1$s a été placé sur %2$s et est actuellement %3$s."
+
+#: templates/myaccount/view-quote.php:45
+msgid "Quote Details"
+msgstr "Détails du devis"
+
+#: templates/myaccount/view-quote.php:293
+msgid ""
+"This order is already in your cart. You can checkout the cart from here."
+msgstr ""
+"Cet ordre est déjà dans votre panier. Vous pouvez commander le panier d’ici."
+
+#: templates/myaccount/view-quote.php:294
+msgid "View Cart"
+msgstr "Voir Panier"
+
+#: templates/myaccount/view-quote.php:295
+msgid "Proceed to Checkout"
+msgstr "Procéder à la commande"
+
+#: templates/myaccount/view-quote.php:311
+msgid "Messages"
+msgstr "Messages"
+
+#: templates/myaccount/view-quote.php:315
+msgid "Your message"
+msgstr "Votre message"
+
+#: templates/myaccount/view-quote.php:317
+msgid "Reply Message"
+msgstr "Répondre au message"
+
+#: templates/myaccount/view-quote.php:343
+msgid "Sorry! Quote does not found."
+msgstr "Désolé ! Citation ne pas trouvé."
+
+#: templates/rnb/booking-content/booking-modal.php:82
+msgid "Location"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:99
+msgid "Total Distance:"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:107
+msgid "Duration"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:118
+msgid "Duration selection is not correct!"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:208
+#, fuzzy
+#| msgid "Adults Title"
+msgid "Adult is required"
+msgstr "Titre d’adultes"
+
+#: templates/rnb/booking-content/booking-modal.php:300
+msgid "Summary"
+msgstr ""
+
+#: templates/rnb/emails/customer-place-quote-request.php:28
+#, php-format
+msgid ""
+"Hello %1$s, Your quote request for <a href=\"%2$s\">%3$s</a> has beed "
+"placed. Your request is currently on <strong>Pending</strong>."
+msgstr ""
+"Bonjour%1$s, Votre demande de devis pour <a href=“%2$s”>%3$s</a> a Beed "
+"placé. Votre demande est actuellement en <strong>attente.</strong>"
+
+#: templates/rnb/emails/customer-place-quote-request.php:38
+#: templates/rnb/emails/customer-reply-message.php:32
+#: templates/rnb/emails/owner-notify-place-quote-request.php:38
+#: templates/rnb/emails/owner-reply-message.php:32
+#: templates/rnb/emails/quote-status-update-notify-customer.php:36
+msgid "View Quote"
+msgstr "Voir le devis"
+
+#: templates/rnb/emails/customer-reply-message.php:25
+msgid "Hello, a message has just been added from your customer:"
+msgstr "Bonjour, un message vient d’être ajouté à votre client :"
+
+#: templates/rnb/emails/owner-notify-place-quote-request.php:28
+#, php-format
+msgid ""
+"Hello, Your have a new quote request for <a href=\"%1$s\">%2$s</a>. The "
+"request is currently on <strong>Pending</strong>."
+msgstr ""
+"Bonjour, votre ont une nouvelle demande de devis pour <a href=\"%1$s\">%2$s</"
+"a>. La demande est actuellement <strong>en attente</strong>."
+
+#: templates/rnb/emails/owner-reply-message.php:25
+msgid "Hello, a message has just been added from the product owner:"
+msgstr ""
+"Bonjour, un message vient d’être ajouté par le propriétaire du produit :"
+
+#: templates/rnb/emails/quote-accepted-notify-customer.php:25
+msgid ""
+"Hello, your quote request has been accepted.You can now book as the listed "
+"price."
+msgstr ""
+"Bonjour, votre demande de devis a été accepté. Vous pouvez maintenant "
+"réserver tant que le prix indiqué."
+
+#: templates/rnb/emails/quote-accepted-notify-customer.php:27
+msgid ""
+"You can now click the book now button in the view quote page. Then checkout "
+"the product."
+msgstr ""
+"Vous pouvez maintenant cliquer le livre présent dans la page devis. Puis "
+"commander le produit."
+
+#: templates/rnb/emails/quote-accepted-notify-customer.php:32
+msgid "View Quote & Book Now"
+msgstr "Voir citation & Réservez maintenant"
+
+#: templates/rnb/emails/quote-status-update-notify-customer.php:27
+#, php-format
+msgid ""
+"Hello %1$s, the status of your quote request has been updated. Current "
+"status of your quote request is <strong>%2$s</strong>."
+msgstr ""
+"Bonjour %1$s, le statut de votre demande de devis a été mis à jour. État "
+"d’avancement de votre demande de devis est <strong>%2$s</strong>."
+
+#: templates/rnb/emails/request-quote-item-details.php:19
+#, php-format
+msgid "Quote #%s Details"
+msgstr "Citer les détails #%s"
+
+#: templates/rnb/emails/request-quote-item-details.php:235
+msgid "Customer Details"
+msgstr "Information sur le client"
+
+#: templates/rnb/emails/request-quote-item-details.php:283
+msgid "Phone "
+msgstr "Téléphone"
+
+#: templates/rnb/emails/user-password.php:2
+msgid "Hi,"
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:3
+msgid ""
+"This password has been generated automatically by the system. You may change "
+"it in My Account -> Account details page."
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:6
+#, fuzzy
+#| msgid "Username"
+msgid "username:"
+msgstr "Nom d’utilisateur"
+
+#: templates/rnb/emails/user-password.php:7
+#, fuzzy
+#| msgid "Password"
+msgid "password:"
+msgstr "Mot de passe"
+
+#: templates/rnb/emails/user-password.php:10
+msgid "Thank You,"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:36
+msgid "Day based pricing : "
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:41
+#, fuzzy
+#| msgid "/ day"
+msgid " / days"
+msgstr "/ jour"
+
+#: templates/rnb/global/price-flip-box.php:51
+msgid "/ Day"
+msgstr "/ Jour"
+
+#: templates/rnb/global/price-flip-box.php:53
+#: templates/rnb/global/price-flip-box.php:142
+msgid "days :"
+msgstr "jours"
+
+#: templates/rnb/global/price-flip-box.php:99
+#: templates/rnb/global/price-flip-box.php:117
+msgid "Hourly based pricing"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:102
+msgid "/ Hour"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:104
+msgid "Hours :"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:119
+msgid "per hour"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:130
+msgid "Discount Rates"
+msgstr "Taux d’actualisation"
+
+#: templates/rnb/global/price-flip-box.php:134
+msgid "%"
+msgstr "%"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "WooCommerce Rental & Bookings System"
+msgid "WooCommerce Rental & Booking System"
+msgstr "WooCommerce Rental & Bookings System"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+#| msgid ""
+#| "https://codecanyon.net/item/rnb-woocommerce-rental-booking-"
+#| "system/14835145?ref=redqteam"
+msgid ""
+"https://codecanyon.net/item/rnb-woocommerce-rental-booking-system/14835145?"
+"ref=redqteam"
+msgstr ""
+"https://CodeCanyon.net/Item/RNB-woocommerce-Rental-Booking-System/14835145?"
+"Ref=redqteam"
+
+#. Description of the plugin/theme
+msgid ""
+"RnB – WooCommerce Rental & Booking is a user friendly woocommerce booking "
+"plugin built as woocommerce extension. This powerful woocommerce plugin "
+"allows you to sell your time or date based bookings. It creates a new "
+"product type to your WooCommerce site. Perfect for those wanting to offer "
+"rental , booking , or real estate agencies or services."
+msgstr ""
+"RnB – Location de WooCommerce & réservation est un plugin de réservation de "
+"woocommerce conviviale utilisateur construit comme extension de woocommerce. "
+"Ce puissant woocommerce plugin vous permet de vendre votre temps ou date de "
+"réservations de base. Il crée un nouveau type de produit sur votre site "
+"WooCommerce. Parfait pour ceux désirant offrir des services ou des agences "
+"de location, réservation ou de biens immobiliers."
+
+#. Author of the plugin/theme
+msgid "RedQ Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://redq.io/"
+msgstr ""
+
+#~ msgid "Discount Text"
+#~ msgstr "Texte de Remise"
+
+#~ msgid "Total Discount"
+#~ msgstr "Remise totale"
+
+#~ msgid "Total Cost Text"
+#~ msgstr "Coût total"
+
+#~ msgid "Required Pickup Location"
+#~ msgstr "Lieu d’autocueillette requis"
+
+#~ msgid "Required Person"
+#~ msgstr "Personne requise"
+
+#~ msgid "Required Return Location"
+#~ msgstr "Retour à l’installateur des extensions requises"
+
+#~ msgid " Cost"
+#~ msgstr "Coût"
+
+#~ msgid "Order Total"
+#~ msgstr "Total de la Commande"
+
+#, fuzzy
+#~| msgid " Cost"
+#~ msgid "Mile Cost"
+#~ msgstr "Coût"
+
+#~ msgid ""
+#~ "Please Install WooCommerce First before activating this Plugin. You can "
+#~ "download WooCommerce from <a href=\"http://wordpress.org/plugins/"
+#~ "woocommerce/\">here</a>."
+#~ msgstr "Merci de mettre en place woocommerce avant d’utiliser ce plug in"
+
+#~ msgid " :  Cost - "
+#~ msgstr ": Prix -"
+
+#~ msgid "Always Selected Or Not"
+#~ msgstr "Toujours sélectionné ou pas"
+
+#~ msgid "Show Pricing Title"
+#~ msgstr "Titre des tarifs"
+
+#~ msgid "Weekdays Names (Comma , separated)"
+#~ msgstr "Noms de jours de la semaine (séparés par des virgules)"
+
+#~ msgid "Month Names (, separated)"
+#~ msgstr "Les noms de mois (, séparés)"
+
+#~ msgid ""
+#~ "Write month name in comma separated. E.g - Januar,Februar,März,April, Mai,"
+#~ "Juni,Juli,August,September,Oktober,November,Dezember"
+#~ msgstr ""
+#~ "Écrire le nom du mois en virgule séparées. Ex - Januar, Februar, März, "
+#~ "avril, Mai, juin, juillet, août, septembre, octobre, novembre, décembre"
+
+#~ msgid ""
+#~ "Enter month name in comma formatted. Eg.-Januar,Februar,März,April,Mai,"
+#~ "Juni,Juli,August,September,Oktober,November,Dezember"
+#~ msgstr ""
+#~ "Entrez nom du mois en comma formaté. EG.-Januar, Februar, März, avril, "
+#~ "Mai, juin, juillet, août, septembre, octobre, novembre, décembre"
+
+#~ msgid "Show Pricing Text"
+#~ msgstr "Afficher le texte de voiture"
+
+#~ msgid "Instance Payment Text"
+#~ msgstr "Voir l’établissement de paiement de l’instance"
+
+#~ msgid ""
+#~ "If you choose local setting then these following options will work, If "
+#~ "you chooose Global Setting then<a href=\"%1$s\" target=\"_blank\"> "
+#~ msgstr ""
+#~ "Si vous choisissez le paramètre local alors ces options suivantes "
+#~ "fonctionnent, si vous chooose paramètre Global puis<a href=\"%1$s\" "
+#~ "target=\"_blank\"></a>"
+
+#~ msgid "Daily Basis Openning & Closing Time"
+#~ msgstr "Ouverture de base quotidienne & heure de fermeture"
+
+#~ msgid "Categories Quantity"
+#~ msgstr "Quantité de catégories"
+
+#~ msgid "Categories Cost"
+#~ msgstr "Catégories"
+
+#~ msgid "Max booking days are "
+#~ msgstr "Jours de réservation Max est dépasser"
+
+#~ msgid "Ooops"
+#~ msgstr "Ooops !"
+
+#~ msgid "Max rental days "
+#~ msgstr "Jours de location Max"
+
+#~ msgid "Dashboard"
+#~ msgstr "Tableau de bord"
+
+#~ msgid "Orders"
+#~ msgstr "La commande"
+
+#~ msgid "Downloads"
+#~ msgstr "Téléchargements"
+
+#~ msgid "Addresses"
+#~ msgstr "Adresses"
+
+#~ msgid "Payment Methods"
+#~ msgstr "Modes de paiement"
+
+#~ msgid "Account Details"
+#~ msgstr "Détails du compte"
+
+#~ msgid "Price Calculation"
+#~ msgstr "Calcul du prix"
+
+#~ msgid "Don't Create New Inventory From Here"
+#~ msgstr "Ne créez pas d’inventaire neuf à partir d’ici"
+
+#~ msgid "Range type"
+#~ msgstr "Type de plage"
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "To"
+#~ msgstr "à"
+
+#~ msgid "Bookable"
+#~ msgstr "Disponible"
+
+#~ msgid ""
+#~ "Please select the date range for which you want the product to be "
+#~ "disabled."
+#~ msgstr "Sélectionnez la date à laquelle les cours sont indisponibles"
+
+#~ msgid "Add Dates"
+#~ msgstr "Ajouter Dates"
+
+#~ msgid "This text will show as pricing title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme titre une tarification dans fornt-fin"
+
+#~ msgid "This text will show as Pickup location title in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "This text will show as Pickup location placeholder in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "This text will show as Dropoff location title in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "This text will show as Dropoff location placeholder in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "This text will show as Pickup Date title in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "This text will show as Pickup Date Placeholder in fornt-end"
+#~ msgstr ""
+#~ "Ce texte apparaîtra comme espace réservé Date de ramassage dans fornt-fin"
+
+#~ msgid "This text will show as Pickup Time Placeholder in fornt-end"
+#~ msgstr ""
+#~ "Ce texte apparaîtra comme Pickup temps espace réservé dans le fornt-end"
+
+#~ msgid "This text will show as Dropoff Date title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme Dropoff Date Titre fornt-end"
+
+#~ msgid "This text will show as Drop-off Date Placeholder in fornt-end"
+#~ msgstr ""
+#~ "Ce texte apparaîtra comme déclin Date espace réservé dans le fornt-end"
+
+#~ msgid "This text will show as Drop-off Time Placeholder in fornt-end"
+#~ msgstr ""
+#~ "Ce texte apparaîtra comme Drop-off temps espace réservé dans le fornt-end"
+
+#~ msgid "This text will show as resources title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme titre de ressources en fornt-fin"
+
+#~ msgid "This text will show as Categories title in fornt-end"
+#~ msgstr "Ce texte s’affiche comme titre de catégories dans fornt-fin"
+
+#~ msgid "This text will show as Deposit title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme titre de dépôt en fornt-fin"
+
+#~ msgid "This text will show as Adults title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme titre d’adultes en fornt-fin"
+
+#~ msgid "This text will show as Adults Placeholder in fornt-end"
+#~ msgstr "Ce texte apparaîtra comme espace réservé adultes dans fornt-fin"
+
+#~ msgid "This text will show as Childs title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme titre de Childs dans fornt-fin"
+
+#~ msgid "This text will show as Childs Placeholder in fornt-end"
+#~ msgstr "Ce texte apparaîtra comme espace réservé Childs dans fornt-fin"
+
+#~ msgid "This text will show as discount text in fornt-end"
+#~ msgstr "Ce texte s’affichera sous forme de texte d’escompte dans fornt-fin"
+
+#~ msgid "This text will show as Instance Pay text in fornt-end"
+#~ msgstr "Ce texte s’affiche comme retour date titre dans fornt-fin"
+
+#~ msgid "This text will show as Total Cost text in fornt-end"
+#~ msgstr "Ce texte s’affichera sous forme de texte Coût Total en fornt-fin"
+
+#~ msgid "This text will show as Book Now text in fornt-end"
+#~ msgstr "Ce texte s’affichera comme titre de ressources en fornt-fin"
+
+#~ msgid "This text will show as Request For Quote text in fornt-end"
+#~ msgstr ""
+#~ "Ce texte s’affichera comme demander pour citer le texte dans fornt-fin"
+
+#~ msgid "Custom date range"
+#~ msgstr "Plage de dates personnalisées"
+
+#~ msgid "This order can not be processed. As %s dates are not available"
+#~ msgstr ""
+#~ "Cette commande ne peut pas être traitée. Comme%s dates ne sont pas "
+#~ "disponibles"
+
+#~ msgid "Book Now Text"
+#~ msgstr "Réserver maintenant"
+
+#~ msgid "This will be applicable for calendar date blocks"
+#~ msgstr "Ce sera applicable pour le bloc du calendrier de date"
+
+#~ msgid "Products Date Format"
+#~ msgstr "Format de Date des produits"
+
+#~ msgid "This will be applicable for all date calendar"
+#~ msgstr "Ce sera applicable pour tout le calendrier de date"
+
+#~ msgid "Max Time Late (Hourly)"
+#~ msgstr "Max de temps tardif (horaire)"
+
+#~ msgid "Another day will be count if anyone being late during departure"
+#~ msgstr ""
+#~ "Un autre jour sera compté si quelqu’un est en retard au cours du départ"
+
+#~ msgid "Max Bookings Days"
+#~ msgstr "Jours de réservation Max est dépasser"
+
+#~ msgid "Max Bookings Days (Number)"
+#~ msgstr "Jours de réservations de Max (nombre)"
+
+#~ msgid "Min Bookings Days"
+#~ msgstr "Jours de réservations min"
+
+#~ msgid "Min Bookings Days (Number)"
+#~ msgstr "Jours de réservations min (nombre)"
+
+#~ msgid "Starting Block Days"
+#~ msgstr "Bloc de départ"
+
+#~ msgid "No. of Block Days Before Booking Started"
+#~ msgstr "Lol Bloc de jours avant de réserver a commencé"
+
+#~ msgid "Post Bookings Block Days"
+#~ msgstr "Post réservations bloquent jours"
+
+#~ msgid "No. of Block Days After a Booking"
+#~ msgstr "Lol du bloc jours après une réservation"
+
+#~ msgid "Time Inverval in mins E.X - 20"
+#~ msgstr "Temps en min EX terme de remboursement - 20"
+
+#~ msgid "Allowed Times (Comma , separated)"
+#~ msgstr "Temps autorisés (virgule, séparés)"
+
+#~ msgid "Write allowed times in comma separated e.x -10:00,12:00,14:00"
+#~ msgstr ""
+#~ "Écrivez les délais autorisés séparés par des virgules ex-10: 00,12: "
+#~ "00,14: 00"
+
+#~ msgid "Enter your language domain. E.x - de"
+#~ msgstr "Entrez votre nom de domaine de langue. E.x - de"
+
+#~ msgid ""
+#~ "Write weekday name in comma separated e.x - So, Mo, Di, Mi, Do, Fr, Sa"
+#~ msgstr ""
+#~ "Écrire le nom du jour en séparés par des virgules e.x - donc, Mo, Di, "
+#~ "Mi,, Fr, Sa"
+
+#~ msgid ""
+#~ "You must have to pay this percentage (%) amonut during booking. default "
+#~ "payamont value is 100%"
+#~ msgstr ""
+#~ "Vous devez payer ce pourcentage (%) amonut au cours de la réservation. "
+#~ "valeur de payamont par défaut est 100 %"
+
+#~ msgid "Show Price Info At Top in Price Flipbox"
+#~ msgstr "Afficher les infos de prix haut en prix Flipbox"
+
+#~ msgid "Enter Your Shop Page Button Label. E.x - Read More"
+#~ msgstr "Entrez votre étiquette de bouton Page boutique. E.x - lire la suite"
+
+#~ msgid "Enter the text label E.x - Attributes Tab"
+#~ msgstr "Entrez l'étiquette de texte Ex - Onglet Attributs"
+
+#~ msgid "Enter the text label E.x - Features Tab"
+#~ msgstr "Entrez l'étiquette de texte Ex - Onglet Fonctions"
+
+#~ msgid "Enter the text label E.x - Total Days"
+#~ msgstr "Entrez l'étiquette de texte Ex - Total Days"
+
+#~ msgid "Enter the text label E.x - Total Hours"
+#~ msgstr "Entrez l'étiquette de texte Ex - Heures totales"
+
+#~ msgid "Enter the text label E.x - Payment Due"
+#~ msgstr "Entrez l'étiquette de texte Ex - Payment Due"
+
+#~ msgid "Date Format Settings"
+#~ msgstr "Paramètres de format de date"
+
+#~ msgid "Maximum time late (Hours)"
+#~ msgstr "Maximale temps tardif (heures)"
+
+#~ msgid "time"
+#~ msgstr "temps"
+
+#~ msgid "Max days"
+#~ msgstr "Jours Maximum"
+
+#~ msgid "Min days"
+#~ msgstr "Jours Minimum"
+
+#~ msgid "Time Inverval"
+#~ msgstr "Forfait"
+
+#~ msgid "Insert allowed time in comma seperated format like 10:00, 12:00"
+#~ msgstr ""
+#~ "Insérez le temps autorisé dans un format séparé par une virgule comme "
+#~ "10:00, 12:00"
+
+#~ msgid "Min rental days is "
+#~ msgstr "Jours de location de min est"
+
+#~ msgid "Person - "
+#~ msgstr "Personne -"
+
+#~ msgid "Car Company"
+#~ msgstr "Logo Société"
+
+#~ msgid "Deposites"
+#~ msgstr "Thyroidiennes"
+
+#~ msgid "Total Total Cost"
+#~ msgstr "Total Total"
+
+#~ msgctxt "post type general name"
+#~ msgid "Inventory"
+#~ msgstr "Inventaire"
+
+#~ msgctxt "post type singular name"
+#~ msgid "Inventory"
+#~ msgstr "Inventaire"
+
+#~ msgctxt "admin menu"
+#~ msgid "Inventory"
+#~ msgstr "Inventaire"
+
+#~ msgctxt "add new on admin bar"
+#~ msgid "Inventory"
+#~ msgstr "Inventaire"
+
+#~ msgctxt "inventory"
+#~ msgid "Don't Create New Inventory From Here"
+#~ msgstr "Ne créez pas d’inventaire neuf à partir d’ici"
+
+#~ msgctxt "inventory"
+#~ msgid "Don't Crate New Inventory From Here"
+#~ msgstr "Ne caisse nouvel inventaire d’ici"
+
+#~ msgid "days:"
+#~ msgstr "jours :"
+
+#~ msgid "( Discount - "
+#~ msgstr "Remise&nbsp;"
+
+#~ msgid ")"
+#~ msgstr ")"
+
+#~ msgid "Drop Off Location"
+#~ msgstr "Lieu de restitution"
+
+#~ msgid "Pickup Date "
+#~ msgstr "Date de ramassage"
+
+#~ msgid "Pickup Time "
+#~ msgstr "Temps de ramassage"
+
+#~ msgid "Return Date "
+#~ msgstr "Date de retour"
+
+#~ msgid "Person "
+#~ msgstr "Personne"
+
+#~ msgid "Deposits"
+#~ msgstr "Dépôts"
+
+#~ msgid "Configure Your Global Settings For Rental Product"
+#~ msgstr "Configurer vos paramètres globaux pour le produit de la location"
+
+#~ msgid "This text will show as return location title in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "Pickup Date Title"
+#~ msgstr "Date de début de location"
+
+#~ msgid "This text will show as pickup date title in fornt-end"
+#~ msgstr "Nom du dépôt sur le site internet"
+
+#~ msgid "Return Date Title"
+#~ msgstr "Date de retour de location"
+
+#~ msgid "This text will show as return date title in fornt-end"
+#~ msgstr "Ce texte s’affiche comme retour date titre dans fornt-fin"
+
+#~ msgid "Person Title"
+#~ msgstr "Titre de la personne"
+
+#~ msgid "This text will show as person title in fornt-end"
+#~ msgstr "Ce texte s’affiche comme titre de la personne dans le fornt-end"
+
+#~ msgid "Deposite Title"
+#~ msgstr "Caution"
+
+#~ msgid "This text will show as deposite title in fornt-end"
+#~ msgstr "Ce texte s’affichera comme deposite titre fornt-end"
+
+#~ msgid "Show Pricing Flip Box"
+#~ msgstr "Voir la tarification Flip Box"
+
+#~ msgid "Show Request for a quote"
+#~ msgstr "Demande de devis"
+
+#~ msgid "Show request for a quote button in the product single page."
+#~ msgstr ""
+#~ "Voir la demande d’un bouton de soumission dans la seule page de produit."
+
+#~ msgid "Show quote menu"
+#~ msgstr "Afficher le menu des devis"
+
+#~ msgid "Show request for a quote menu in the my account settings page"
+#~ msgstr ""
+#~ "Voir la demande pour un menu de citation dans la ma page de configuration "
+#~ "du compte"
+
+#~ msgid "Hide Book Now Button"
+#~ msgstr "Bouton “Réserver”"
+
+#~ msgid ""
+#~ "Hide Book Now button in the product single page, if you only want to show "
+#~ "only request for a qutoe button."
+#~ msgstr ""
+#~ "Masquer le bouton Réserver maintenant dans la page de produit unique, si "
+#~ "vous ne voulez afficher que la demande pour un bouton de qutoe."
+
+#~ msgid "Enter Your Language Domain"
+#~ msgstr "Entrez votre nom de domaine de langue"
+
+#~ msgid "Enter Month Name"
+#~ msgstr "Entrez le nom du mois"
+
+#~ msgid ""
+#~ "Write month name in comma separated e.x - Januar,Februar,März,April, Mai,"
+#~ "Juni,Juli,August,September,Oktober,November,Dezember"
+#~ msgstr ""
+#~ "Nom de mois d’écriture à virgule séparées e.x - Januar, Februar, März, "
+#~ "avril, Mai, juin, juillet, août, septembre, octobre, novembre, décembre"
+
+#~ msgid "Enter Week Day Name"
+#~ msgstr "Entrer dans la semaine le nom du jour"
+
+#~ msgid "Show/Hide"
+#~ msgstr "Afficher/Masquer"
+
+#~ msgid "Physical Appearence"
+#~ msgstr "Apparence physique"
+
+#~ msgid "Logicial Appearence"
+#~ msgstr "Apparence Pristine"
+
+#~ msgid "Security Deposit"
+#~ msgstr "Dépôt de garantie (TTC)"
+
+#~ msgid "Adults "
+#~ msgstr "Adultes"
+
+#~ msgid "Childs "
+#~ msgstr "Enfants"
+
+#~ msgid "Drop-off Location"
+#~ msgstr "Adresse de retour"
+
+#~ msgid "Discount Depend on Booking Days"
+#~ msgstr "Remise Dépendre livre Days:"
+
+#~ msgid "Total Booking Cost"
+#~ msgstr "Coût Total de la Réservation :"
+
+#~ msgid "Security Deposites"
+#~ msgstr "Franchise"
+
+#~ msgid "- Select pick-up city -"
+#~ msgstr "- Sélectionnez la ville de Ramassage -"
+
+#~ msgid "- Select pick-up location -"
+#~ msgstr "- Sélectionnez le Lieu de Ramassage -"
+
+#~ msgid "Drop-off Date & Time"
+#~ msgstr "Date et Heure de retour"
+
+#~ msgid "Drop-off Locations"
+#~ msgstr "Lieux de dépôt"
+
+#~ msgid "- Select drop-off city -"
+#~ msgstr "- Sélectionnez une ville de Dépôt -"
+
+#~ msgid "- Select drop-off location -"
+#~ msgstr "Sélectionnez le lieu du Dépôt"
+
+#~ msgid "Pricing Plans"
+#~ msgstr "Plan Tarifs"
+
+#~ msgid "Person Heading Title"
+#~ msgstr "Titre de rubrique personne"
+
+#~ msgid "Person title"
+#~ msgstr "Titre de la personne"
+
+#~ msgid "Person Placeholder"
+#~ msgstr "paramètre fictif"
+
+#~ msgid "Person placeholder"
+#~ msgstr "Espace réservé personne"
+
+#~ msgid "Additional Person"
+#~ msgstr "Pass Accompagnateur"
+
+#~ msgctxt "inventory"
+#~ msgid "Add New"
+#~ msgstr "Ajouter un nouveau"
+
+#~ msgid "Product Time Availabilities"
+#~ msgstr "Dates de Stage"
+
+#~ msgid "Maximum time late"
+#~ msgstr "Temps maximum de retard"
+
+#~ msgid "Discount Depend on Booking Days :"
+#~ msgstr "Remise Dépendre livre Days:"
+
+#~ msgid "Instance Pay During Booking : "
+#~ msgstr "Vous payez instance lors de la réservation :"
+
+#~ msgid "Total Booking Cost : "
+#~ msgstr "Coût Total de la Réservation :"
+
+#~ msgid "show pricing"
+#~ msgstr "Afficher nos tarifs"
+
+#~ msgid "Add New"
+#~ msgstr "Ajouter nouveau"
+
+#~ msgid "Enable Single Day Time Based Booking"
+#~ msgstr "Activez le Single Day Time Based réservation"
+
+#~ msgid "Drop-Off Cost"
+#~ msgstr "Coût du retour"
+
+#~ msgid "security_deposites"
+#~ msgstr "security_deposites"
+
+#~ msgid "Person Count"
+#~ msgstr "Nombre de personnes"
+
+#~ msgid "Dropoff Date"
+#~ msgstr "Date de retour"
+
+#~ msgid "DropOff Time"
+#~ msgstr "Heure de retour"
+
+#~ msgid "Drop-off Cost"
+#~ msgstr "Coût du retour"
+
+#~ msgid "Security Deposit Included"
+#~ msgstr "Dépôt de garantie inclus"

@@ -1,0 +1,5140 @@
+# Copyright (C) 2026 RedQ Team
+# This file is distributed under the http : //www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Booking & Rental System 18.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-rental-and-booking\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-11T16:14:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: redq-rental\n"
+
+#. Plugin Name of the plugin
+#: redq-rental-and-bookings.php
+msgid "WooCommerce Booking & Rental System"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: redq-rental-and-bookings.php
+msgid "https://codecanyon.net/item/rnb-woocommerce-rental-booking-system/14835145?ref=redqteam"
+msgstr ""
+
+#. Description of the plugin
+#: redq-rental-and-bookings.php
+msgid "RnB – WooCommerce Booking & Rental is a user friendly woocommerce booking plugin built as woocommerce extension. This powerful woocommerce plugin allows you to sell your time or date based bookings. It creates a new product type to your WooCommerce site. Perfect for those wanting to offer rental , booking , or real estate agencies or services."
+msgstr ""
+
+#. Author of the plugin
+#: redq-rental-and-bookings.php
+msgid "RedQ Team"
+msgstr ""
+
+#. Author URI of the plugin
+#: redq-rental-and-bookings.php
+msgid "https://redq.io/"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:56
+msgid "RnB"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:60
+#: includes/Admin/AdminPage.php:61
+msgid "Activate License"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:68
+#: includes/Admin/AdminPage.php:69
+msgid "All Inventories"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:76
+#: includes/Admin/AdminPage.php:77
+#: includes/Admin/Generator.php:51
+#: includes/Admin/Generator.php:52
+msgid "Add New Inventory"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:84
+#: includes/Admin/AdminPage.php:85
+msgid "RnB Orders"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:92
+msgid "Quotes"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:93
+msgid "Quotes "
+msgstr ""
+
+#: includes/Admin/AdminPage.php:100
+#: includes/Admin/AdminPage.php:101
+msgid "RnB Calendar"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:108
+#: includes/Admin/AdminPage.php:109
+#: includes/Admin/GlobalSettings.php:407
+#: includes/Admin/GlobalSettings.php:408
+#: includes/Utils/data-provider.php:18
+#: includes/Utils/global-functions.php:924
+#: includes/Utils/settings.php:635
+msgid "Resources"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:116
+#: includes/Admin/AdminPage.php:117
+#: includes/Admin/GlobalSettings.php:419
+#: includes/Admin/GlobalSettings.php:420
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:101
+#: includes/Utils/global-functions.php:929
+#: includes/Utils/settings.php:640
+msgid "Categories"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:124
+#: includes/Admin/AdminPage.php:125
+#: includes/Utils/data-provider.php:23
+#: templates/rnb/booking-content/booking-modal.php:197
+msgid "Person"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:132
+#: includes/Admin/AdminPage.php:133
+msgid "Deposits"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:140
+#: includes/Admin/AdminPage.php:141
+#: includes/Utils/global-functions.php:872
+#: includes/Utils/global-functions.php:873
+#: includes/Utils/settings.php:560
+#: includes/Utils/settings.php:565
+msgid "Pickup Locations"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:148
+#: includes/Admin/AdminPage.php:149
+#: includes/Utils/global-functions.php:881
+#: includes/Utils/global-functions.php:882
+#: includes/Utils/settings.php:570
+#: includes/Utils/settings.php:575
+msgid "Return Locations"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:156
+#: includes/Admin/AdminPage.php:157
+#: includes/Admin/GlobalSettings.php:1948
+#: includes/Utils/data-provider.php:38
+#: includes/Utils/global-functions.php:553
+#: includes/Utils/settings.php:99
+msgid "Features"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:164
+#: includes/Admin/AdminPage.php:165
+#: includes/Admin/GlobalSettings.php:1935
+#: includes/Utils/data-provider.php:33
+#: includes/Utils/global-functions.php:552
+#: includes/Utils/settings.php:94
+msgid "Attributes"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:177
+#: includes/Admin/MetaBoxes.php:46
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:180
+#: includes/Admin/AdminPage.php:181
+#: redq-rental-and-bookings.php:97
+msgid "Docs"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:188
+#: includes/Admin/AdminPage.php:189
+msgid "Support Forum"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:196
+#: includes/Admin/AdminPage.php:197
+msgid "Extensions"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:233
+#: includes/Admin/AdminPage.php:278
+#: includes/Admin/AdminPage.php:292
+#: includes/Admin/AdminPage.php:312
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/Admin/AdminPage.php:361
+msgid "Inventory Reference"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:628
+msgid "Clear Dates"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:646
+msgid "Refund Deposit"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:713
+msgid "Nonce verification failed."
+msgstr ""
+
+#: includes/Admin/AdminPage.php:732
+msgid "Purchase code is required"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:740
+#: includes/Admin/AdminPage.php:775
+msgid "Purchase code is invalid, try with valid one."
+msgstr ""
+
+#: includes/Admin/AdminPage.php:748
+msgid "Rest URL is not defined."
+msgstr ""
+
+#: includes/Admin/AdminPage.php:764
+msgid "Something went wrong with API request."
+msgstr ""
+
+#: includes/Admin/AdminPage.php:800
+msgid "Active"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:801
+#: includes/Admin/views/rnb-dashboard.php:24
+msgid "Deactivate"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:32
+#: includes/Admin/ExportImport.php:33
+#: includes/Admin/ExportImport.php:48
+msgid "Import/Export"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:58
+msgid "Export"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:61
+msgid "Import"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:83
+#: includes/Admin/ExportImport.php:88
+msgid "Export Settings"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:96
+msgid "Export Products & Inventories"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:102
+msgid "Export Products (CSV)"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:109
+msgid "Export Inventories Only"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:114
+msgid "Export Inventories (CSV)"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:128
+msgid "Import RNB Settings"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:134
+msgid "Import Settings"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:136
+msgid "Upload a previously exported RnB settings JSON file. Only plugin options will be imported (keys prefixed with rnb_)."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:140
+msgid "Import Products"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:146
+msgid "Import Products (CSV)"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:150
+msgid "Import Inventories Only"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:155
+msgid "Import Inventories (CSV)"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:204
+msgid "You do not have permission to export."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:207
+#: includes/Admin/ExportImport.php:326
+#: includes/Admin/ExportImport.php:504
+#: includes/Admin/ExportImport.php:891
+#: includes/Admin/ExportImport.php:919
+msgid "Security check failed."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:221
+msgid "No products found to export."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:306
+msgid "Failed to open output stream."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:323
+msgid "You do not have permission to import."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:329
+msgid "CSV upload failed."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:334
+msgid "Unable to read CSV."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:341
+msgid "Invalid CSV header."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:491
+#, php-format
+msgid "%d products imported."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:509
+#: includes/Admin/ExportImport.php:606
+#: includes/Admin/ExportImport.php:896
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:525
+msgid "No inventories found to export."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:610
+#: includes/Admin/ExportImport.php:924
+msgid "File upload failed."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:617
+msgid "Invalid file format. Please upload a CSV file."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:631
+msgid "No data found in CSV file."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:650
+#, php-format
+msgid "%d inventories imported successfully."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:652
+#, php-format
+msgid "%d errors occurred."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:906
+msgid "No settings found to export."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:913
+msgid "Export failed: "
+msgstr ""
+
+#: includes/Admin/ExportImport.php:932
+msgid "Invalid file format. Please upload a JSON or CSV file."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:940
+msgid "Could not read file."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:946
+msgid "Invalid JSON file."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:952
+msgid "Settings imported successfully!"
+msgstr ""
+
+#: includes/Admin/ExportImport.php:954
+msgid "Failed to import settings."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:961
+msgid "CSV import not implemented yet."
+msgstr ""
+
+#: includes/Admin/ExportImport.php:964
+msgid "Unknown error occurred."
+msgstr ""
+
+#: includes/Admin/Generator.php:47
+msgid "Inventories"
+msgstr ""
+
+#: includes/Admin/Generator.php:48
+#: includes/Admin/Generator.php:49
+#: includes/Admin/Generator.php:50
+#: includes/Admin/MetaBoxes.php:32
+#: includes/Admin/views/html-quote-details.php:61
+#: includes/Utils/global-functions.php:939
+#: includes/Utils/settings.php:650
+#: templates/myaccount/view-quote.php:77
+#: templates/rnb/booking-content/booking-modal.php:58
+#: templates/rnb/emails/request-quote-item-details.php:49
+msgid "Inventory"
+msgstr ""
+
+#: includes/Admin/Generator.php:53
+msgid "New Inventory"
+msgstr ""
+
+#: includes/Admin/Generator.php:54
+msgid "Edit Inventory"
+msgstr ""
+
+#: includes/Admin/Generator.php:55
+msgid "View Inventory"
+msgstr ""
+
+#: includes/Admin/Generator.php:56
+msgid "All inventory"
+msgstr ""
+
+#: includes/Admin/Generator.php:57
+msgid "Search inventory"
+msgstr ""
+
+#: includes/Admin/Generator.php:58
+msgid "Parent inventory:"
+msgstr ""
+
+#: includes/Admin/Generator.php:59
+msgid "No inventory found."
+msgstr ""
+
+#: includes/Admin/Generator.php:60
+msgid "No inventory found in Trash."
+msgstr ""
+
+#: includes/Admin/Generator.php:65
+#: includes/Admin/Generator.php:116
+msgid "Description."
+msgstr ""
+
+#: includes/Admin/Generator.php:98
+msgctxt "post type general name"
+msgid "Quote Request"
+msgstr ""
+
+#: includes/Admin/Generator.php:99
+msgctxt "post type singular name"
+msgid "Quote Request"
+msgstr ""
+
+#: includes/Admin/Generator.php:100
+msgctxt "admin menu"
+msgid "Quote"
+msgstr ""
+
+#: includes/Admin/Generator.php:101
+msgctxt "add new on admin bar"
+msgid "Quote Request"
+msgstr ""
+
+#: includes/Admin/Generator.php:102
+msgctxt "request_quote"
+msgid "Add New"
+msgstr ""
+
+#: includes/Admin/Generator.php:103
+msgid "Add New Quote"
+msgstr ""
+
+#: includes/Admin/Generator.php:104
+msgid "New Quote Request"
+msgstr ""
+
+#: includes/Admin/Generator.php:105
+msgid "Edit Quote Request"
+msgstr ""
+
+#: includes/Admin/Generator.php:106
+msgid "View Quote Request"
+msgstr ""
+
+#: includes/Admin/Generator.php:107
+msgid "All Quotes"
+msgstr ""
+
+#: includes/Admin/Generator.php:108
+msgid "Search Quote"
+msgstr ""
+
+#: includes/Admin/Generator.php:109
+msgid "Parent Quote:"
+msgstr ""
+
+#: includes/Admin/Generator.php:110
+msgid "No Quote found."
+msgstr ""
+
+#: includes/Admin/Generator.php:111
+msgid "No Quote found in Trash."
+msgstr ""
+
+#: includes/Admin/Generator.php:238
+msgid "Request For A Quote Management"
+msgstr ""
+
+#: includes/Admin/Generator.php:247
+msgid "Inventory Management"
+msgstr ""
+
+#: includes/Admin/Generator.php:256
+msgid "Availability Management"
+msgstr ""
+
+#: includes/Admin/Generator.php:265
+msgid "Quote Actions"
+msgstr ""
+
+#: includes/Admin/Generator.php:274
+msgid "Request For A Quote Message"
+msgstr ""
+
+#: includes/Admin/Generator.php:283
+msgid "Attached Inventories"
+msgstr ""
+
+#: includes/Admin/Generator.php:292
+msgid "Attached Products"
+msgstr ""
+
+#: includes/Admin/Generator.php:327
+msgid "Quote"
+msgstr ""
+
+#: includes/Admin/Generator.php:328
+#: includes/Admin/OrderTable.php:258
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/Generator.php:330
+#: templates/myaccount/view-quote.php:50
+msgid "Product"
+msgstr ""
+
+#: includes/Admin/Generator.php:331
+#: includes/Admin/GlobalSettings.php:750
+#: includes/Admin/GlobalSettings.php:751
+#: includes/Admin/GlobalSettings.php:762
+#: includes/Admin/GlobalSettings.php:763
+#: includes/Admin/views/html-labels-local-settings.php:461
+#: includes/Admin/views/html-labels-local-settings.php:473
+#: includes/Admin/views/html-order-preview-popup.php:24
+#: includes/Utils/global-functions.php:991
+#: includes/Utils/global-functions.php:999
+#: includes/Utils/global-functions.php:1096
+#: includes/Utils/global-functions.php:1104
+#: includes/Utils/settings.php:735
+#: includes/Utils/settings.php:770
+#: templates/rnb/emails/request-quote-item-details.php:277
+msgid "Email"
+msgstr ""
+
+#: includes/Admin/Generator.php:332
+#: includes/Admin/GlobalSettings.php:336
+#: includes/Admin/GlobalSettings.php:337
+msgid "Pickup Date"
+msgstr ""
+
+#: includes/Admin/Generator.php:333
+msgid "Dropoff Date"
+msgstr ""
+
+#: includes/Admin/Generator.php:334
+msgid "Quote Total Price\t"
+msgstr ""
+
+#: includes/Admin/Generator.php:335
+#: includes/Utils/global-functions.php:889
+#: includes/Utils/global-functions.php:898
+#: includes/Utils/global-functions.php:1038
+#: includes/Utils/global-functions.php:1043
+#: includes/Utils/settings.php:585
+#: includes/Utils/settings.php:600
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/Generator.php:364
+msgid "New"
+msgstr ""
+
+#: includes/Admin/Generator.php:370
+msgid "by"
+msgstr ""
+
+#: includes/Admin/Generator.php:456
+#, php-format
+msgid "%sx %s = %s"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:32
+msgid "RnB Settings"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:50
+msgid "General"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:51
+#: includes/Admin/views/html-product-settings-data.php:8
+msgid "Display"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:52
+#: includes/Admin/views/html-product-settings-data.php:9
+msgid "Labels"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:53
+#: includes/Admin/views/html-product-settings-data.php:10
+msgid "Conditions"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:54
+#: includes/Admin/views/html-product-settings-data.php:11
+msgid "Validations"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:55
+msgid "Layout 2 (Extra Settings)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:56
+msgid "Order Cancel"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:111
+msgid "Show or Hide DateTime Fields"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:118
+#: includes/Admin/GlobalSettings.php:119
+msgid "Enable DateTime Fields"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:128
+#: includes/Admin/views/html-display-local-settings.php:20
+msgid "Show Pickup Date"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:138
+#: includes/Admin/views/html-display-local-settings.php:43
+msgid "Show Pickup Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:148
+msgid "Show Drop-off Date"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:158
+msgid "Show Drop-off Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:168
+#: includes/Admin/views/html-display-local-settings.php:113
+msgid "Enable Quantity"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:169
+msgid "Enable Quantity Field"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:181
+msgid "Display Button Options"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:188
+msgid "Button Options"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:189
+msgid "Show Book Now Button"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:196
+msgid "Show Request For Quote Button"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:208
+msgid "Others Options"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:215
+msgid "Show Tax"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:216
+msgid "Show Tax On Single Product Page"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:222
+#: includes/Admin/GlobalSettings.php:223
+msgid "Show Price FlipBox"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:230
+#: includes/Admin/GlobalSettings.php:231
+msgid "Show Price Discount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:238
+#: includes/Admin/GlobalSettings.php:239
+msgid "Show Instance Payment"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:255
+msgid "Location Labels"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:260
+msgid "Pickup Location Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:262
+msgid "This text will show as Pickup location title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:264
+#: includes/Admin/GlobalSettings.php:265
+#: includes/Admin/GlobalSettings.php:277
+#: includes/Utils/data-provider.php:43
+#: includes/Utils/global-functions.php:1029
+#: includes/Utils/global-functions.php:1030
+msgid "Pickup Location"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:272
+#: includes/Admin/views/html-labels-local-settings.php:62
+msgid "Pickup Location Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:274
+msgid "This text will show as Pickup location placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:276
+msgid "Choose Pickup Location"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:284
+msgid "Return Location Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:286
+msgid "This text will show as Return Location title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:288
+#: includes/Admin/GlobalSettings.php:289
+#: includes/Admin/GlobalSettings.php:300
+#: includes/Admin/GlobalSettings.php:301
+msgid "Return Location"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:296
+msgid "Return Location Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:298
+msgid "This text will show as Return Location placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:314
+msgid "Duration Labels"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:320
+msgid "Pickup DateTime Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:322
+msgid "This text will show as Pickup Date title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:324
+#: includes/Admin/GlobalSettings.php:325
+#: includes/Utils/global-functions.php:1037
+msgid "Pickup Date & Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:332
+#: includes/Admin/views/html-labels-local-settings.php:111
+msgid "Pickup Date Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:334
+msgid "This text will show as Pickup Date Placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:344
+#: includes/Admin/views/html-labels-local-settings.php:124
+msgid "Pickup Time Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:346
+msgid "This text will show as Pickup Time Placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:348
+#: includes/Admin/GlobalSettings.php:349
+msgid "Pickup Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:356
+msgid "Return DateTime Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:358
+msgid "This text will show as return Date title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:360
+#: includes/Admin/GlobalSettings.php:361
+#: includes/Utils/global-functions.php:1042
+msgid "Return Date & Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:368
+#: includes/Admin/views/html-labels-local-settings.php:150
+msgid "Drop-off Date Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:370
+msgid "This text will show as Drop-off Date Placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:372
+#: includes/Admin/GlobalSettings.php:373
+msgid "Drop-off Date"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:380
+#: includes/Admin/views/html-labels-local-settings.php:163
+msgid "Drop-off Time Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:382
+msgid "This text will show as Drop-off Time Placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:384
+#: includes/Admin/GlobalSettings.php:385
+msgid "Drop-off Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:397
+msgid "Extras Labels"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:403
+msgid "Resources Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:405
+msgid "This text will show as resources title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:415
+msgid "Categories Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:417
+msgid "This text will show as Categories title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:427
+msgid "Deposit Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:429
+msgid "This text will show as Deposit title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:431
+#: includes/Admin/GlobalSettings.php:432
+#: includes/Admin/OrderTable.php:264
+#: includes/CartHandler.php:244
+#: includes/Order.php:173
+#: includes/Utils/data-provider.php:28
+#: includes/Utils/global-functions.php:568
+#: includes/Utils/global-functions.php:1062
+#: includes/Utils/settings.php:149
+msgid "Deposit"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:439
+msgid "Adults Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:441
+msgid "This text will show as Adults title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:443
+#: includes/Admin/GlobalSettings.php:444
+#: includes/Utils/global-functions.php:906
+#: includes/Utils/global-functions.php:1047
+#: includes/Utils/global-functions.php:1048
+#: includes/Utils/settings.php:610
+#: includes/Utils/settings.php:615
+msgid "Adults"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:451
+#: includes/Admin/views/html-labels-local-settings.php:223
+msgid "Adults Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:453
+msgid "This text will show as Adults Placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:455
+#: includes/Admin/GlobalSettings.php:456
+#: includes/Utils/global-functions.php:907
+msgid "Choose Adults"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:463
+msgid "Childs Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:465
+msgid "This text will show as Childs title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:467
+#: includes/Admin/GlobalSettings.php:468
+#: includes/Utils/global-functions.php:908
+#: includes/Utils/global-functions.php:1049
+#: includes/Utils/global-functions.php:1050
+#: includes/Utils/settings.php:620
+msgid "Childs"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:475
+#: includes/Admin/views/html-labels-local-settings.php:247
+msgid "Childs Placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:477
+msgid "This text will show as Childs Placeholder in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:479
+#: includes/Admin/GlobalSettings.php:480
+#: includes/Utils/global-functions.php:909
+#: includes/Utils/settings.php:625
+msgid "Choose Childs"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:492
+msgid "Others Labels"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:499
+msgid "Choose Inventory Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:501
+msgid "This text will show as inventory title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:503
+#: includes/Admin/GlobalSettings.php:504
+#: includes/Admin/views/html-labels-local-settings.php:8
+#: includes/Admin/views/html-labels-local-settings.php:9
+#: includes/Utils/global-functions.php:1065
+msgid "Choose Inventory"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:511
+msgid "Pricing Info Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:513
+msgid "This text will show as pricing title in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:515
+#: includes/Admin/GlobalSettings.php:516
+#: includes/Utils/global-functions.php:954
+#: includes/Utils/global-functions.php:1074
+#: includes/Utils/settings.php:675
+msgid "Pricing Info"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:523
+msgid "Unit Price Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:526
+#: includes/Admin/views/html-days-range-meta.php:75
+#: includes/Admin/views/html-labels-local-settings.php:36
+#: includes/Admin/views/html-quote-details.php:167
+#: includes/Admin/views/html-quote-details.php:192
+#: includes/Admin/views/html-quote-details.php:219
+#: includes/Traits/Rental_Data_Trait.php:739
+#: includes/Utils/data-provider.php:119
+#: templates/myaccount/view-quote.php:183
+#: templates/myaccount/view-quote.php:208
+#: templates/myaccount/view-quote.php:233
+#: templates/rnb/emails/request-quote-item-details.php:150
+#: templates/rnb/emails/request-quote-item-details.php:174
+#: templates/rnb/emails/request-quote-item-details.php:197
+msgid "Per Day"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:527
+msgid "/Day"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:535
+msgid "Quantity Title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:538
+#: includes/Admin/GlobalSettings.php:539
+#: includes/Utils/data-provider.php:66
+#: includes/Utils/global-functions.php:918
+#: includes/Utils/global-functions.php:1053
+#: includes/Utils/settings.php:630
+#: templates/myaccount/view-quote.php:243
+#: templates/rnb/emails/request-quote-item-details.php:207
+msgid "Quantity"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:546
+#: includes/Admin/views/html-labels-local-settings.php:340
+msgid "Book Now Button Text"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:548
+msgid "This text will show as Book Now text in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:550
+#: includes/Admin/GlobalSettings.php:551
+#: includes/Utils/global-functions.php:962
+#: includes/Utils/global-functions.php:1078
+#: includes/Utils/settings.php:685
+#: templates/rnb/emails/quote-accepted-notify-customer.php:16
+msgid "Book Now"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:563
+msgid "Customize Notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:568
+#: includes/Admin/views/html-labels-local-settings.php:272
+#: includes/Admin/views/html-labels-local-settings.php:273
+msgid "Invalid Date Range Notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:571
+msgid "Invalid date range"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:578
+#: includes/Admin/views/html-labels-local-settings.php:283
+#: includes/Admin/views/html-labels-local-settings.php:284
+msgid "Max Day Notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:581
+msgid "Enter max day exceed notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:588
+#: includes/Admin/views/html-labels-local-settings.php:294
+#: includes/Admin/views/html-labels-local-settings.php:295
+msgid "Min Day Notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:591
+msgid "Enter min day notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:598
+#: includes/Admin/views/html-labels-local-settings.php:327
+#: includes/Admin/views/html-labels-local-settings.php:328
+msgid "Invalid Quantity"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:601
+msgid "Enter Quantity notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:608
+#: includes/Admin/views/html-labels-local-settings.php:305
+#: includes/Admin/views/html-labels-local-settings.php:306
+msgid "Max Hour Notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:611
+msgid "Enter max hour exceed notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:618
+#: includes/Admin/views/html-labels-local-settings.php:316
+#: includes/Admin/views/html-labels-local-settings.php:317
+msgid "Min Hour Notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:621
+msgid "Enter min hour notice"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:633
+msgid "Customize Request For Quote"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:638
+#: includes/Admin/views/html-labels-local-settings.php:352
+#: includes/Admin/views/html-labels-local-settings.php:353
+msgid "Request For Quote Button Text"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:640
+msgid "This text will show as Request For Quote text in front-end"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:642
+#: includes/Admin/GlobalSettings.php:643
+#: includes/Admin/GlobalSettings.php:1867
+#: includes/Utils/global-functions.php:963
+#: includes/Utils/global-functions.php:1079
+#: includes/Utils/settings.php:690
+msgid "Request For Quote"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:650
+#: includes/Admin/views/html-labels-local-settings.php:364
+msgid "RFQ username title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:652
+#: includes/Admin/GlobalSettings.php:664
+#: includes/Admin/GlobalSettings.php:676
+#: includes/Admin/GlobalSettings.php:688
+#: includes/Admin/GlobalSettings.php:700
+#: includes/Admin/GlobalSettings.php:712
+#: includes/Admin/GlobalSettings.php:724
+#: includes/Admin/GlobalSettings.php:736
+#: includes/Admin/GlobalSettings.php:748
+#: includes/Admin/GlobalSettings.php:760
+#: includes/Admin/GlobalSettings.php:772
+#: includes/Admin/GlobalSettings.php:784
+#: includes/Admin/GlobalSettings.php:796
+#: includes/Admin/GlobalSettings.php:808
+#: includes/Admin/GlobalSettings.php:820
+msgid "This text will show in the request for quote form"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:654
+#: includes/Admin/GlobalSettings.php:655
+#: includes/Admin/GlobalSettings.php:666
+#: includes/Admin/GlobalSettings.php:667
+#: includes/Admin/views/html-labels-local-settings.php:365
+#: includes/Admin/views/html-labels-local-settings.php:377
+#: includes/Utils/global-functions.php:987
+#: includes/Utils/global-functions.php:995
+#: includes/Utils/global-functions.php:1092
+#: includes/Utils/global-functions.php:1100
+#: includes/Utils/settings.php:715
+#: includes/Utils/settings.php:750
+msgid "Username"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:662
+#: includes/Admin/views/html-labels-local-settings.php:376
+msgid "RFQ username placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:674
+#: includes/Admin/views/html-labels-local-settings.php:388
+msgid "RFQ password title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:678
+#: includes/Admin/GlobalSettings.php:679
+#: includes/Admin/GlobalSettings.php:690
+#: includes/Admin/GlobalSettings.php:691
+msgid "password"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:686
+#: includes/Admin/views/html-labels-local-settings.php:400
+msgid "RFQ password placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:698
+msgid "RFQ first name title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:702
+#: includes/Admin/GlobalSettings.php:703
+#: includes/Admin/GlobalSettings.php:714
+#: includes/Admin/GlobalSettings.php:715
+msgid "First name"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:710
+msgid "RFQ first name placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:722
+msgid "RFQ last name title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:726
+#: includes/Admin/GlobalSettings.php:727
+#: includes/Admin/GlobalSettings.php:738
+#: includes/Admin/GlobalSettings.php:739
+msgid "Last name"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:734
+msgid "RFQ last name placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:746
+#: includes/Admin/views/html-labels-local-settings.php:460
+msgid "RFQ email title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:758
+#: includes/Admin/views/html-labels-local-settings.php:472
+msgid "RFQ email placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:770
+#: includes/Admin/views/html-labels-local-settings.php:484
+msgid "RFQ phone title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:774
+#: includes/Admin/GlobalSettings.php:775
+#: includes/Admin/GlobalSettings.php:786
+#: includes/Admin/GlobalSettings.php:787
+#: includes/Admin/views/html-labels-local-settings.php:485
+#: includes/Admin/views/html-labels-local-settings.php:497
+#: includes/Admin/views/html-order-preview-popup.php:29
+#: includes/Utils/global-functions.php:992
+#: includes/Utils/global-functions.php:1000
+#: includes/Utils/global-functions.php:1097
+#: includes/Utils/global-functions.php:1105
+#: includes/Utils/settings.php:740
+#: includes/Utils/settings.php:775
+msgid "Phone"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:782
+#: includes/Admin/views/html-labels-local-settings.php:496
+msgid "RFQ phone placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:794
+#: includes/Admin/views/html-labels-local-settings.php:508
+msgid "RFQ message title"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:798
+#: includes/Admin/GlobalSettings.php:799
+#: includes/Admin/GlobalSettings.php:810
+#: includes/Admin/GlobalSettings.php:811
+#: includes/Admin/views/html-labels-local-settings.php:509
+#: includes/Admin/views/html-labels-local-settings.php:521
+#: includes/Utils/global-functions.php:993
+#: includes/Utils/global-functions.php:1001
+#: includes/Utils/global-functions.php:1098
+#: includes/Utils/global-functions.php:1106
+#: includes/Utils/settings.php:745
+#: includes/Utils/settings.php:780
+#: templates/rnb/emails/request-quote-item-details.php:291
+msgid "Message"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:806
+#: includes/Admin/views/html-labels-local-settings.php:520
+msgid "RFQ message placeholder"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:818
+#: includes/Admin/views/html-labels-local-settings.php:532
+msgid "RFQ submit button text"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:822
+#: includes/Admin/GlobalSettings.php:823
+#: includes/Admin/views/html-labels-local-settings.php:533
+#: includes/RequestForQuote.php:548
+#: includes/Utils/global-functions.php:1003
+#: includes/Utils/global-functions.php:1108
+#: includes/Utils/settings.php:785
+#: templates/rnb/booking-content/pickup-datetimes.php:56
+#: templates/rnb/booking-content/return-datetimes.php:54
+msgid "Submit"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:838
+msgid "Choose Different Conditions Logic For Products"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:844
+#: includes/Admin/views/html-condition-local-settings.php:11
+msgid "Date Format"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:845
+#: includes/Admin/views/html-condition-local-settings.php:12
+msgid "Date will display in this format all place in rental product"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:852
+#: includes/Admin/views/html-condition-local-settings.php:15
+msgid "m/d/Y"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:853
+#: includes/Admin/views/html-condition-local-settings.php:16
+msgid "d/m/Y"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:854
+#: includes/Admin/views/html-condition-local-settings.php:17
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:861
+#: includes/Admin/views/html-condition-local-settings.php:27
+msgid "Time Format"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:862
+#: includes/Admin/views/html-condition-local-settings.php:28
+msgid "This will be applicable in the time picker field in product page"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:869
+#: includes/Admin/views/html-condition-local-settings.php:30
+msgid "24 Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:870
+#: includes/Admin/views/html-condition-local-settings.php:31
+msgid "12 Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:877
+#: includes/Admin/views/html-condition-local-settings.php:42
+msgid "Max Hour Late"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:878
+#: includes/Admin/views/html-condition-local-settings.php:43
+msgid "Another day will count if customer returns by exceeding this no. of hour. Suppose you set the hour as 2. Now if a customer place an order from  10/10/2018 at 10:00 to 12/10/2018 at 12:00 he will be charged for 2 days ( although here is 50 hours means 2days and 2 hours). Now if he returns after 12/10/2018 at 12:00 then he will be charged for 3days "
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:893
+#: includes/Admin/views/html-condition-local-settings.php:59
+msgid "Pay Extra Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:894
+#: includes/Admin/views/html-condition-local-settings.php:60
+msgid "If you make this option as yes then customer has to pay for extra hours in hourly pricing plan."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:901
+#: includes/Admin/views/html-condition-local-settings.php:62
+#: includes/Admin/views/html-own-time-availability.php:35
+#: includes/Utils/data-provider.php:84
+#: includes/Utils/data-provider.php:146
+#: includes/Utils/data-provider.php:214
+#: includes/Utils/data-provider.php:235
+msgid "Yes"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:902
+#: includes/Admin/views/html-condition-local-settings.php:63
+#: includes/Utils/data-provider.php:88
+#: includes/Utils/data-provider.php:150
+#: includes/Utils/data-provider.php:218
+#: includes/Utils/data-provider.php:239
+msgid "No"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:909
+#: includes/Admin/views/html-condition-local-settings.php:76
+msgid "Single Day Booking"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:910
+#: includes/Admin/views/html-condition-local-settings.php:78
+msgid "Checked : If pickup and return date are same then it counts as 1-day. Also select this for single date. FYI : Set max time late as at least 0 for this. UnChecked : If pickup and return date are same then it counts as 0-day. Also select this for single date. "
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:917
+msgid "Include Trailing Date"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:918
+#: includes/Admin/views/html-condition-local-settings.php:93
+msgid "Checked : if pickup & return time are disabled then pickup date and return date will count as individual date. Also make sure that you set pay extra hour option as no. UnChecked : if pickup & return time are disabled then pickup date and return date will count as previous manner means without 24-hours separate date will not count"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:925
+msgid "Max Booking Days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:926
+#: includes/Admin/GlobalSettings.php:941
+#: includes/Admin/views/html-condition-local-settings.php:106
+#: includes/Admin/views/html-condition-local-settings.php:125
+msgid "No. of days that customer must have to select during placing an order otherwise he will not be allowed to place an order"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:927
+#: includes/Admin/GlobalSettings.php:957
+msgid "E.g. - 6"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:940
+msgid "Min Booking Days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:942
+#: includes/Admin/GlobalSettings.php:972
+#: includes/Admin/GlobalSettings.php:987
+#: includes/Admin/GlobalSettings.php:1003
+#: includes/Admin/GlobalSettings.php:1019
+#: includes/Admin/GlobalSettings.php:1034
+#: includes/Admin/GlobalSettings.php:1050
+#: includes/Admin/GlobalSettings.php:1765
+#: includes/Admin/GlobalSettings.php:1781
+#: includes/Admin/views/html-condition-local-settings.php:178
+#: includes/Admin/views/html-condition-local-settings.php:196
+#: includes/Admin/views/html-condition-local-settings.php:215
+#: includes/Admin/views/html-condition-local-settings.php:233
+#: includes/Admin/views/html-condition-local-settings.php:252
+msgid "E.g. - 2"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:955
+msgid "Max Booking Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:956
+#: includes/Admin/GlobalSettings.php:971
+#: includes/Admin/views/html-condition-local-settings.php:142
+#: includes/Admin/views/html-condition-local-settings.php:161
+msgid "No. of hours that customer must have to select during placing an order otherwise he will not be allowed to place an order"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:970
+msgid "Min Booking Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:985
+#: includes/Admin/views/html-condition-local-settings.php:177
+msgid "Initially blocked dates in calendar"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:986
+#: includes/Admin/views/html-condition-local-settings.php:179
+msgid "If you set the value as 2, When someone open the calendar in product page if today is 10/10/2018 then customer will see the initially bookable date as 12/10/2018"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1001
+#: includes/Admin/views/html-condition-local-settings.php:195
+msgid "Pre Booking Block Days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1002
+#: includes/Admin/views/html-condition-local-settings.php:197
+msgid "Selected no. of days will be blocked automatically after a booking order and customer will not be charged for extra these days. Suppose you set the value 2. Now if any customer books date from 10/10/18 to 12/10/18 then after completing the order 08/10/18 to 10/10/18 date will be disabled in calendar for this order. Although customer will not be charged for these extra 2 days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1017
+#: includes/Admin/views/html-condition-local-settings.php:214
+msgid "Post Booking Block Days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1018
+#: includes/Admin/views/html-condition-local-settings.php:216
+msgid "Selected no. of days will be blocked automatically after a booking and customer will not be charged for extra these days. Suppose you set the value 2. Now if any customer books date from 10/10/18 to 12/10/18 then after completing the order 10/10/18 to 14/10/18 date will be disabled in calendar for this order. Although customer will not be charged for these extra 2 days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1032
+#: includes/Admin/views/html-condition-local-settings.php:232
+msgid "Pre Booking Block Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1033
+msgid "Selected no. of hours will be blocked automatically after a booking order and customer will not be charged for extra these hours. Suppose you set the value 2. Now if any customer books date from 10am to 12pm then after completing the order 8am to 10pm date will be disabled in calendar for this order. Although customer will not be charged for these extra 2 hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1048
+#: includes/Admin/views/html-condition-local-settings.php:251
+msgid "Post Booking Block Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1049
+msgid "Selected no. of hours will be blocked automatically after a booking and customer will not be charged for extra these hours. Suppose you set the value 2. Now if any customer books date from 8am to 10pm then after completing the order 10am to 12pm date will be disabled in calendar for this order. Although customer will not be charged for these extra 2 hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1063
+msgid "Time Intervals (Mins)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1064
+#: includes/Admin/views/html-condition-local-settings.php:271
+msgid "Time Interval in mins E.g. - 20. Time interval will not work if you use allowed times options"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1065
+msgid "E.g. - 20"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1081
+msgid "Allowed Times (Comma, separated)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1083
+#: includes/Admin/views/html-condition-local-settings.php:306
+#: includes/Admin/views/html-condition-local-settings.php:307
+msgid "Enter allowed time in comma separated format like 10:00, 12:00 (For 24 hour time format) or 10:00 am, 11:00 am (For 12 hour time format. Use space before am or pm) "
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1085
+msgid "Enter allowed time in comma separated format like 10:00, 12:00 (For 24 hour date format) or 10:00 am, 11:00 am (For 12 hour date format. Use space before am or pm) "
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1096
+msgid "Show Product Price"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1097
+msgid "If you set daily pricing then per day price will show as product price, if you set hourly pricing then hour price will show as product price"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1104
+#: includes/Admin/views/html-condition-local-settings.php:292
+#: includes/Admin/views/html-inventory-management.php:58
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:6
+msgid "Daily Pricing"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1105
+#: includes/Admin/views/html-condition-local-settings.php:293
+msgid "Hourly Pricing"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1111
+#: includes/Admin/views/html-condition-local-settings.php:348
+msgid "Select Weekends"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1112
+msgid "Choose Weekends"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1119
+#: includes/Admin/GlobalSettings.php:1851
+#: includes/Admin/views/html-condition-local-settings.php:330
+#: includes/Admin/views/html-validation-global-settings.php:54
+#: includes/Admin/views/html-validation-local-settings.php:133
+#: includes/class-redq-product-redq_rental.php:573
+#: includes/Utils/global-functions.php:1269
+msgid "Sunday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1120
+#: includes/Admin/GlobalSettings.php:1852
+#: includes/Admin/views/html-condition-local-settings.php:331
+#: includes/Admin/views/html-validation-global-settings.php:74
+#: includes/Admin/views/html-validation-local-settings.php:153
+#: includes/class-redq-product-redq_rental.php:576
+#: includes/Utils/global-functions.php:1270
+msgid "Monday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1121
+#: includes/Admin/GlobalSettings.php:1853
+#: includes/Admin/views/html-condition-local-settings.php:332
+#: includes/Admin/views/html-validation-global-settings.php:94
+#: includes/Admin/views/html-validation-local-settings.php:173
+#: includes/class-redq-product-redq_rental.php:579
+#: includes/Utils/global-functions.php:1271
+msgid "Tuesday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1122
+#: includes/Admin/GlobalSettings.php:1854
+#: includes/Admin/views/html-condition-local-settings.php:333
+#: includes/Admin/views/html-validation-global-settings.php:114
+#: includes/Admin/views/html-validation-local-settings.php:193
+#: includes/class-redq-product-redq_rental.php:582
+#: includes/Utils/global-functions.php:1272
+msgid "Wednesday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1123
+#: includes/Admin/GlobalSettings.php:1855
+#: includes/Admin/views/html-condition-local-settings.php:334
+#: includes/Admin/views/html-validation-global-settings.php:134
+#: includes/Admin/views/html-validation-local-settings.php:213
+#: includes/class-redq-product-redq_rental.php:585
+#: includes/Utils/global-functions.php:1273
+msgid "Thursday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1124
+#: includes/Admin/GlobalSettings.php:1856
+#: includes/Admin/views/html-condition-local-settings.php:335
+#: includes/Admin/views/html-validation-global-settings.php:14
+#: includes/Admin/views/html-validation-local-settings.php:93
+#: includes/class-redq-product-redq_rental.php:567
+#: includes/Utils/global-functions.php:1267
+msgid "Friday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1125
+#: includes/Admin/GlobalSettings.php:1857
+#: includes/Admin/views/html-condition-local-settings.php:336
+#: includes/Admin/views/html-validation-global-settings.php:34
+#: includes/Admin/views/html-validation-local-settings.php:113
+#: includes/class-redq-product-redq_rental.php:570
+#: includes/Utils/global-functions.php:1268
+msgid "Saturday"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1130
+msgid "Choose Layout"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1131
+#: includes/Admin/views/html-condition-local-settings.php:319
+msgid "Choose your booking page layout. Either it will be normal view or modal view"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1138
+#: includes/Admin/views/html-condition-local-settings.php:321
+msgid "Normal Layout"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1139
+#: includes/Admin/views/html-condition-local-settings.php:322
+msgid "Modal Layout"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1153
+msgid "Enable or Disable Required Fields"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1160
+msgid "Required Fields"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1161
+msgid "Choose Value Must Required Fields"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1170
+#: includes/Admin/views/html-validation-local-settings.php:11
+msgid "Required Pickup Location [Not applicable for modal layout]"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1180
+msgid "Required Drop-off Location [Not applicable for modal layout]"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1190
+#: includes/Admin/views/html-validation-local-settings.php:59
+msgid "Required Pickup Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1200
+msgid "Required Drop-off Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1210
+#: includes/Admin/views/html-validation-local-settings.php:43
+msgid "Required Adult"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1220
+#: includes/Admin/views/html-validation-local-settings.php:84
+msgid "Daily Basis Opening & Closing Time"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1221
+#: includes/Admin/views/html-validation-local-settings.php:85
+msgid "Enter time in the following format. 10:00 or 23:30 or 24:00 etc (For 24-hour time format) and 10:00 am or 1:30 pm or 2:00 pm etc (For 12-hour time format. Space before am or pm is important)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1237
+msgid "Extra Fields For Layout Two"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1243
+msgid "RnB background color"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1244
+#, php-format
+msgid "The main RnB background color. Default %s."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1254
+#: includes/Admin/GlobalSettings.php:1257
+msgid "Inventory Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1264
+msgid "Inventory Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1267
+msgid "Inventory top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1278
+#: includes/Admin/GlobalSettings.php:1281
+msgid "Inventory Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1288
+msgid "Inventory Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1291
+msgid "Inventory inner description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1303
+#: includes/Admin/GlobalSettings.php:1306
+msgid "Date Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1313
+msgid "Date Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1316
+msgid "Date top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1328
+#: includes/Admin/GlobalSettings.php:1331
+msgid "Date Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1338
+#: includes/Admin/GlobalSettings.php:1341
+msgid "Date Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1353
+#: includes/Admin/GlobalSettings.php:1356
+msgid "Location Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1363
+msgid "Location Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1366
+msgid "Location top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1377
+#: includes/Admin/GlobalSettings.php:1380
+msgid "Location Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1387
+#: includes/Admin/GlobalSettings.php:1390
+msgid "Location Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1402
+#: includes/Admin/GlobalSettings.php:1405
+msgid "Resource Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1412
+msgid "Resource Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1415
+msgid "Resource top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1427
+#: includes/Admin/GlobalSettings.php:1430
+msgid "Resource Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1437
+#: includes/Admin/GlobalSettings.php:1440
+msgid "Resource Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1452
+#: includes/Admin/GlobalSettings.php:1455
+msgid "Person Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1462
+msgid "Person Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1465
+msgid "Person top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1477
+#: includes/Admin/GlobalSettings.php:1480
+msgid "Person Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1487
+#: includes/Admin/GlobalSettings.php:1490
+msgid "Person Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1502
+#: includes/Admin/GlobalSettings.php:1505
+msgid "Deposit Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1512
+msgid "Deposit Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1515
+msgid "Deposit top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1525
+#: includes/Admin/GlobalSettings.php:1528
+msgid "Deposit Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1535
+#: includes/Admin/GlobalSettings.php:1538
+msgid "Deposit Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1549
+#: includes/Admin/GlobalSettings.php:1552
+msgid "Summary Top Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1559
+msgid "Summary Top Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1562
+msgid "Summary top description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1573
+#: includes/Admin/GlobalSettings.php:1576
+msgid "Summary Inner Heading"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1583
+#: includes/Admin/GlobalSettings.php:1586
+msgid "Summary Inner Description"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1606
+msgid "Order Cancel Button"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1612
+msgid "Enable Order Cancel Button?"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1613
+msgid "Enable order cancel button on my account page on order list"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1619
+msgid "In Which Order Type show button"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1621
+msgid "In which order type cancel button display, by default, seperated by comma"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1623
+msgid " E.g - pending, on-hold, processing"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1631
+#: includes/Admin/GlobalSettings.php:1632
+msgid "Make cancellation reason input required."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1638
+msgid "Customer note "
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1640
+msgid "Customer note will appear in cancellation request popup"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1649
+msgid "Cancel Type"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1650
+msgid "Please chose cancel type, direct cancel Or cancel request"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1657
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1658
+msgid "Cancel request"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1663
+msgid "Cancel Before By"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1664
+msgid "When customer can place cancel Request"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1672
+#: includes/Admin/GlobalSettings.php:1678
+#: includes/Integrations/FullCalendarIntegration.php:123
+msgid "Day"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1673
+#: includes/Admin/GlobalSettings.php:1689
+msgid "Hour"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1680
+msgid "If Cancel Before By Day this value will work"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1682
+msgid "Day E.g - 1"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1691
+msgid "If Cancel Before By Hour this value will work"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1693
+msgid "Hour E.g - 1"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1709
+msgid "Make Product Calendar In Your Language"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1715
+msgid "Language Domain"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1717
+msgid "Enter your language domain. E.g. - de"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1719
+msgid "Language Domain E.g - fr"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1727
+msgid "RnB Calendar Data Type"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1728
+msgid "Please choose rest api if your order data size is big"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1735
+msgid "Pre Fetched"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1736
+msgid "Rest API"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1742
+msgid "RnB Calendar Active For"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1743
+msgid "Enter the number of days for you'd like the calendar remain active from today date."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1757
+msgid "Configure Instance Payments"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1763
+msgid "Instance Pay Type"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1764
+msgid "Select the payment type first. If selected payment type is \"percentage\" then you need to insert a \"percentage\" value in the below field. On the other hand you need to insert a fixed amount. This works like a partial payment of the total amount of checkout."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1772
+msgid "Percentage Amount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1773
+msgid "Fixed Amount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1778
+msgid "Pay During Booking"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1780
+msgid "You must have to pay this amount during booking (this could be a fixed or percentage amount of total, based on above selection). If \"percentage\" payment type is selected and this field is empty then default pay amount value is 100% . For the fixed type the default amount is 0."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1801
+msgid "Miscellaneous Sections"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1815
+msgid "Shop Page Button Label"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1817
+msgid "Enter Your Shop Page Button Label. E.g. - Read More"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1819
+#: includes/Admin/GlobalSettings.php:1820
+#: includes/class-redq-product-redq_rental.php:489
+msgid "Read More"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1828
+msgid "Holidays"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1830
+msgid "Enter holidays in this format E.g.: 2018-07-18 to 2018-07-26,2018-08-18 to 2018-08-20"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1832
+msgid "Enter holidays in this format E.g.: 2018-07-18 to 2018-07-26, 2018-08-18 to 2018-08-20"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1843
+msgid "Select day of week start"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1844
+msgid "Choose day of week start"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1873
+#: includes/Admin/GlobalSettings.php:1874
+msgid "Enable RFQ Without Username & Password"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1881
+msgid "Enable RFQ on Account Page"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1882
+msgid "Enable Request For Quote Endpoint In My Account Page"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1895
+msgid "Google Map Configuration"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1901
+msgid "Enable Google Map For Location"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1908
+msgid "Google Map Api Key"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1910
+msgid "Enter google map API Key"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1912
+msgid "Google map api key"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1925
+msgid "Universal Labels"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1931
+msgid "Attributes Tab Label"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1933
+msgid "Enter the text label E.g. - Attributes Tab"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1936
+msgid "Attributes Tab"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1944
+msgid "Features Tab Label"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1946
+msgid "Enter the text label E.g. - Features Tab"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1949
+msgid "Features Tab"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1957
+msgid "Total Days Label (cart,checkout,order pages)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1959
+msgid "Enter the text label E.g. - Total Days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1961
+#: includes/Admin/GlobalSettings.php:1962
+#: includes/Traits/Rental_Data_Trait.php:400
+#: includes/Utils/global-functions.php:549
+#: includes/Utils/settings.php:84
+msgid "Total Days"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1970
+msgid "Total Hours Label (cart,checkout,order pages)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1972
+msgid "Enter the text label E.g. - Total Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1974
+#: includes/Admin/GlobalSettings.php:1975
+#: includes/Traits/Rental_Data_Trait.php:353
+#: includes/Traits/Rental_Data_Trait.php:365
+#: includes/Utils/global-functions.php:550
+#: includes/Utils/settings.php:89
+msgid "Total Hours"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1983
+msgid "Payment Due Label (cart,checkout,order pages)"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1985
+msgid "Enter the text label E.g. - Payment Due"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:1987
+#: includes/Admin/GlobalSettings.php:1988
+#: includes/Admin/GlobalSettings.php:2163
+#: includes/Admin/GlobalSettings.php:2166
+#: includes/Admin/GlobalSettings.php:2167
+#: includes/Utils/global-functions.php:551
+#: includes/Utils/global-functions.php:572
+#: includes/Utils/settings.php:154
+msgid "Payment Due"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2001
+msgid "Personalize Price Breakdown"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2007
+#: includes/Admin/GlobalSettings.php:2010
+#: includes/Admin/GlobalSettings.php:2011
+#: includes/Utils/data-provider.php:390
+#: includes/Utils/global-functions.php:559
+#: includes/Utils/settings.php:104
+msgid "Pickup Location Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2019
+#: includes/Admin/GlobalSettings.php:2022
+#: includes/Admin/GlobalSettings.php:2023
+#: includes/Utils/global-functions.php:560
+#: includes/Utils/settings.php:109
+msgid "Return Location Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2031
+#: includes/Admin/GlobalSettings.php:2034
+#: includes/Admin/GlobalSettings.php:2035
+#: includes/Utils/global-functions.php:561
+#: includes/Utils/settings.php:114
+msgid "Distance Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2043
+#: includes/Admin/GlobalSettings.php:2046
+#: includes/Admin/GlobalSettings.php:2047
+#: includes/Utils/global-functions.php:562
+#: includes/Utils/settings.php:119
+msgid "Duration Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2055
+#: includes/Admin/GlobalSettings.php:2058
+#: includes/Admin/GlobalSettings.php:2059
+#: includes/Utils/settings.php:124
+msgid "Discount Amount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2067
+#: includes/Admin/GlobalSettings.php:2070
+#: includes/Admin/GlobalSettings.php:2071
+#: includes/Utils/data-provider.php:181
+#: includes/Utils/data-provider.php:185
+#: includes/Utils/global-functions.php:564
+#: includes/Utils/settings.php:129
+msgid "Resource Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2079
+#: includes/Admin/GlobalSettings.php:2082
+#: includes/Admin/GlobalSettings.php:2083
+#: includes/Utils/global-functions.php:565
+#: includes/Utils/settings.php:134
+msgid "Category Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2091
+#: includes/Admin/GlobalSettings.php:2094
+#: includes/Admin/GlobalSettings.php:2095
+#: includes/Utils/global-functions.php:566
+#: includes/Utils/settings.php:139
+msgid "Adult Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2103
+#: includes/Admin/GlobalSettings.php:2106
+#: includes/Admin/GlobalSettings.php:2107
+#: includes/Utils/global-functions.php:567
+#: includes/Utils/settings.php:144
+msgid "Child Cost"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2115
+#: includes/Admin/GlobalSettings.php:2118
+#: includes/Admin/GlobalSettings.php:2119
+msgid "Deposit Amount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2127
+#: includes/Utils/global-functions.php:569
+#: includes/Utils/settings.php:79
+msgid "Instant Pay"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2130
+#: includes/Admin/GlobalSettings.php:2131
+msgid "Instant Pay Amount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2175
+#: includes/Admin/GlobalSettings.php:2178
+#: includes/Admin/GlobalSettings.php:2179
+msgid "Quote Total"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2187
+msgid "Subtotal Amount"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2190
+#: includes/Admin/GlobalSettings.php:2191
+#: includes/Utils/global-functions.php:575
+#: includes/Utils/settings.php:164
+msgid "Subtotal"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2199
+#: includes/Admin/GlobalSettings.php:2202
+#: includes/Admin/GlobalSettings.php:2203
+#: includes/Utils/global-functions.php:576
+#: includes/Utils/settings.php:169
+msgid "Grand Total"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2216
+msgid "Request For Quote Admin Profile"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2222
+msgid "RFQ Admin Email"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2224
+msgid "Admin email that is used for request for quote emails"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2226
+msgid "Admin Email"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2234
+msgid "RFQ Admin Name"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2236
+msgid "Admin name that is used for request for quote emails"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2238
+msgid "Admin Name"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2251
+msgid "GDPR Consent"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2257
+msgid "Enable GDPR Consent"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2264
+msgid "GDPR Message"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2266
+msgid "This text will be display on the RFQ form after the checkbox input."
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2268
+msgid "Add GDPR Message Label"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2269
+#: includes/Utils/settings.php:179
+msgid "Please accept to consent to your data being stored in line with the guidelines set out in our"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2279
+msgid "Select GDPR Privacy Page"
+msgstr ""
+
+#: includes/Admin/GlobalSettings.php:2280
+msgid "Select the GDPR privacy page, which will be displayed after the RFQ GDPR checkbox."
+msgstr ""
+
+#: includes/Admin/ImageTermMeta.php:321
+msgid "Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the \"screen options\" link at the top of the page."
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:24
+msgid "Rental Product"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:39
+msgid "Price Discount"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:85
+#, php-format
+msgid "No items found. Please check %s and sync pending orders"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:89
+msgid "No items found."
+msgstr ""
+
+#. translators: %s: Search query.
+#: includes/Admin/OrderTable.php:215
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:231
+msgid "Search orders"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:257
+msgid "Order ID"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:259
+msgid "Quick View"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:260
+msgid "Order Date"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:261
+msgid "Pickup DateTime"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:262
+msgid "Return DateTime"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:263
+#: templates/rnb/booking-content/booking-modal.php:107
+msgid "Duration"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:265
+#: includes/Admin/views/html-quote-details.php:21
+#: includes/Traits/Rental_Data_Trait.php:679
+#: templates/myaccount/view-quote.php:51
+msgid "Total"
+msgstr ""
+
+#. translators: 1: first name 2: last name
+#: includes/Admin/OrderTable.php:360
+#: includes/Utils/data-provider.php:1185
+#, php-format
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:410
+msgid "Restore"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:411
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:415
+msgid "Change status to processing"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:416
+msgid "Change status to on-hold"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:417
+msgid "Change status to completed"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:418
+msgid "Change status to cancelled"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:419
+#: includes/Admin/views/html-quote-status.php:39
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:424
+msgid "Remove personal data"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:439
+msgid "All"
+msgstr ""
+
+#: includes/Admin/OrderTable.php:463
+msgid "Trash"
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:16
+#: includes/Admin/OrderTableAjax.php:39
+msgid "Nonce validation failed"
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:22
+msgid "No order selected"
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:26
+msgid "No action selected"
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:53
+msgid "No order to Update"
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:67
+msgid "Order delete failed."
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:69
+msgid "Order successfully deleted."
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:80
+msgid "Order restore failed."
+msgstr ""
+
+#: includes/Admin/OrderTableAjax.php:82
+msgid "Order successfully UnTrash."
+msgstr ""
+
+#: includes/Admin/views/admin-menu-page-full-calender.php:5
+msgid "Color codes:"
+msgstr ""
+
+#: includes/Admin/views/admin-menu-page-full-calender.php:32
+msgid "View Order"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:4
+msgid "Addons"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:5
+msgid "RnB Addons"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:8
+msgid "RnB Seasonal Pricing (Add-ons)"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:11
+#: includes/Admin/views/admin-rnb-addons.php:21
+#: includes/Admin/views/admin-rnb-addons.php:31
+#: includes/Admin/views/admin-rnb-addons.php:41
+#: includes/Admin/views/admin-rnb-addons.php:52
+#: includes/Admin/views/admin-rnb-addons.php:62
+#: includes/Admin/views/admin-rnb-addons.php:72
+msgid "Extension of <strong>WooCommerce Rental & Booking Plugin</strong>"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:12
+msgid "The Seasonal pricing add-on allows you to charge promotional/seasonal pricing for specific date range of any rental product. This enables admin to configure pricing very easily based on different criteria. This is a simple and easy to use add-on perfect for your business if your price changes for peak and off-peak season."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:18
+msgid "RnB Backend Booking (Add-ons)"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:22
+msgid "R&B Backend Booking is an extension of WooCommerce and WooCommerce Rental & Booking plugin. It allows admin to create a rental order from WordPress admin. It provides all the features that is available in RnB front-end booking plugin. This plugin will help admin to create both online and offline booking business."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:28
+msgid "RnB Extend Order (Add-on)"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:32
+msgid "R&B extend order plugin is an extension of WooCommerce and WooCommerce Rental & Booking plugin . It allows customer to extend a rental order from wooCommerce my account page. This plugin will help customer to extend their existing booking depending on its availability, it’s super easy to install and setup. Customer will able to extend a rental order for cars, bike, dress, tools, gadgets, etc."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:38
+msgid "Inspect - RNB Search & Filter (Add-ons)"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:42
+msgid "Inspect is an Add-ons of WooCommerce and WooCommerce Rental & Booking plugin. Inspect is a user-friendly search and filter extension for your Rental and Booking site. It works as an extension for RnB – WooCommerce plugin. Inspect allows you to generate shortcodes for advanced search forms and filters. It comes with the following options: Generate Search Form shortcode Generate Listing (Search Result) Shortcode."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:48
+msgid ""
+"RnB - Extra Product Options (Add-on)\n"
+"                "
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:53
+msgid "RnB extra product options is an extension of WooCommerce and WooCommerce Rental & Booking plugin. It allows customer to add extra fields fields in booking & rental form. Before installing this plugin, please make sure you’ve installed required plugins. Otherwise this plugin will not work and you’ll get warning message in WordPress admin area."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:59
+msgid "Rental Invoice - PDF Invoice For RnB & WooCommerce"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:63
+msgid "Rental Invoice – PDF Invoice for RnB & wooCommerce is an extension for RnB and wooCommerce plugin that can be useful for businesses that need to provide customers with a printable invoice for their purchases or bookings. With this extension, you can generate PDF invoices from both the back-end (admin area) and front-end (customer area) of your website, which can help streamline the invoicing process and improve customer experience. When a customer places an order, the invoice is also sent as an email attachment."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:69
+msgid "RnB Builder - Product Single Page Builder for RnB (Add-on)"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:73
+msgid "RnB Builder is an extension of WooCommerce and WooCommerce Rental & Booking plugins . It allows a customer to build any product single page without headache. It’s very easy to use and comes with a lot of powerful design control and animations. We have provided support for some of the most popular website builders in the market today like Elementor Pro Builder, Gutenberg Builder, Divi Builder, and Oxygen Builder with that. The  RnB Builder add-on ensures that businesses can customize their website easily and quickly, without having to spend time on coding or hiring a developer."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:81
+msgid "Themes"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:82
+msgid "RnB Compatible Themes"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:85
+msgid "Cartsy - WooCommerce WordPress Theme"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:88
+msgid "WordPress Theme build on the top of <strong>WooCommerce</strong>"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:89
+msgid "Create your online shop with our fully functional WordPress E-commerce. Cartsy is a highly intuitive WooCommerce theme that will handle all your online business needs. Start selling anything and everything today."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:95
+msgid "Turbo - WooCommerce Rental & Booking Theme"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:98
+msgid "WordPress Theme Build on the top of <strong>WooCommerce Rental & Booking Plugin"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:99
+msgid "Turbo is an user-friendly car booking WordPress theme alternatively, car rental WordPress theme crafted with , WooCommerce booking plugin, visual composer, and multilingual.This theme allows you to book or rent your date-based or time-based car booking. It creates a new product type to your WooCommerce site. Perfect for those wanting to offer rental or booking."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:111
+msgid "Extend your booking features with RnB products."
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:138
+msgid "RnB Seasonal Pricing"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:144
+msgid "Live Preview"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:145
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:146
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/Admin/views/admin-rnb-addons.php:147
+msgid "Buy Now"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:3
+msgid "Product Date Availabilities"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:11
+msgid "Block type"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:12
+msgid "Pickup Datetime"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:13
+msgid "Dropoff Datetime"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:14
+msgid "Row ID"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:26
+msgid "Block Dates"
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:28
+msgid "Please select the datetime range to be disabled for the product inventory on specific date range."
+msgstr ""
+
+#: includes/Admin/views/html-availability-management.php:29
+msgid "FYI: After selecting date from datepicker, please click the time picker also. If you don't click time then disable date time will not work properly."
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:45
+msgid "E.g. - 2 (floating value is not allowed)"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:91
+msgid "Enable Trailing Date"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:104
+msgid "Maximum Booking Days"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:105
+msgid "E.g. - 5"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:123
+msgid "Minimum Booking Days"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:124
+msgid "E.g. - 1"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:140
+msgid "Maximum Booking Hours"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:141
+msgid "E.g. - 15"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:159
+msgid "Minimum Booking Hours"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:160
+msgid "E.g. - 10"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:234
+msgid "Selected no. of hours will be blocked automatically after a booking order and customer will not be charged for extra these hours. Suppose you set the value 2. Now if any customer books date from 10am to 12pm then after completing the order 8am to 10am date will be disabled in calendar for this order. Although customer will not be charged for these extra 2 hours"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:253
+msgid "Selected no. of hours will be blocked automatically after a booking and customer will not be charged for extra these hours. Suppose you set the value 2. Now if any customer books date from 10am to 12pm then after completing the order 8am to 2pm date will be disabled in calendar for this order. Although customer will not be charged for these extra 2 hours"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:269
+msgid "Time Interval"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:270
+msgid "Time Interval in mins E.g. - 20"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:288
+msgid "Show Product Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:289
+msgid "If you set the value as yes then date or range of dates will be blocked after placing an order depending on no. of inventories. If you set the value as no then date will not be blocked after placing the order"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:305
+msgid "Allowed Times"
+msgstr ""
+
+#: includes/Admin/views/html-condition-local-settings.php:318
+msgid "Choose Booking Layout"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:9
+#: includes/Admin/views/html-days-range-meta.php:27
+#: includes/Admin/views/html-price-discount-meta.php:9
+#: includes/Admin/views/html-price-discount-meta.php:27
+msgid "Days"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:10
+#: includes/Admin/views/html-hourly-range-meta.php:11
+msgid "-  Cost"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:13
+#: includes/Admin/views/html-hourly-range-meta.php:13
+#: includes/Admin/views/html-price-discount-meta.php:13
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:31
+msgid "Remove"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:26
+#: includes/Admin/views/html-price-discount-meta.php:26
+msgid "Min Days"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:41
+#: includes/Admin/views/html-price-discount-meta.php:41
+msgid "Max Days"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:42
+#: includes/Admin/views/html-price-discount-meta.php:42
+msgid "days"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:56
+msgid "Days Range Cost ( "
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:57
+#: includes/Admin/views/html-hourly-range-meta.php:55
+#: includes/Utils/data-provider.php:96
+#: includes/Utils/data-provider.php:99
+#: includes/Utils/data-provider.php:389
+#: includes/Utils/data-provider.php:447
+msgid "Cost"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:71
+#: includes/Admin/views/html-hourly-range-meta.php:69
+#: includes/Utils/data-provider.php:164
+#: includes/Utils/data-provider.php:288
+#: includes/Utils/data-provider.php:335
+msgid "Applicable"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:72
+#: includes/Admin/views/html-hourly-range-meta.php:70
+#: includes/Admin/views/html-price-discount-meta.php:57
+msgid "This will be applicable during booking cost calculation"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:74
+#: includes/Admin/views/html-hourly-range-meta.php:72
+msgid "Select Type"
+msgstr ""
+
+#: includes/Admin/views/html-days-range-meta.php:76
+#: includes/Admin/views/html-hourly-range-meta.php:74
+#: templates/rnb/global/price-flip-box.php:55
+#: templates/rnb/global/price-flip-box.php:106
+#: templates/rnb/global/price-flip-box.php:141
+msgid "Fixed"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:66
+msgid "Show Dropoff Date"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:89
+msgid "Show Dropoff Time"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:137
+msgid "Show pricing flip box"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:160
+msgid "Show price discount"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:184
+msgid "Show instance payment"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:207
+msgid "Show Quote Request"
+msgstr ""
+
+#: includes/Admin/views/html-display-local-settings.php:230
+msgid "Show Book Now"
+msgstr ""
+
+#: includes/Admin/views/html-hourly-range-meta.php:10
+#: includes/Admin/views/html-hourly-range-meta.php:33
+#: includes/Admin/views/html-hourly-range-meta.php:44
+msgid "Hours"
+msgstr ""
+
+#: includes/Admin/views/html-hourly-range-meta.php:32
+msgid "Min Hours"
+msgstr ""
+
+#: includes/Admin/views/html-hourly-range-meta.php:43
+msgid "Max Hours"
+msgstr ""
+
+#: includes/Admin/views/html-hourly-range-meta.php:54
+msgid "Hourly Range Cost ( "
+msgstr ""
+
+#: includes/Admin/views/html-hourly-range-meta.php:73
+#: includes/Traits/Rental_Data_Trait.php:741
+msgid "Per Hour"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:6
+msgid "Set Quantity"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:7
+msgid "Add inventory quantity"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:15
+msgid "Minimum 1 is required for each invenotry to work with."
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:24
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:17
+msgid "Distance Unit"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:25
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:18
+msgid "Set Location Distance Unit"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:26
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:19
+msgid "If you select booking layout two then for location unit it will be applied"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:29
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:21
+msgid "Kilometer"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:30
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:22
+msgid "Mile"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:38
+#, php-format
+msgid "Distance Unit Price ( %s )"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:39
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:32
+msgid "Per Distance Unit Price"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:46
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:35
+msgid "If you select booking layout two then for location price it will be applied"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:52
+msgid "Configure Day Pricing Plans"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:57
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:5
+msgid "General Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:59
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:7
+msgid "Monthly Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:60
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:8
+msgid "Days Range Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:61
+msgid "Flat Hour Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:66
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:4
+msgid "Set Price Type"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:67
+#: includes/Admin/views/html-inventory-management.php:178
+#, php-format
+msgid "Choose a price type - this controls the <a href = \"%s\">Details</a>."
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:76
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:48
+msgid "Set general pricing plan"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:80
+#, php-format
+msgid "General Price ( %s )"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:81
+#: includes/Admin/views/html-inventory-management.php:103
+#: includes/Admin/views/html-inventory-management.php:126
+#: includes/Admin/views/html-inventory-management.php:191
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:43
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:50
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:71
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:72
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:73
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:74
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:75
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:76
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:77
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:101
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:103
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:105
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:107
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:109
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:111
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:113
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:115
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:117
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:119
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:121
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:123
+msgid "Enter price here"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:91
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:55
+msgid "Set daily pricing Plan"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:115
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:82
+msgid "Set monthly pricing plan"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:139
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:129
+msgid "Set day ranges pricing plans"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:151
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:140
+msgid "Add Days Range"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:172
+msgid "Configure Hourly Pricing Plans"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:177
+msgid "Set Hourly Price Type"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:180
+msgid "General Hourly Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:181
+msgid "Hourly Range Pricing"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:190
+#, php-format
+msgid "Hourly Price ( %s )"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:198
+msgid "Hourly price will be applicable if booking or rental days min 1day"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:206
+msgid "Set hourly ranges pricing plans"
+msgstr ""
+
+#: includes/Admin/views/html-inventory-management.php:216
+msgid "Add Hourly Range"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:23
+#: includes/Admin/views/html-labels-local-settings.php:24
+msgid "Show Pricing Info Heading Text"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:35
+msgid "Unit Price Text"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:48
+msgid "Pickup Location Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:49
+msgid "pickup location title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:63
+msgid "pickup location placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:74
+msgid "Dropoff Location Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:75
+msgid "Dropoff location title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:86
+msgid "Dropoff Location Placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:87
+msgid "Dropoff location placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:98
+msgid "Pickup Date Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:99
+msgid "Pickup date title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:112
+#: includes/Admin/views/html-labels-local-settings.php:125
+msgid "Pickup date placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:137
+msgid "Dropoff Date Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:138
+msgid "Dropoff date title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:151
+msgid "Drop-off date placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:164
+msgid "Drop-off time placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:175
+msgid "Quantity Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:176
+msgid "Quantity title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:187
+msgid "Category Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:188
+msgid "Category title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:199
+msgid "Resources Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:200
+msgid "Resources title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:211
+msgid "Adults Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:212
+msgid "Adults title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:224
+msgid "Adults placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:235
+msgid "Childs Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:236
+msgid "Childs title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:248
+msgid "Childs placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:260
+msgid "Security Deposite Heading Title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:261
+msgid "Security deposite title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:341
+msgid "Book now button text"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:389
+#: includes/Admin/views/html-labels-local-settings.php:401
+#: includes/Utils/global-functions.php:988
+#: includes/Utils/global-functions.php:996
+#: includes/Utils/global-functions.php:1093
+#: includes/Utils/global-functions.php:1101
+#: includes/Utils/settings.php:720
+#: includes/Utils/settings.php:755
+msgid "Password"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:412
+msgid "RFQ first Name title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:413
+#: includes/Admin/views/html-labels-local-settings.php:425
+#: includes/Utils/global-functions.php:989
+#: includes/Utils/global-functions.php:997
+#: includes/Utils/global-functions.php:1094
+#: includes/Utils/global-functions.php:1102
+#: includes/Utils/settings.php:725
+#: includes/Utils/settings.php:760
+#: templates/rnb/emails/request-quote-item-details.php:263
+msgid "First Name"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:424
+msgid "RFQ first Name placeholder"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:436
+msgid "RFQ last Name title"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:437
+#: includes/Admin/views/html-labels-local-settings.php:449
+#: includes/Utils/global-functions.php:990
+#: includes/Utils/global-functions.php:998
+#: includes/Utils/global-functions.php:1095
+#: includes/Utils/global-functions.php:1103
+#: includes/Utils/settings.php:730
+#: includes/Utils/settings.php:765
+#: templates/rnb/emails/request-quote-item-details.php:270
+msgid "Last Name"
+msgstr ""
+
+#: includes/Admin/views/html-labels-local-settings.php:448
+msgid "RFQ last Name placeholder"
+msgstr ""
+
+#. translators: %s: order ID
+#: includes/Admin/views/html-order-preview-popup.php:9
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:11
+msgid "Close modal panel"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:20
+msgid "Billing details"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:34
+msgid "Payment via"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:40
+msgid "Shipping details"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:48
+msgid "Shipping method"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:56
+msgid "Note"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:71
+msgid "Edit this order"
+msgstr ""
+
+#: includes/Admin/views/html-order-preview-popup.php:72
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin/views/html-order-screen-options.php:6
+msgid "Columns"
+msgstr ""
+
+#: includes/Admin/views/html-order-screen-options.php:20
+#: includes/Utils/core-functions.php:447
+msgid "Pagination"
+msgstr ""
+
+#: includes/Admin/views/html-order-screen-options.php:22
+msgid "Number of items per page:"
+msgstr ""
+
+#: includes/Admin/views/html-own-availability.php:22
+msgid "Custom Block"
+msgstr ""
+
+#: includes/Admin/views/html-own-availability.php:23
+msgid "Frontend Order"
+msgstr ""
+
+#: includes/Admin/views/html-own-availability.php:24
+msgid "Backend Order"
+msgstr ""
+
+#: includes/Admin/views/html-own-time-availability.php:33
+msgid "Not"
+msgstr ""
+
+#: includes/Admin/views/html-own-time-availability.php:40
+msgid "delete"
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:10
+msgid "-  Discount"
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:56
+msgid "Discount Type"
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:59
+msgid "Select type"
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:60
+msgid "Percentage"
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:61
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:70
+msgid "Discount Amount ( "
+msgstr ""
+
+#: includes/Admin/views/html-price-discount-meta.php:71
+#: includes/Utils/global-functions.php:563
+msgid "Discount amount"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:21
+msgid "Choose Settings For Display Tab"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:22
+#: includes/Admin/views/html-product-settings-data.php:24
+#: includes/Admin/views/html-product-settings-data.php:43
+#: includes/Admin/views/html-product-settings-data.php:45
+#: includes/Admin/views/html-product-settings-data.php:65
+#: includes/Admin/views/html-product-settings-data.php:67
+#: includes/Admin/views/html-product-settings-data.php:87
+#: includes/Admin/views/html-product-settings-data.php:89
+msgid "Global Settings"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:22
+#, php-format
+msgid "Please configure the display settings from <strong> <a href=\"%1$s\" target=\"_blank\"> "
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:25
+#: includes/Admin/views/html-product-settings-data.php:46
+#: includes/Admin/views/html-product-settings-data.php:68
+#: includes/Admin/views/html-product-settings-data.php:90
+msgid "Local Settings"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:42
+msgid "Choose Settings For Labels Tab"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:43
+#, php-format
+msgid "Please configure labels the settings from <strong> <a href=\"%1$s\" target=\"_blank\"> "
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:64
+msgid "Choose Settings For Conditions Tab"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:65
+#, php-format
+msgid "Please configure the conditions settings from <strong> <a href=\"%1$s\" target=\"_blank\"> "
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:86
+msgid "Choose Settings For Validations Tab"
+msgstr ""
+
+#: includes/Admin/views/html-product-settings-data.php:87
+#, php-format
+msgid "Please configure the validation settings from <strong> <a href=\"%1$s\" target=\"_blank\"> "
+msgstr ""
+
+#: includes/Admin/views/html-quote-details.php:18
+msgid "Item"
+msgstr ""
+
+#: includes/Admin/views/html-quote-details.php:19
+msgid "Quote Price"
+msgstr ""
+
+#: includes/Admin/views/html-quote-details.php:20
+#: includes/Utils/data-provider.php:69
+msgid "Qty"
+msgstr ""
+
+#: includes/Admin/views/html-quote-details.php:169
+#: includes/Admin/views/html-quote-details.php:194
+#: includes/Admin/views/html-quote-details.php:221
+#: includes/Traits/Rental_Data_Trait.php:740
+#: includes/Utils/data-provider.php:115
+#: templates/myaccount/view-quote.php:185
+#: templates/myaccount/view-quote.php:210
+#: templates/myaccount/view-quote.php:235
+#: templates/rnb/emails/request-quote-item-details.php:152
+#: templates/rnb/emails/request-quote-item-details.php:176
+#: templates/rnb/emails/request-quote-item-details.php:199
+msgid "One Time"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:23
+msgid "Quote Id#"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:24
+msgid "Time# "
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:29
+msgid "ADD MESSAGE"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:57
+#: templates/myaccount/view-quote.php:357
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:58
+#: templates/myaccount/view-quote.php:358
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:59
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:66
+msgid "Customer details"
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:68
+msgid "Name: "
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:69
+msgid "Email: "
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:70
+msgid "Phone: "
+msgstr ""
+
+#: includes/Admin/views/html-quote-message.php:71
+msgid "Message: "
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:3
+msgid "Quote Status"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:8
+#: includes/Installer.php:110
+#: includes/Utils/quote-functions.php:12
+msgctxt "Quote status"
+msgid "Pending"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:9
+#: includes/Installer.php:119
+#: includes/Utils/quote-functions.php:13
+msgctxt "Quote status"
+msgid "Processing"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:10
+#: includes/Installer.php:128
+#: includes/Utils/quote-functions.php:14
+msgctxt "Quote status"
+msgid "On Hold"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:11
+#: includes/Installer.php:137
+msgctxt "Quote status"
+msgid "Accepted"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:12
+#: includes/Installer.php:146
+#: includes/Utils/quote-functions.php:15
+msgctxt "Quote status"
+msgid "Completed"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:13
+#: includes/Installer.php:155
+#: includes/Utils/quote-functions.php:16
+msgctxt "Quote status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:24
+msgid "Price"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:37
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:47
+msgid "Update Quote"
+msgstr ""
+
+#: includes/Admin/views/html-quote-status.php:47
+#, php-format
+msgid "Update the %s"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-non-repeatable-data.php:9
+#: includes/Admin/views/html-rental-inventory-non-repeatable-data.php:10
+msgid "Inventory Qty"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:46
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:49
+msgid "Unique product model"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:48
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:43
+msgid "Hourly price will be applicabe if booking or rental days min 1day"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:59
+msgid "Unique product quantity"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:61
+msgid "Set the quantity of that unique model available for rent or book"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:62
+msgid "Set product quantity"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:87
+msgid "Select Categories"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:100
+msgid "Set Categories"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:115
+msgid "Select Pickup Locations"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:144
+msgid "Select Drop-off Locations"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:174
+msgid "Select Resources"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:203
+msgid "Select Person"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:232
+msgid "Select Security Deposite"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:261
+msgid "Select Attributes"
+msgstr ""
+
+#: includes/Admin/views/html-rental-inventory-repeatable-data.php:290
+msgid "Select Features"
+msgstr ""
+
+#: includes/Admin/views/html-validation-global-settings.php:20
+#: includes/Admin/views/html-validation-global-settings.php:40
+#: includes/Admin/views/html-validation-global-settings.php:60
+#: includes/Admin/views/html-validation-global-settings.php:80
+#: includes/Admin/views/html-validation-global-settings.php:100
+#: includes/Admin/views/html-validation-global-settings.php:120
+#: includes/Admin/views/html-validation-global-settings.php:140
+#: includes/Admin/views/html-validation-local-settings.php:99
+#: includes/Admin/views/html-validation-local-settings.php:119
+#: includes/Admin/views/html-validation-local-settings.php:139
+#: includes/Admin/views/html-validation-local-settings.php:159
+#: includes/Admin/views/html-validation-local-settings.php:179
+#: includes/Admin/views/html-validation-local-settings.php:199
+#: includes/Admin/views/html-validation-local-settings.php:219
+msgid "Min Time"
+msgstr ""
+
+#: includes/Admin/views/html-validation-global-settings.php:26
+#: includes/Admin/views/html-validation-global-settings.php:46
+#: includes/Admin/views/html-validation-global-settings.php:66
+#: includes/Admin/views/html-validation-global-settings.php:86
+#: includes/Admin/views/html-validation-global-settings.php:106
+#: includes/Admin/views/html-validation-global-settings.php:126
+#: includes/Admin/views/html-validation-global-settings.php:146
+#: includes/Admin/views/html-validation-local-settings.php:105
+#: includes/Admin/views/html-validation-local-settings.php:125
+#: includes/Admin/views/html-validation-local-settings.php:145
+#: includes/Admin/views/html-validation-local-settings.php:165
+#: includes/Admin/views/html-validation-local-settings.php:185
+#: includes/Admin/views/html-validation-local-settings.php:205
+#: includes/Admin/views/html-validation-local-settings.php:225
+msgid "Max Time"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:12
+msgid "If there is no pickup location field on this product then this option will not work"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:27
+msgid "Required Return Location [Not applicable for modal layout]"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:28
+msgid "If there is no return location field on this product then this option will not work"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:44
+msgid "If there is no adult field on this product then this option will not work"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:60
+msgid "Please enable pickup time option from display settings. Otherwise this option will not work"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:75
+msgid "Required Return Time"
+msgstr ""
+
+#: includes/Admin/views/html-validation-local-settings.php:76
+msgid "Please enable return time option from display settings. Otherwise this option will not work"
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:4
+#, php-format
+msgid "Choose a price type - this controls the <a href=\"%s\">schema</a>."
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:31
+msgid "Distance Unit Price ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:43
+msgid "Hourly Price ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:50
+msgid "General Price ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:71
+msgid "Friday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:72
+msgid "Saturday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:73
+msgid "Sunday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:74
+msgid "Monday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:75
+msgid "Tuesday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:76
+msgid "Wednesday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:77
+msgid "Thursday ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:101
+msgid "January ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:103
+msgid "February ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:105
+msgid "March ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:107
+msgid "April ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:109
+msgid "May ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:111
+msgid "June ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:113
+msgid "July ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:115
+msgid "August ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:117
+msgid "September ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:119
+msgid "October ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:121
+msgid "November ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:123
+msgid "December ( "
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:220
+msgid "Choose Inventories"
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:231
+msgid "Inventory Details"
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:249
+msgid "Set price discount depending on day length"
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:260
+msgid "Add Price Discount"
+msgstr ""
+
+#: includes/Admin/views/redq-rental-additional-tabs-panel.php:283
+msgid "Settings of this product"
+msgstr ""
+
+#: includes/Admin/views/rnb-dashboard.php:12
+msgid "License Status"
+msgstr ""
+
+#: includes/Admin/views/rnb-dashboard.php:19
+msgid "Theme purchase code."
+msgstr ""
+
+#: includes/Admin/views/rnb-dashboard.php:29
+msgid "Activate"
+msgstr ""
+
+#: includes/Ajax.php:51
+#: includes/Ajax.php:139
+#: includes/Ajax.php:192
+#: includes/RequestForQuote.php:296
+msgid "Nonce value cannot be verified"
+msgstr ""
+
+#: includes/Ajax.php:163
+msgid "Free booking is not allowed"
+msgstr ""
+
+#: includes/Ajax.php:251
+#: includes/Ajax.php:299
+msgid "Nonce verification failed"
+msgstr ""
+
+#: includes/Ajax.php:258
+msgid "User doesn't have permission"
+msgstr ""
+
+#: includes/Ajax.php:269
+msgid "Sorry! Something goes wrong. Please check again"
+msgstr ""
+
+#: includes/Ajax.php:284
+msgid "Blocked dates has been clear successfully!"
+msgstr ""
+
+#: includes/Ajax.php:309
+msgid "Deposit Refund"
+msgstr ""
+
+#: includes/Ajax.php:318
+msgid "Invalid refund amount"
+msgstr ""
+
+#: includes/Ajax.php:344
+msgid "Amount refunded successfully"
+msgstr ""
+
+#: includes/Assets.php:142
+msgid "Pickup Point"
+msgstr ""
+
+#: includes/Assets.php:143
+msgid "DropOff Point"
+msgstr ""
+
+#: includes/Assets.php:238
+msgid "View Docs"
+msgstr ""
+
+#: includes/CartHandler.php:63
+msgid "Sorry! product or inventory is not found"
+msgstr ""
+
+#: includes/CartHandler.php:71
+#: includes/CartHandler.php:268
+#: includes/CartHandler.php:274
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:603
+msgid "january"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:606
+msgid "february"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:609
+msgid "march"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:612
+msgid "april"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:615
+msgid "may"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:618
+msgid "june"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:621
+msgid "july"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:624
+msgid "august"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:627
+msgid "september"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:630
+msgid "october"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:633
+msgid "november"
+msgstr ""
+
+#: includes/class-redq-product-redq_rental.php:636
+msgid "december"
+msgstr ""
+
+#: includes/Email.php:15
+msgid "User password for Request for Quote"
+msgstr ""
+
+#: includes/Hook.php:74
+msgid "Inventory Missing"
+msgstr ""
+
+#: includes/Installer.php:116
+#, php-format
+msgid "Pending <span class = \"count\">(%s)</span>"
+msgid_plural "Pending <span class = \"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Installer.php:125
+#, php-format
+msgid "Processing <span class = \"count\">(%s)</span>"
+msgid_plural "Processing <span class = \"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Installer.php:134
+#, php-format
+msgid "On Hold <span class = \"count\">(%s)</span>"
+msgid_plural "On Hold <span class = \"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Installer.php:143
+#, php-format
+msgid "Accepted <span class = \"count\">(%s)</span>"
+msgid_plural "Accepted <span class = \"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Installer.php:152
+#, php-format
+msgid "Completed <span class = \"count\">(%s)</span>"
+msgid_plural "Completed <span class = \"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Installer.php:161
+#, php-format
+msgid "Cancelled <span class = \"count\">(%s)</span>"
+msgid_plural "Cancelled <span class = \"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Integrations/FullCalendarIntegration.php:120
+msgid "Today"
+msgstr ""
+
+#: includes/Integrations/FullCalendarIntegration.php:121
+msgid "Month"
+msgstr ""
+
+#: includes/Integrations/FullCalendarIntegration.php:122
+msgid "Week"
+msgstr ""
+
+#: includes/Integrations/FullCalendarIntegration.php:124
+msgid "list"
+msgstr ""
+
+#: includes/Integrations/FullCalendarIntegration.php:231
+#: includes/Utils/arrange-data.php:463
+msgid "Order ID:"
+msgstr ""
+
+#: includes/Integrations/FullCalendarIntegration.php:232
+#: includes/Utils/arrange-data.php:464
+msgid "Quantity:"
+msgstr ""
+
+#: includes/Integrations/FullCalendarIntegration.php:247
+msgid "Total Amount: "
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:42
+msgid "Connect RnB With Google Calendar To Trace Orders"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:43
+msgid "You need to do following things to get your required calendar credentials "
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:128
+msgid "Google Client ID"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:130
+msgid "Enter your Google Client ID."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:134
+msgid "Google Client Secret"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:136
+msgid "Enter your Google Client Secret."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:140
+msgid "Google Calendar ID"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:142
+msgid "Enter your Calendar ID (e.g., \"primary\" or your calendar email)."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:146
+msgid "Enable Auto Sync"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:148
+msgid "Enable automatic synchronization with Google Calendar"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:149
+msgid "When enabled, bookings will automatically sync with your Google Calendar when orders are placed, updated, or cancelled."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:154
+msgid "Authentication"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:216
+msgid "Connect with Google"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:218
+msgid "Successfully authenticated."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:220
+msgid "Auto sync is enabled!"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:222
+msgid "Auto sync is disabled."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:225
+msgid "Disconnect"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:227
+msgid "Unable to authenticate. Please enter your Client ID, Client Secret and Calendar ID, then click \"Save changes\"."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:247
+#, php-format
+msgid "First you need to create a project in %1$s. After creating project, you must enable the <strong>Google Calendar API</strong> in <strong>Your Project > Library</strong>, Then go to <strong>Your Project > Credentials > Create Credentials</strong> & create an OAuth Client ID for a <strong>Web application</strong> and set the <strong>Authorized redirect URIs</strong> as <code>%2$s</code>."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:247
+msgid "Google Developers Console"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:249
+msgid "Online Docs"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:249
+#, php-format
+msgid "Please visit our online docs <a href=\"%1$s\" target=\"_blank\">"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:440
+msgid "Permission denied!"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:478
+msgid "Invalid request!"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:495
+#: includes/Integrations/GoogleCalendarIntegration.php:497
+#: includes/Integrations/GoogleCalendarIntegration.php:503
+#: includes/Integrations/GoogleCalendarIntegration.php:505
+msgid "Google Calendar"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:495
+msgid "Successfully Authenticated! Sync is now active."
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:497
+msgid "Failed to Authenticate to your account, please try again"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:503
+msgid "Account disconnected successfully!"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:505
+msgid "Failed to disconnect to your account, please try again"
+msgstr ""
+
+#: includes/Integrations/GoogleCalendarIntegration.php:615
+msgid "Order Status"
+msgstr ""
+
+#: includes/Order.php:81
+msgid "Deposit s"
+msgstr ""
+
+#: includes/Order.php:82
+msgid "Deposit ss"
+msgstr ""
+
+#: includes/Order.php:196
+msgid "Deposit ss:"
+msgstr ""
+
+#: includes/OrderCancel.php:79
+msgid "Cancel Order"
+msgstr ""
+
+#: includes/OrderCancel.php:91
+#: includes/OrderCancel.php:104
+msgctxt "WooCommerce Order status"
+msgid "Cancel Request"
+msgstr ""
+
+#: includes/OrderCancel.php:96
+#, php-format
+msgid "Approved (%s)"
+msgid_plural "Approved (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/OrderCancel.php:116
+msgid "Cancel reason is required"
+msgstr ""
+
+#: includes/OrderCancel.php:120
+msgid "Cancel Order Reason : "
+msgstr ""
+
+#: includes/OrderCancel.php:181
+#: includes/OrderCancel.php:191
+msgid "Order Cancel Request Received"
+msgstr ""
+
+#: includes/OrderCancel.php:185
+#, php-format
+msgid "You can cancel order before %s day"
+msgid_plural "You can cancel order before %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/OrderCancel.php:198
+#, php-format
+msgid "You can cancel order before %s hour"
+msgid_plural "You can cancel order before %s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/RequestForQuote.php:143
+msgid "Congratulations! Your quote request has been accepted"
+msgstr ""
+
+#: includes/RequestForQuote.php:175
+msgid "Your quote request status has been updated"
+msgstr ""
+
+#: includes/RequestForQuote.php:229
+msgid "New reply for your quote request"
+msgstr ""
+
+#: includes/RequestForQuote.php:285
+msgid "Request Quote"
+msgstr ""
+
+#: includes/RequestForQuote.php:286
+msgid "Logout"
+msgstr ""
+
+#: includes/RequestForQuote.php:310
+msgid "Sorry! Email already exist. Please login"
+msgstr ""
+
+#: includes/RequestForQuote.php:462
+msgid "Your quote request has been placed"
+msgstr ""
+
+#: includes/RequestForQuote.php:474
+msgid "You have a new quote request"
+msgstr ""
+
+#: includes/RequestForQuote.php:483
+msgid "Thanks! Your email has been sent."
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:32
+msgid "Search "
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:33
+msgid "All "
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:34
+#: includes/Traits/Admin_Trait.php:35
+msgid "Parent "
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:36
+msgid "Edit "
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:37
+msgid "Update "
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:38
+msgid "Add New "
+msgstr ""
+
+#: includes/Traits/Admin_Trait.php:39
+msgid "New "
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:52
+msgid "Sorry! No product found."
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:56
+msgid "Sorry! No inventory found."
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:60
+msgid "Sorry! pickup date is required"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:91
+msgid "Sorry! pickup or return is not possible in holidays"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:100
+#, php-format
+msgid "Sorry! booking duration can't be %s"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:115
+#, php-format
+msgid "Sorry, the booking duration cannot exceed %s hours"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:119
+#, php-format
+msgid "Sorry, the booking duration must be at least %s hours"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:191
+msgid "Error For "
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:251
+msgid "Sorry! max category quantity exceed"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:287
+msgid "Sorry! deposit is required"
+msgstr ""
+
+#: includes/Traits/Error_Trait.php:292
+msgid "Sorry! non-clickable deposit is required"
+msgstr ""
+
+#. translators: %s: human-readable time difference
+#: includes/Traits/Order_Trait.php:131
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: includes/Traits/Order_Trait.php:135
+msgid "M j, Y"
+msgstr ""
+
+#: includes/Traits/Rental_Data_Trait.php:140
+msgid "Initial Value"
+msgstr ""
+
+#: includes/Traits/Rental_Data_Trait.php:285
+#: includes/Traits/Rental_Data_Trait.php:312
+msgid "at"
+msgstr ""
+
+#: includes/Traits/Rental_Data_Trait.php:336
+msgid "Quote Request"
+msgstr ""
+
+#: includes/Traits/Rental_Data_Trait.php:385
+#, php-format
+msgid "%s day "
+msgid_plural "%s days "
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Traits/Rental_Data_Trait.php:392
+#, php-format
+msgid "%s hour "
+msgid_plural "%s hours "
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Traits/Rental_Data_Trait.php:588
+msgid "Due Payment"
+msgstr ""
+
+#: includes/Traits/Rental_Data_Trait.php:635
+msgid "Extras Total"
+msgstr ""
+
+#: includes/Traits/Rental_Data_Trait.php:657
+msgid "Subtotal Total"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:93
+#: includes/Utils/arrange-data.php:123
+#: includes/Utils/arrange-data.php:212
+#: includes/Utils/arrange-data.php:276
+#: includes/Utils/arrange-data.php:320
+msgid " - Per Day"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:94
+#: includes/Utils/arrange-data.php:124
+#: includes/Utils/arrange-data.php:213
+#: includes/Utils/arrange-data.php:277
+#: includes/Utils/arrange-data.php:321
+msgid " - Per Hour"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:96
+#: includes/Utils/arrange-data.php:126
+#: includes/Utils/arrange-data.php:323
+msgid " - One Time"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:195
+#: includes/Utils/arrange-data.php:196
+#: includes/Utils/arrange-data.php:215
+#: includes/Utils/arrange-data.php:259
+#: includes/Utils/arrange-data.php:260
+#: includes/Utils/arrange-data.php:279
+msgid " "
+msgstr ""
+
+#: includes/Utils/arrange-data.php:200
+#: includes/Utils/arrange-data.php:264
+msgid " - Per day"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:205
+#: includes/Utils/arrange-data.php:269
+msgid " - Per hour"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:218
+#: includes/Utils/arrange-data.php:283
+msgid " - One time"
+msgstr ""
+
+#: includes/Utils/arrange-data.php:508
+msgid "Total Amount"
+msgstr ""
+
+#: includes/Utils/core-functions.php:419
+#: includes/Utils/global-functions.php:970
+#: includes/Utils/settings.php:695
+msgid "Invalid Date Range"
+msgstr ""
+
+#: includes/Utils/core-functions.php:420
+#: includes/Utils/settings.php:700
+msgid "Max Rental Days"
+msgstr ""
+
+#: includes/Utils/core-functions.php:421
+#: includes/Utils/global-functions.php:972
+#: includes/Utils/settings.php:705
+msgid "Min Rental Days"
+msgstr ""
+
+#: includes/Utils/core-functions.php:422
+#: includes/Utils/global-functions.php:975
+#: includes/Utils/settings.php:710
+msgid "Quantity is not available"
+msgstr ""
+
+#: includes/Utils/core-functions.php:423
+msgid "User name field is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:424
+msgid "Password field is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:425
+msgid "First name field is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:426
+msgid "Last name field is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:427
+msgid "Quote email is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:428
+msgid "Phone is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:429
+msgid "Message is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:430
+msgid "No of days must be greater than 1 day"
+msgstr ""
+
+#: includes/Utils/core-functions.php:431
+msgid "Total hours must be greater than 0 hours"
+msgstr ""
+
+#: includes/Utils/core-functions.php:432
+msgid "Pickup location is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:433
+msgid "Drop-off location is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:434
+msgid "Pickup time is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:435
+msgid "Drop-off time is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:436
+msgid "Adults is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:437
+#: templates/rnb/booking-content/booking-modal.php:209
+msgid "Child is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:438
+msgid "At least one resource is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:439
+msgid "At least one category is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:440
+msgid "Deposit is required"
+msgstr ""
+
+#: includes/Utils/core-functions.php:441
+msgid "Email Must be valid & required!"
+msgstr ""
+
+#: includes/Utils/core-functions.php:442
+msgid "Phone number must be valid & required!"
+msgstr ""
+
+#: includes/Utils/core-functions.php:443
+msgid "Without accept GDPR, RFQ can’t be operational"
+msgstr ""
+
+#: includes/Utils/core-functions.php:445
+msgid "Cancel"
+msgstr ""
+
+#: includes/Utils/core-functions.php:446
+msgid "current step:"
+msgstr ""
+
+#: includes/Utils/core-functions.php:448
+msgid "Finish Process"
+msgstr ""
+
+#: includes/Utils/core-functions.php:449
+#: templates/myaccount/request-quote.php:89
+msgid "Next"
+msgstr ""
+
+#: includes/Utils/core-functions.php:450
+#: templates/myaccount/request-quote.php:85
+msgid "Previous"
+msgstr ""
+
+#: includes/Utils/core-functions.php:451
+msgid "Loading ..."
+msgstr ""
+
+#: includes/Utils/core-functions.php:552
+#: includes/Utils/core-functions.php:585
+msgid "Sorry! rnb_inventory_product table doesn't exist"
+msgstr ""
+
+#: includes/Utils/core-functions.php:566
+msgid "Sorry! No products found for this inventory"
+msgstr ""
+
+#: includes/Utils/core-functions.php:599
+msgid "Sorry! No inventory found for this product"
+msgstr ""
+
+#: includes/Utils/data-provider.php:13
+msgid "RnB Categories"
+msgstr ""
+
+#: includes/Utils/data-provider.php:48
+#: includes/Utils/global-functions.php:1033
+#: includes/Utils/global-functions.php:1034
+msgid "Dropoff Location"
+msgstr ""
+
+#: includes/Utils/data-provider.php:77
+msgid "Choose Payable or Not"
+msgstr ""
+
+#: includes/Utils/data-provider.php:80
+msgid "Pay"
+msgstr ""
+
+#: includes/Utils/data-provider.php:108
+#: includes/Utils/data-provider.php:161
+#: includes/Utils/data-provider.php:285
+#: includes/Utils/data-provider.php:332
+msgid "Price Applicable"
+msgstr ""
+
+#: includes/Utils/data-provider.php:111
+msgid "Applied"
+msgstr ""
+
+#: includes/Utils/data-provider.php:127
+#: includes/Utils/data-provider.php:194
+#: includes/Utils/data-provider.php:198
+#: includes/Utils/data-provider.php:305
+#: includes/Utils/data-provider.php:309
+#: includes/Utils/data-provider.php:352
+#: includes/Utils/data-provider.php:356
+msgid "Hourly Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:130
+#: includes/Utils/data-provider.php:197
+#: includes/Utils/data-provider.php:308
+#: includes/Utils/data-provider.php:355
+msgid "H.Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:139
+#: includes/Utils/data-provider.php:142
+#: includes/Utils/data-provider.php:207
+#: includes/Utils/data-provider.php:210
+#: includes/Utils/data-provider.php:368
+msgid "Clickable"
+msgstr ""
+
+#: includes/Utils/data-provider.php:184
+msgid "R.Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:228
+msgid "Choose payable or not"
+msgstr ""
+
+#: includes/Utils/data-provider.php:231
+msgid "Payable"
+msgstr ""
+
+#: includes/Utils/data-provider.php:248
+msgid "Choose Person Type"
+msgstr ""
+
+#: includes/Utils/data-provider.php:251
+msgid "P.Type"
+msgstr ""
+
+#: includes/Utils/data-provider.php:255
+msgid "None"
+msgstr ""
+
+#: includes/Utils/data-provider.php:259
+msgid "Adult"
+msgstr ""
+
+#: includes/Utils/data-provider.php:263
+msgid "Child"
+msgstr ""
+
+#: includes/Utils/data-provider.php:272
+#: includes/Utils/data-provider.php:276
+msgid "Person Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:275
+msgid "P.Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:319
+#: includes/Utils/data-provider.php:323
+msgid "Security Deposite Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:322
+msgid "S.D.Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:365
+msgid "Security Deposite Clickable"
+msgstr ""
+
+#: includes/Utils/data-provider.php:386
+msgid "Pickup Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:399
+#: includes/Utils/data-provider.php:457
+msgid "Default Selected ?"
+msgstr ""
+
+#: includes/Utils/data-provider.php:402
+#: includes/Utils/data-provider.php:460
+msgid "selected"
+msgstr ""
+
+#: includes/Utils/data-provider.php:419
+#: includes/Utils/data-provider.php:422
+#: includes/Utils/data-provider.php:423
+#: includes/Utils/data-provider.php:477
+#: includes/Utils/data-provider.php:480
+#: includes/Utils/data-provider.php:481
+msgid "Latitude"
+msgstr ""
+
+#: includes/Utils/data-provider.php:431
+#: includes/Utils/data-provider.php:434
+#: includes/Utils/data-provider.php:435
+#: includes/Utils/data-provider.php:489
+#: includes/Utils/data-provider.php:492
+#: includes/Utils/data-provider.php:493
+msgid "Longitude"
+msgstr ""
+
+#: includes/Utils/data-provider.php:444
+msgid "Dropoff Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:448
+msgid "Dropoff Location Cost"
+msgstr ""
+
+#: includes/Utils/data-provider.php:502
+msgid "Attribute Name"
+msgstr ""
+
+#: includes/Utils/data-provider.php:505
+msgid "A.Name"
+msgstr ""
+
+#: includes/Utils/data-provider.php:514
+msgid "Attribute Value"
+msgstr ""
+
+#: includes/Utils/data-provider.php:517
+msgid "A.Value"
+msgstr ""
+
+#: includes/Utils/data-provider.php:526
+msgid "Choose Image/Icon"
+msgstr ""
+
+#: includes/Utils/data-provider.php:529
+msgid "I.Type"
+msgstr ""
+
+#: includes/Utils/data-provider.php:546
+msgid "Attribute Icon"
+msgstr ""
+
+#: includes/Utils/data-provider.php:550
+msgid "Icon"
+msgstr ""
+
+#: includes/Utils/data-provider.php:551
+msgid "Font-awesome icon Ex. fa fa-car"
+msgstr ""
+
+#: includes/Utils/data-provider.php:559
+msgid "Attribute Image"
+msgstr ""
+
+#: includes/Utils/data-provider.php:562
+#: includes/Utils/data-provider.php:590
+#: includes/Utils/data-provider.php:593
+#: includes/Utils/data-provider.php:624
+msgid "Image"
+msgstr ""
+
+#: includes/Utils/data-provider.php:569
+#: includes/Utils/data-provider.php:600
+msgid "Highlighted Or Not"
+msgstr ""
+
+#: includes/Utils/data-provider.php:572
+#: includes/Utils/data-provider.php:603
+msgid "Highlighted"
+msgstr ""
+
+#: includes/Utils/data-provider.php:621
+msgid "Car Company Image"
+msgstr ""
+
+#: includes/Utils/data-provider.php:687
+msgid " days "
+msgstr ""
+
+#: includes/Utils/data-provider.php:687
+msgid " day "
+msgstr ""
+
+#: includes/Utils/data-provider.php:690
+msgid " hours "
+msgstr ""
+
+#: includes/Utils/data-provider.php:690
+msgid " hour "
+msgstr ""
+
+#: includes/Utils/global-functions.php:93
+#: includes/Utils/global-functions.php:99
+#: includes/Utils/global-functions.php:104
+#: includes/Utils/global-functions.php:112
+#: includes/Utils/global-functions.php:120
+#: includes/Utils/global-functions.php:166
+#: includes/Utils/global-functions.php:172
+#: includes/Utils/global-functions.php:177
+#: includes/Utils/global-functions.php:185
+#: includes/Utils/global-functions.php:193
+msgid "From "
+msgstr ""
+
+#: includes/Utils/global-functions.php:570
+msgid "Initial Amount"
+msgstr ""
+
+#: includes/Utils/global-functions.php:571
+msgid "Total Instant Pay"
+msgstr ""
+
+#: includes/Utils/global-functions.php:573
+#: includes/Utils/settings.php:159
+msgid "Quote total"
+msgstr ""
+
+#: includes/Utils/global-functions.php:579
+msgid "Please accept to consent to your data being stored in line with the guidelines set out in our "
+msgstr ""
+
+#: includes/Utils/global-functions.php:888
+#: includes/Utils/settings.php:580
+msgid "Pickup Date&Time"
+msgstr ""
+
+#: includes/Utils/global-functions.php:890
+#: includes/Utils/global-functions.php:899
+#: includes/Utils/global-functions.php:1039
+#: includes/Utils/global-functions.php:1044
+#: includes/Utils/settings.php:590
+#: includes/Utils/settings.php:605
+msgid "Time"
+msgstr ""
+
+#: includes/Utils/global-functions.php:897
+#: includes/Utils/settings.php:595
+msgid "Return Date&Time"
+msgstr ""
+
+#: includes/Utils/global-functions.php:934
+#: includes/Utils/settings.php:645
+msgid "Deposite"
+msgstr ""
+
+#: includes/Utils/global-functions.php:944
+#: includes/Utils/settings.php:655
+msgid "Discounts"
+msgstr ""
+
+#: includes/Utils/global-functions.php:945
+#: includes/Utils/global-functions.php:1069
+#: includes/Utils/settings.php:660
+msgid "Instance Pay"
+msgstr ""
+
+#: includes/Utils/global-functions.php:946
+#: includes/Utils/global-functions.php:1070
+#: includes/Utils/settings.php:665
+msgid "Total Cost"
+msgstr ""
+
+#: includes/Utils/global-functions.php:953
+#: includes/Utils/global-functions.php:1073
+#: includes/Utils/settings.php:670
+msgid "Show Pricing"
+msgstr ""
+
+#: includes/Utils/global-functions.php:955
+#: includes/Utils/global-functions.php:1075
+#: includes/Utils/settings.php:680
+msgid "/Per Day"
+msgstr ""
+
+#: includes/Utils/global-functions.php:971
+msgid "Max Rental Days "
+msgstr ""
+
+#: includes/Utils/global-functions.php:973
+msgid "Max Rental Hours "
+msgstr ""
+
+#: includes/Utils/global-functions.php:974
+msgid "Min Rental Hours"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1056
+msgid "Resource"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1059
+msgid "Category"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1068
+msgid "Discount"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1083
+msgid "Sorry! date range is not valid"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1084
+msgid "Sorry! Max booking days exceed"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1085
+msgid "Please choose min booking days"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1086
+msgid "Sorry! Max booking hours exceed"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1087
+msgid "Please choose min booking hours"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1088
+msgid "Sorry! quantity is not available"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1288
+msgid "January"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1289
+msgid "February"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1290
+msgid "March"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1291
+msgid "April"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1292
+msgid "May"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1293
+msgid "June"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1294
+msgid "July"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1295
+msgid "August"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1296
+msgid "September"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1297
+msgid "October"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1298
+msgid "November"
+msgstr ""
+
+#: includes/Utils/global-functions.php:1299
+msgid "December"
+msgstr ""
+
+#: includes/Utils/quote-functions.php:146
+msgid "New reply from customer quote request"
+msgstr ""
+
+#: redq-rental-and-bookings.php:34
+#, php-format
+msgid "RnB requires WooCommerce to be installed and active. You can download %s from here."
+msgstr ""
+
+#: redq-rental-and-bookings.php:98
+msgid "Support"
+msgstr ""
+
+#: redq-rental-and-bookings.php:99
+msgid "Add-ons"
+msgstr ""
+
+#: redq-rental-and-bookings.php:117
+msgid "Compatible Theme By RedQ"
+msgstr ""
+
+#: redq-rental-and-bookings.php:118
+msgid "Tutorials"
+msgstr ""
+
+#: templates/myaccount/request-quote.php:54
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: templates/myaccount/request-quote.php:67
+msgid "for 1 items"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:26
+msgid "Invalid quote."
+msgstr ""
+
+#: templates/myaccount/view-quote.php:26
+msgid "My Account"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:37
+#, php-format
+msgid "Quote #%1$s request was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: templates/myaccount/view-quote.php:45
+msgid "Quote Details"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:293
+msgid "Quote has been booked already"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:311
+msgid "This order is already in your cart. You can checkout the cart from here."
+msgstr ""
+
+#: templates/myaccount/view-quote.php:312
+msgid "View Cart"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:313
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:333
+msgid "Messages"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:337
+msgid "Your message"
+msgstr ""
+
+#: templates/myaccount/view-quote.php:339
+msgid "Reply Message"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:82
+msgid "Location"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:99
+msgid "Total Distance:"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:118
+msgid "Duration selection is not correct!"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:208
+msgid "Adult is required"
+msgstr ""
+
+#: templates/rnb/booking-content/booking-modal.php:300
+msgid "Summary"
+msgstr ""
+
+#: templates/rnb/booking-content/payable-resources-select.php:32
+msgid "-- Select --"
+msgstr ""
+
+#: templates/rnb/emails/customer-place-quote-request.php:28
+#, php-format
+msgid "Hello %1$s, Your quote request for <a href=\"%2$s\">%3$s</a> has beed placed. Your request is currently on <strong>Pending</strong>."
+msgstr ""
+
+#: templates/rnb/emails/customer-place-quote-request.php:38
+#: templates/rnb/emails/customer-reply-message.php:32
+#: templates/rnb/emails/owner-notify-place-quote-request.php:38
+#: templates/rnb/emails/owner-reply-message.php:32
+#: templates/rnb/emails/quote-status-update-notify-customer.php:36
+msgid "View Quote"
+msgstr ""
+
+#: templates/rnb/emails/customer-reply-message.php:25
+msgid "Hello, a message has just been added from your customer:"
+msgstr ""
+
+#: templates/rnb/emails/owner-notify-place-quote-request.php:28
+#, php-format
+msgid "Hello, Your have a new quote request for <a href=\"%1$s\">%2$s</a>. The request is currently on <strong>Pending</strong>."
+msgstr ""
+
+#: templates/rnb/emails/owner-reply-message.php:25
+msgid "Hello, a message has just been added from the product owner:"
+msgstr ""
+
+#: templates/rnb/emails/quote-accepted-notify-customer.php:7
+msgid "View Quote & Book Now"
+msgstr ""
+
+#: templates/rnb/emails/quote-accepted-notify-customer.php:41
+msgid "Hello, your quote request has been accepted.You can now book as the listed price."
+msgstr ""
+
+#: templates/rnb/emails/quote-accepted-notify-customer.php:43
+msgid "You can now click the book now button in the view quote page. Then checkout the product."
+msgstr ""
+
+#: templates/rnb/emails/quote-status-update-notify-customer.php:27
+#, php-format
+msgid "Hello %1$s, the status of your quote request has been updated. Current status of your quote request is <strong>%2$s</strong>."
+msgstr ""
+
+#: templates/rnb/emails/request-quote-item-details.php:19
+#, php-format
+msgid "Quote #%s Details"
+msgstr ""
+
+#: templates/rnb/emails/request-quote-item-details.php:236
+msgid "Customer Details"
+msgstr ""
+
+#: templates/rnb/emails/request-quote-item-details.php:284
+msgid "Phone "
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:2
+msgid "Hi,"
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:3
+msgid "This password has been generated automatically by the system. You may change it in My Account -> Account details page."
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:6
+msgid "username:"
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:7
+msgid "password:"
+msgstr ""
+
+#: templates/rnb/emails/user-password.php:10
+msgid "Thank You,"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:40
+msgid "Day based pricing : "
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:45
+msgid " / days"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:55
+msgid "/ Day"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:57
+#: templates/rnb/global/price-flip-box.php:146
+msgid "days :"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:103
+#: templates/rnb/global/price-flip-box.php:121
+msgid "Hourly based pricing"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:106
+msgid "/ Hour"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:108
+msgid "Hours :"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:123
+msgid "per hour"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:134
+msgid "Discount Rates"
+msgstr ""
+
+#: templates/rnb/global/price-flip-box.php:138
+msgid "%"
+msgstr ""
