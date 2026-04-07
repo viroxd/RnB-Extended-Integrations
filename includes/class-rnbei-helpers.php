@@ -13,7 +13,7 @@ class RNBEI_Helpers {
 	 */
 	public static function normalize_text( $value ) {
 		$value = is_scalar( $value ) ? (string) $value : '';
-		$value = wp_strip_all_tags( $value );
+		$value = sanitize_text_field( $value );
 		$value = trim( preg_replace( '/\s+/', ' ', $value ) );
 
 		return $value;
