@@ -123,10 +123,10 @@ class RNBEI_Settings {
 		check_admin_referer( 'rnbei_import_rnb_settings' );
 
 		$map = array(
-			'rnbei_calendar_client_id'     => array( 'redq_google_cal_client_id', 'rnb_google_cal_client_id' ),
-			'rnbei_calendar_client_secret' => array( 'redq_google_cal_client_secret', 'rnb_google_cal_client_secret' ),
-			'rnbei_calendar_id'            => array( 'redq_google_calendar_id', 'rnb_google_calendar_id' ),
-			'rnbei_google_maps_api_key'    => array( 'redq_google_api_key', 'rnb_google_api_key' ),
+			'rnbei_calendar_client_id'     => array( 'redq_rental_google_calendar_client_id' ),
+			'rnbei_calendar_client_secret' => array( 'redq_rental_google_calendar_client_secret' ),
+			'rnbei_calendar_id'            => array( 'redq_rental_google_calendar_calendar_id' ),
+			'rnbei_calendar_enabled'       => array( 'redq_rental_google_calendar_enable_auto_sync' ),
 		);
 
 		$imported = 0;
