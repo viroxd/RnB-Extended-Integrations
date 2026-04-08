@@ -1,12 +1,37 @@
 .rnbei-location-fields {
-  margin-top: 1rem;
-  padding: 0.9rem;
+  margin-top: 0.75rem;
+  padding: 0.75rem 0.9rem;
   border: 1px solid #e8e8e8;
   border-radius: 4px;
+  background: #fff;
 }
 
 .rnbei-location-fields .form-row {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.rnbei-location-fields label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.rnbei-location-fields .rnbei-toggle-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.rnbei-location-fields #rnbei_end_different {
+  margin: 0;
+  transform: translateY(1px);
+}
+
+.rnbei-location-fields textarea.input-text {
+  min-height: 70px;
 }
 
 .rnbei-end-location-wrap[hidden] {

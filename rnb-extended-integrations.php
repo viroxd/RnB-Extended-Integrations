@@ -93,6 +93,10 @@ final class RNBEI_Plugin {
 		}
 
 		$this->settings  = new RNBEI_Settings();
+		$module_enabled  = get_option( 'rnbei_module_enabled', 'yes' );
+		if ( 'yes' !== $module_enabled ) {
+			return;
+		}
 
 		if ( ! self::is_rnb_available() ) {
 			$this->bootstrap_error = __( 'RnB Extended Integrations requires WooCommerce Rental and Booking (RnB) to be active.', 'rnb-extended-integrations' );

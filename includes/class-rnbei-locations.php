@@ -82,7 +82,7 @@ class RNBEI_Locations {
 		echo '<input type="hidden" name="rnbei_start_lng" id="rnbei_start_lng" />';
 		echo '</p>';
 
-		echo '<p class="form-row form-row-wide">';
+		echo '<p class="form-row form-row-wide rnbei-toggle-row">';
 		echo '<label><input type="checkbox" name="rnbei_end_different" id="rnbei_end_different" value="1" /> ' . esc_html__( 'End at a different location', 'rnb-extended-integrations' ) . '</label>';
 		echo '</p>';
 

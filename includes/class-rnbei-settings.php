@@ -26,7 +26,8 @@ class RNBEI_Settings {
 	}
 
 	public function add_settings( $settings, $current_section ) {
-		if ( self::SECTION_ID !== $current_section ) {
+		$requested_section = isset( $_GET['section'] ) ? sanitize_key( wp_unslash( $_GET['section'] ) ) : '';
+		if ( self::SECTION_ID !== $current_section && self::SECTION_ID !== $requested_section ) {
 			return $settings;
 		}
 
@@ -38,6 +39,13 @@ class RNBEI_Settings {
 				'id'   => 'rnbei_settings_title',
 			),
 			array(
+				'title'   => __( 'Enable RnB Extended Integrations', 'rnb-extended-integrations' ),
+				'desc'    => __( 'Master switch for this plugin\'s frontend features.', 'rnb-extended-integrations' ),
+				'id'      => 'rnbei_module_enabled',
+				'type'    => 'checkbox',
+				'default' => 'yes',
+			),
+			array(
 				'title'   => __( 'Google Maps API Key', 'rnb-extended-integrations' ),
 				'desc'    => __( 'Used for Google Places autocomplete on rental products.', 'rnb-extended-integrations' ),
 				'id'      => 'rnbei_google_maps_api_key',
@@ -45,7 +53,7 @@ class RNBEI_Settings {
 				'default' => '',
 			),
 			array(
-				'title'   => __( 'Enable Custom Calendar Sync', 'rnb-extended-integrations' ),
+				'title'   => __( 'Enable Custom Calendar Mode', 'rnb-extended-integrations' ),
 				'desc'    => __( 'Phase 1 scaffold only: full custom sync is not yet implemented.', 'rnb-extended-integrations' ),
 				'id'      => 'rnbei_calendar_enabled',
 				'type'    => 'checkbox',
