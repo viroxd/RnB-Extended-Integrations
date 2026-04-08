@@ -11,7 +11,7 @@ class RNBEI_Locations {
 	public function __construct( $settings ) {
 		$this->settings = $settings;
 
-		add_action( 'woocommerce_before_add_to_cart_button', array( $this, 'render_location_fields' ), 35 );
+		add_action( 'rnb_main_rental_content', array( $this, 'render_location_fields' ), 18 );
 		add_filter( 'woocommerce_add_to_cart_validation', array( $this, 'validate_location_fields' ), 10, 3 );
 		add_filter( 'woocommerce_add_cart_item_data', array( $this, 'add_cart_item_data' ), 10, 3 );
 		add_filter( 'woocommerce_get_item_data', array( $this, 'display_cart_item_data' ), 10, 2 );
@@ -29,30 +29,67 @@ class RNBEI_Locations {
 		return 'redq_rental' === $product->get_type();
 	}
 
+	/**
+	 * Get RnB label values with safe fallback.
+	 *
+	 * @param int $product_id Product ID.
+	 * @return array<string,string>
+	 */
+	private function get_rnb_labels( $product_id ) {
+		$labels = array(
+			'start_title'       => __( 'Start Location', 'rnb-extended-integrations' ),
+			'end_title'         => __( 'End Location', 'rnb-extended-integrations' ),
+			'start_placeholder' => __( 'Start Location', 'rnb-extended-integrations' ),
+			'end_placeholder'   => __( 'End Location', 'rnb-extended-integrations' ),
+		);
+
+		if ( function_exists( 'redq_rental_get_settings' ) ) {
+			$settings = redq_rental_get_settings( $product_id, 'labels', array( 'pickup_location', 'return_location' ) );
+			$resolved = isset( $settings['labels'] ) && is_array( $settings['labels'] ) ? $settings['labels'] : array();
+
+			if ( ! empty( $resolved['pickup_location'] ) ) {
+				$labels['start_title'] = sanitize_text_field( wp_unslash( $resolved['pickup_location'] ) );
+			}
+			if ( ! empty( $resolved['return_location'] ) ) {
+				$labels['end_title'] = sanitize_text_field( wp_unslash( $resolved['return_location'] ) );
+			}
+			if ( ! empty( $resolved['pickup_loc_placeholder'] ) ) {
+				$labels['start_placeholder'] = sanitize_text_field( wp_unslash( $resolved['pickup_loc_placeholder'] ) );
+			}
+			if ( ! empty( $resolved['return_loc_placeholder'] ) ) {
+				$labels['end_placeholder'] = sanitize_text_field( wp_unslash( $resolved['return_loc_placeholder'] ) );
+			}
+		}
+
+		return $labels;
+	}
+
 	public function render_location_fields() {
 		global $product;
 
 		if ( ! $product || ! $this->is_rental_product( $product->get_id() ) ) {
 			return;
 		}
+		$labels = $this->get_rnb_labels( $product->get_id() );
 
 		echo '<div class="rnbei-location-fields" data-rnbei-location-root="1">';
+		wp_nonce_field( 'rnbei_location_fields', 'rnbei_location_nonce' );
 		echo '<p class="form-row form-row-wide">';
-		echo '<label for="rnbei_start_location_address">' . esc_html__( 'Start Location', 'rnb-extended-integrations' ) . ' <span class="required">*</span></label>';
-		echo '<input type="text" class="input-text rnbei-place-input" name="rnbei_start_location_address" id="rnbei_start_location_address" autocomplete="off" />';
+		echo '<label for="rnbei_start_location_address">' . esc_html( $labels['start_title'] ) . ' <span class="required">*</span></label>';
+		echo '<input type="text" class="input-text rnbei-place-input" name="rnbei_start_location_address" id="rnbei_start_location_address" autocomplete="off" placeholder="' . esc_attr( $labels['start_placeholder'] ) . '" />';
 		echo '<input type="hidden" name="rnbei_start_place_id" id="rnbei_start_place_id" />';
 		echo '<input type="hidden" name="rnbei_start_lat" id="rnbei_start_lat" />';
 		echo '<input type="hidden" name="rnbei_start_lng" id="rnbei_start_lng" />';
 		echo '</p>';
 
-		echo '<p class="form-row form-row-wide">';
+		echo '<p class="form-row form-row-wide rnbei-toggle-row">';
 		echo '<label><input type="checkbox" name="rnbei_end_different" id="rnbei_end_different" value="1" /> ' . esc_html__( 'End at a different location', 'rnb-extended-integrations' ) . '</label>';
 		echo '</p>';
 
 		echo '<div class="rnbei-end-location-wrap" hidden>';
 		echo '<p class="form-row form-row-wide">';
-		echo '<label for="rnbei_end_location_address">' . esc_html__( 'End Location', 'rnb-extended-integrations' ) . '</label>';
-		echo '<input type="text" class="input-text rnbei-place-input" name="rnbei_end_location_address" id="rnbei_end_location_address" autocomplete="off" />';
+		echo '<label for="rnbei_end_location_address">' . esc_html( $labels['end_title'] ) . '</label>';
+		echo '<input type="text" class="input-text rnbei-place-input" name="rnbei_end_location_address" id="rnbei_end_location_address" autocomplete="off" placeholder="' . esc_attr( $labels['end_placeholder'] ) . '" />';
 		echo '<input type="hidden" name="rnbei_end_place_id" id="rnbei_end_place_id" />';
 		echo '<input type="hidden" name="rnbei_end_lat" id="rnbei_end_lat" />';
 		echo '<input type="hidden" name="rnbei_end_lng" id="rnbei_end_lng" />';
@@ -72,15 +109,21 @@ class RNBEI_Locations {
 			return $passed;
 		}
 
+		$nonce = isset( $_POST['rnbei_location_nonce'] ) ? sanitize_text_field( wp_unslash( $_POST['rnbei_location_nonce'] ) ) : '';
+		if ( ! wp_verify_nonce( $nonce, 'rnbei_location_fields' ) ) {
+			wc_add_notice( __( 'Location validation failed. Please refresh and try again.', 'rnb-extended-integrations' ), 'error' );
+			return false;
+		}
+
 		$start_address = RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_start_location_address'] ?? '' ) );
 		if ( '' === $start_address ) {
 			wc_add_notice( __( 'Please enter a Start Location.', 'rnb-extended-integrations' ), 'error' );
 			return false;
 		}
 
-		$end_different = ! empty( $_POST['rnbei_end_different'] );
+		$end_different = RNBEI_Helpers::normalize_yes_no( wp_unslash( $_POST['rnbei_end_different'] ?? 'no' ) );
 		$end_address   = RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_end_location_address'] ?? '' ) );
-		if ( $end_different && '' === $end_address ) {
+		if ( 'yes' === $end_different && '' === $end_address ) {
 			wc_add_notice( __( 'Please enter an End Location or uncheck “End at a different location”.', 'rnb-extended-integrations' ), 'error' );
 			return false;
 		}
@@ -94,18 +137,36 @@ class RNBEI_Locations {
 			return $cart_item_data;
 		}
 
+		$nonce = isset( $_POST['rnbei_location_nonce'] ) ? sanitize_text_field( wp_unslash( $_POST['rnbei_location_nonce'] ) ) : '';
+		if ( ! wp_verify_nonce( $nonce, 'rnbei_location_fields' ) ) {
+			return $cart_item_data;
+		}
+
+		$start_coordinates = RNBEI_Helpers::normalize_lat_lng(
+			wp_unslash( $_POST['rnbei_start_lat'] ?? '' ),
+			wp_unslash( $_POST['rnbei_start_lng'] ?? '' )
+		);
+		$end_coordinates   = RNBEI_Helpers::normalize_lat_lng(
+			wp_unslash( $_POST['rnbei_end_lat'] ?? '' ),
+			wp_unslash( $_POST['rnbei_end_lng'] ?? '' )
+		);
+
 		$location_data = array(
 			'start_address' => RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_start_location_address'] ?? '' ) ),
-			'start_place_id'=> RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_start_place_id'] ?? '' ) ),
-			'start_lat'     => RNBEI_Helpers::normalize_lat_lng( wp_unslash( $_POST['rnbei_start_lat'] ?? '' ), wp_unslash( $_POST['rnbei_start_lng'] ?? '' ) )['lat'],
-			'start_lng'     => RNBEI_Helpers::normalize_lat_lng( wp_unslash( $_POST['rnbei_start_lat'] ?? '' ), wp_unslash( $_POST['rnbei_start_lng'] ?? '' ) )['lng'],
-			'end_different' => ! empty( $_POST['rnbei_end_different'] ) ? 'yes' : 'no',
+			'start_place_id'=> sanitize_text_field( wp_unslash( $_POST['rnbei_start_place_id'] ?? '' ) ),
+			'start_lat'     => $start_coordinates['lat'],
+			'start_lng'     => $start_coordinates['lng'],
+			'end_different' => RNBEI_Helpers::normalize_yes_no( wp_unslash( $_POST['rnbei_end_different'] ?? 'no' ) ),
 			'end_address'   => RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_end_location_address'] ?? '' ) ),
-			'end_place_id'  => RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_end_place_id'] ?? '' ) ),
-			'end_lat'       => RNBEI_Helpers::normalize_lat_lng( wp_unslash( $_POST['rnbei_end_lat'] ?? '' ), wp_unslash( $_POST['rnbei_end_lng'] ?? '' ) )['lat'],
-			'end_lng'       => RNBEI_Helpers::normalize_lat_lng( wp_unslash( $_POST['rnbei_end_lat'] ?? '' ), wp_unslash( $_POST['rnbei_end_lng'] ?? '' ) )['lng'],
-			'delivery_notes'=> RNBEI_Helpers::normalize_text( wp_unslash( $_POST['rnbei_delivery_notes'] ?? '' ) ),
+			'end_place_id'  => sanitize_text_field( wp_unslash( $_POST['rnbei_end_place_id'] ?? '' ) ),
+			'end_lat'       => $end_coordinates['lat'],
+			'end_lng'       => $end_coordinates['lng'],
+			'delivery_notes'=> sanitize_textarea_field( wp_unslash( $_POST['rnbei_delivery_notes'] ?? '' ) ),
 		);
+
+		if ( ! RNBEI_Helpers::has_different_end_location( $location_data ) ) {
+			$location_data['end_different'] = 'no';
+		}
 
 		$cart_item_data['rnbei_location_data'] = $location_data;
 		$cart_item_data['rnbei_unique_key']    = md5( wp_json_encode( $location_data ) . microtime() );
@@ -167,7 +228,7 @@ class RNBEI_Locations {
 			$item->add_meta_data( __( 'End Location', 'rnb-extended-integrations' ), $data['end_address'], true );
 		}
 
-		$item->add_meta_data( '_rnbei_end_different', ! empty( $data['end_different'] ) ? $data['end_different'] : 'no', true );
+		$item->add_meta_data( '_rnbei_end_different', RNBEI_Helpers::normalize_yes_no( $data['end_different'] ?? 'no' ), true );
 
 		if ( ! empty( $data['end_place_id'] ) ) {
 			$item->add_meta_data( '_rnbei_end_place_id', $data['end_place_id'], true );
